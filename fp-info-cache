@@ -1,4 +1,4 @@
-23771411177214716
+23764637853536941
 3434
 1769
 1769
@@ -63839,13 +63839,6 @@ MX,cherry,gateron,kailh,pg1511,stabilizer,stab
 0
 0
 0
-LED
-SK6812MINIE
-SK6812MINI-E-1
-LED
-0
-4
-4
 LED_SMD
 LED-APA102-2020
 http://www.led-color.com/upload/201604/APA102-2020%20SMD%20LED.pdf
@@ -92686,13 +92679,6 @@ Connector
 0
 4
 4
-TRRS-EXTRA
-SJ23574ASMTTR
-SJ2-3574A-SMT-TR
-Connector
-0
-4
-4
 TerminalBlock
 TerminalBlock_Altech_AK300-2_P5.00mm
 Altech AK300 terminal block, pitch 5.0mm, 45 degree angled, see http://www.mouser.com/ds/2/16/PCBMETRC-24178.pdf
@@ -98300,17 +98286,3 @@ varistor
 0
 2
 2
-custom
-D_0805
-
-
-0
-2
-2
-custom
-SK6812-MINI-E
-
-
-0
-4
-4

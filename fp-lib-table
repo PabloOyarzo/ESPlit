@@ -8,7 +8,4 @@
   (lib (name "Slide Switch")(type "KiCad")(uri "${KIPRJMOD}/footprints/Slide Switch - PCM13SMTR")(options "")(descr ""))
   (lib (name "JST")(type "KiCad")(uri "${KIPRJMOD}/footprints/Connectors_JST.pretty-master")(options "")(descr ""))
   (lib (name "custom")(type "KiCad")(uri "${KIPRJMOD}/footprints/custom")(options "")(descr ""))
-  (lib (name "LED")(type "KiCad")(uri "${KIPRJMOD}/footprints/SK6812MINI-E")(options "")(descr ""))
-  (lib (name "TRRS-EXTRA")(type "KiCad")(uri "${KIPRJMOD}/footprints/TRRS-EXTRA")(options "")(descr ""))
-  (lib (name "3434")(type "KiCad")(uri "C:/Users/oyarz/Downloads/1769/KiCad")(options "")(descr ""))
 )
