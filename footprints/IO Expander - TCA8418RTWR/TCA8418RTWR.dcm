@@ -1,0 +1,9 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP TCA8418RTWR
+D I2C Controlled Keypad Scan IC With Integrated ESD Protection
+K
+F https://www.arrow.com/en/products/tca8418rtwr/texas-instruments?region=nac
+$ENDCMP
+#
+#End Doc Library

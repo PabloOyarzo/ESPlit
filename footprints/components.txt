@@ -1,0 +1,13 @@
+MCU
+x	T-Display-S3			https://github.com/ccadic/T-Display-S3-Kicad
+
+MX Keys
+x	MX key with Socket		https://github.com/daprice/keyswitches.pretty/tree/master
+x	PRT12639 - TRRS			https://www.arrow.com/en/products/prt-12639/sparkfun-electronics
+
+Else
+x	TCA8418RTWR - IO Expander	https://www.arrow.com/en/products/tca8418rtwr/texas-instruments
+x	SK6812-MINI-E RGB North facing	https://github.com/keebio/Keebio-Parts.pretty
+x	0805 - Diode			https://github.com/keebio/Keebio-Parts.pretty
+x	0805 - Caps			KiCAD 7
+x	PCM13SMTR - Slide Switch	https://www.arrow.com/en/products/pcm13smtr/ck

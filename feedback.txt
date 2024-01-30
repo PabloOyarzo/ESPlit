@@ -1,0 +1,13 @@
+REQUIRED:
+- Wrong footprint for Keys Holders
+- Wrong Spacing for Keycaps
+---------------- TOMORROW ---------------- 
+- Add Touch points for LEDs
+- Fix switch pinout
+- Add pullups to RESET, SDA, SCL according to datasheet
+- Add TPs to SDA & SCL
+
+
+BETTER TO HAVE:
+- Independent touchpoints for LEDs
+- Add pins for batteries bellow MCU
