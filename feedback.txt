@@ -1,8 +1,8 @@
 REQUIRED:
-- Wrong footprint for Keys Holders
-- Wrong Spacing for Keycaps
+[X] Wrong footprint for Keys Holders
+[X] Wrong Spacing for Keycaps
 	> SW_Hotswap_Kailh_Choc_V1V2_Plated_1.00u
-- Change TRRS for TH
+[X] Change TRRS for TH
 	> TRRS PJ-320A
 - Add Touch points for LEDs
 - Fix switch pinout

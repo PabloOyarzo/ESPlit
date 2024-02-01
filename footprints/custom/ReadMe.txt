@@ -12,5 +12,14 @@ x	D_0805
 	Source: https://github.com/keebio/Keebio-Parts.pretty
 	Changes:
 		-deleted overall rectangles around F.Silkscreen
-		-And also deleted little pins from center icon
+		-and also deleted little pins from center icon
 		-changed layers on names and ref
+
+x	SW_Hotswap_Kailh_Choc_V1V2_Plated_1.00u
+	Same name
+	Source: Package Content Manager (PCM)
+		Keyswitch Kicad Library
+		https://github.com/perigoso/keyswitch-kicad-library
+	Changes:
+		-rotated on 180 degrees for convinience used on PCM_Keyboard_footprints_placer
+		-also added 3d files wrl and stp.

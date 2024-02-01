@@ -1,7 +1,7 @@
 [kbplacer_plugin_action.py:79]: Plugin executed with KiCad version: 7.0.7
 [kbplacer_plugin_action.py:80]: Plugin executed with python version: '3.9.16 (main, Aug  8 2023, 05:38:28) [MSC v.1936 64 bit (AMD64)]'
 [kbplacer_dialog.py:512]: Language: en
-[kbplacer_plugin_action.py:96]: GUI state: {"switch_section": {"annotation": "L_SW{}", "layout_path": "C:\\Users\\oyarz\\Downloads\\keyboard-layout.json", "x_distance": "19.05", "y_distance": "19.05"}, "switch_diodes_section": {"enable": true, "route_switches_with_diodes": true, "element_info": {"annotation_format": "D{}", "position_option": "Default", "position": {"relative_position": [5.08, 3.03], "orientation": 90.0, "side": "BACK"}, "template_path": ""}}, "additional_elements": {"elements_info": []}, "misc_section": {"route_rows_and_columns": true, "template_path": ""}}
+[kbplacer_plugin_action.py:96]: GUI state: {"switch_section": {"annotation": "L_SW{}", "layout_path": "C:\\Users\\oyarz\\Documents\\pcbs\\split_keyboard\\layout\\split_keyboard_0,2_LEFT.json", "x_distance": "19.05", "y_distance": "19.05"}, "switch_diodes_section": {"enable": true, "route_switches_with_diodes": true, "element_info": {"annotation_format": "D{}", "position_option": "Default", "position": {"relative_position": [5.08, 3.03], "orientation": 90.0, "side": "BACK"}, "template_path": ""}}, "additional_elements": {"elements_info": [{"annotation_format": "LED_L{}", "position_option": "Custom", "position": {"relative_position": [0.0, 0.0], "orientation": 0.0, "side": "FRONT"}, "template_path": ""}]}, "misc_section": {"route_rows_and_columns": true, "template_path": ""}}
 [key_placer.py:66]: Set key 1U distance: 19050000/19050000
 [key_placer.py:451]: Diode info: ElementInfo(annotation_format='D{}', position_option=<PositionOption.DEFAULT: 'Default'>, position=ElementPosition(relative_position=Point(x=5.08, y=3.03), orientation=90.0, side=<Side.BACK: True>), template_path='')
 [key_placer.py:493]: User layout: [[{'x': 3.5}, '#\n3'], [{'y': -0.875, 'x': 2.5}, '@\n2', {'x': 1}, '$\n4'], [{'y': -0.875, 'x': 5.5}, '%\n5'], [{'y': -0.875, 'x': 1.5}, '!\n1'], [{'y': -0.745, 'x': 0.5, 'a': 7}, ''], [{'y': -0.6299999999999999, 'x': 3.5, 'a': 4}, 'E'], [{'y': -0.875, 'x': 2.5}, 'W', {'x': 1}, 'R'], [{'y': -0.875, 'x': 5.5}, 'T'], [{'y': -0.875, 'x': 1.5}, 'Q'], [{'y': -0.7450000000000001, 'x': 0.5, 'a': 7}, ''], [{'y': -0.6299999999999999, 'x': 3.5, 'a': 4}, 'D'], [{'y': -0.875, 'x': 2.5}, 'S', {'x': 1}, 'F'], [{'y': -0.875, 'x': 5.5}, 'G'], [{'y': -0.875, 'x': 1.5}, 'A'], [{'y': -0.7450000000000001, 'x': 0.5, 'a': 7}, ''], [{'y': -0.6299999999999999, 'x': 3.5, 'a': 4}, 'C'], [{'y': -0.875, 'x': 2.5}, 'X', {'x': 1}, 'V'], [{'y': -0.875, 'x': 5.5}, 'B'], [{'y': -0.875, 'x': 1.5}, 'Z'], [{'y': -0.7450000000000001, 'x': 0.5, 'a': 7}, ''], [{'r': 30, 'rx': 6.5, 'ry': 4.25}, '', '']]
@@ -60,696 +60,1485 @@
 [board_modifier.py:97]: Getting L_SW1 footprint position: (101200000, 34525000)
 [board_modifier.py:64]: Searching for D1 footprint in C:\Users\oyarz\Documents\pcbs\split_keyboard\split_keyboard.kicad_pcb
 [board_modifier.py:84]: Setting D1 footprint position: (106280000, 37555000)
+[board_modifier.py:64]: Searching for LED_L1 footprint in C:\Users\oyarz\Documents\pcbs\split_keyboard\split_keyboard.kicad_pcb
+[board_modifier.py:84]: Setting LED_L1 footprint position: (101200000, 34525000)
 [board_modifier.py:97]: Getting L_SW2 footprint position: (82150000, 36906250)
 [board_modifier.py:64]: Searching for D2 footprint in C:\Users\oyarz\Documents\pcbs\split_keyboard\split_keyboard.kicad_pcb
 [board_modifier.py:84]: Setting D2 footprint position: (87230000, 39936250)
+[board_modifier.py:64]: Searching for LED_L2 footprint in C:\Users\oyarz\Documents\pcbs\split_keyboard\split_keyboard.kicad_pcb
+[board_modifier.py:84]: Setting LED_L2 footprint position: (82150000, 36906250)
 [board_modifier.py:97]: Getting L_SW3 footprint position: (120250000, 36906250)
 [board_modifier.py:64]: Searching for D3 footprint in C:\Users\oyarz\Documents\pcbs\split_keyboard\split_keyboard.kicad_pcb
 [board_modifier.py:84]: Setting D3 footprint position: (125330000, 39936250)
+[board_modifier.py:64]: Searching for LED_L3 footprint in C:\Users\oyarz\Documents\pcbs\split_keyboard\split_keyboard.kicad_pcb
+[board_modifier.py:84]: Setting LED_L3 footprint position: (120250000, 36906250)
 [board_modifier.py:97]: Getting L_SW4 footprint position: (139300000, 39287500)
 [board_modifier.py:64]: Searching for D4 footprint in C:\Users\oyarz\Documents\pcbs\split_keyboard\split_keyboard.kicad_pcb
 [board_modifier.py:84]: Setting D4 footprint position: (144380000, 42317500)
+[board_modifier.py:64]: Searching for LED_L4 footprint in C:\Users\oyarz\Documents\pcbs\split_keyboard\split_keyboard.kicad_pcb
+[board_modifier.py:84]: Setting LED_L4 footprint position: (139300000, 39287500)
 [board_modifier.py:97]: Getting L_SW5 footprint position: (63100000, 41668750)
 [board_modifier.py:64]: Searching for D5 footprint in C:\Users\oyarz\Documents\pcbs\split_keyboard\split_keyboard.kicad_pcb
 [board_modifier.py:84]: Setting D5 footprint position: (68180000, 44698750)
+[board_modifier.py:64]: Searching for LED_L5 footprint in C:\Users\oyarz\Documents\pcbs\split_keyboard\split_keyboard.kicad_pcb
+[board_modifier.py:84]: Setting LED_L5 footprint position: (63100000, 41668750)
 [board_modifier.py:97]: Getting L_SW6 footprint position: (44050000, 46526500)
 [board_modifier.py:64]: Searching for D6 footprint in C:\Users\oyarz\Documents\pcbs\split_keyboard\split_keyboard.kicad_pcb
 [board_modifier.py:84]: Setting D6 footprint position: (49130000, 49556500)
+[board_modifier.py:64]: Searching for LED_L6 footprint in C:\Users\oyarz\Documents\pcbs\split_keyboard\split_keyboard.kicad_pcb
+[board_modifier.py:84]: Setting LED_L6 footprint position: (44050000, 46526500)
 [board_modifier.py:97]: Getting L_SW7 footprint position: (101200000, 53575000)
 [board_modifier.py:64]: Searching for D7 footprint in C:\Users\oyarz\Documents\pcbs\split_keyboard\split_keyboard.kicad_pcb
 [board_modifier.py:84]: Setting D7 footprint position: (106280000, 56605000)
+[board_modifier.py:64]: Searching for LED_L7 footprint in C:\Users\oyarz\Documents\pcbs\split_keyboard\split_keyboard.kicad_pcb
+[board_modifier.py:84]: Setting LED_L7 footprint position: (101200000, 53575000)
 [board_modifier.py:97]: Getting L_SW8 footprint position: (82150000, 55956250)
 [board_modifier.py:64]: Searching for D8 footprint in C:\Users\oyarz\Documents\pcbs\split_keyboard\split_keyboard.kicad_pcb
 [board_modifier.py:84]: Setting D8 footprint position: (87230000, 58986250)
+[board_modifier.py:64]: Searching for LED_L8 footprint in C:\Users\oyarz\Documents\pcbs\split_keyboard\split_keyboard.kicad_pcb
+[board_modifier.py:84]: Setting LED_L8 footprint position: (82150000, 55956250)
 [board_modifier.py:97]: Getting L_SW9 footprint position: (120250000, 55956250)
 [board_modifier.py:64]: Searching for D9 footprint in C:\Users\oyarz\Documents\pcbs\split_keyboard\split_keyboard.kicad_pcb
 [board_modifier.py:84]: Setting D9 footprint position: (125330000, 58986250)
+[board_modifier.py:64]: Searching for LED_L9 footprint in C:\Users\oyarz\Documents\pcbs\split_keyboard\split_keyboard.kicad_pcb
+[board_modifier.py:84]: Setting LED_L9 footprint position: (120250000, 55956250)
 [board_modifier.py:97]: Getting L_SW10 footprint position: (139300000, 58337500)
 [board_modifier.py:64]: Searching for D10 footprint in C:\Users\oyarz\Documents\pcbs\split_keyboard\split_keyboard.kicad_pcb
 [board_modifier.py:84]: Setting D10 footprint position: (144380000, 61367500)
+[board_modifier.py:64]: Searching for LED_L10 footprint in C:\Users\oyarz\Documents\pcbs\split_keyboard\split_keyboard.kicad_pcb
+[board_modifier.py:84]: Setting LED_L10 footprint position: (139300000, 58337500)
 [board_modifier.py:97]: Getting L_SW11 footprint position: (63100000, 60718750)
 [board_modifier.py:64]: Searching for D11 footprint in C:\Users\oyarz\Documents\pcbs\split_keyboard\split_keyboard.kicad_pcb
 [board_modifier.py:84]: Setting D11 footprint position: (68180000, 63748750)
+[board_modifier.py:64]: Searching for LED_L11 footprint in C:\Users\oyarz\Documents\pcbs\split_keyboard\split_keyboard.kicad_pcb
+[board_modifier.py:84]: Setting LED_L11 footprint position: (63100000, 60718750)
 [board_modifier.py:97]: Getting L_SW12 footprint position: (44050000, 65576500)
 [board_modifier.py:64]: Searching for D12 footprint in C:\Users\oyarz\Documents\pcbs\split_keyboard\split_keyboard.kicad_pcb
 [board_modifier.py:84]: Setting D12 footprint position: (49130000, 68606500)
+[board_modifier.py:64]: Searching for LED_L12 footprint in C:\Users\oyarz\Documents\pcbs\split_keyboard\split_keyboard.kicad_pcb
+[board_modifier.py:84]: Setting LED_L12 footprint position: (44050000, 65576500)
 [board_modifier.py:97]: Getting L_SW13 footprint position: (101200000, 72625000)
 [board_modifier.py:64]: Searching for D13 footprint in C:\Users\oyarz\Documents\pcbs\split_keyboard\split_keyboard.kicad_pcb
 [board_modifier.py:84]: Setting D13 footprint position: (106280000, 75655000)
+[board_modifier.py:64]: Searching for LED_L13 footprint in C:\Users\oyarz\Documents\pcbs\split_keyboard\split_keyboard.kicad_pcb
+[board_modifier.py:84]: Setting LED_L13 footprint position: (101200000, 72625000)
 [board_modifier.py:97]: Getting L_SW14 footprint position: (82150000, 75006250)
 [board_modifier.py:64]: Searching for D14 footprint in C:\Users\oyarz\Documents\pcbs\split_keyboard\split_keyboard.kicad_pcb
 [board_modifier.py:84]: Setting D14 footprint position: (87230000, 78036250)
+[board_modifier.py:64]: Searching for LED_L14 footprint in C:\Users\oyarz\Documents\pcbs\split_keyboard\split_keyboard.kicad_pcb
+[board_modifier.py:84]: Setting LED_L14 footprint position: (82150000, 75006250)
 [board_modifier.py:97]: Getting L_SW15 footprint position: (120250000, 75006250)
 [board_modifier.py:64]: Searching for D15 footprint in C:\Users\oyarz\Documents\pcbs\split_keyboard\split_keyboard.kicad_pcb
 [board_modifier.py:84]: Setting D15 footprint position: (125330000, 78036250)
+[board_modifier.py:64]: Searching for LED_L15 footprint in C:\Users\oyarz\Documents\pcbs\split_keyboard\split_keyboard.kicad_pcb
+[board_modifier.py:84]: Setting LED_L15 footprint position: (120250000, 75006250)
 [board_modifier.py:97]: Getting L_SW16 footprint position: (139300000, 77387500)
 [board_modifier.py:64]: Searching for D16 footprint in C:\Users\oyarz\Documents\pcbs\split_keyboard\split_keyboard.kicad_pcb
 [board_modifier.py:84]: Setting D16 footprint position: (144380000, 80417500)
+[board_modifier.py:64]: Searching for LED_L16 footprint in C:\Users\oyarz\Documents\pcbs\split_keyboard\split_keyboard.kicad_pcb
+[board_modifier.py:84]: Setting LED_L16 footprint position: (139300000, 77387500)
 [board_modifier.py:97]: Getting L_SW17 footprint position: (63100000, 79768750)
 [board_modifier.py:64]: Searching for D17 footprint in C:\Users\oyarz\Documents\pcbs\split_keyboard\split_keyboard.kicad_pcb
 [board_modifier.py:84]: Setting D17 footprint position: (68180000, 82798750)
+[board_modifier.py:64]: Searching for LED_L17 footprint in C:\Users\oyarz\Documents\pcbs\split_keyboard\split_keyboard.kicad_pcb
+[board_modifier.py:84]: Setting LED_L17 footprint position: (63100000, 79768750)
 [board_modifier.py:97]: Getting L_SW18 footprint position: (44050000, 84626500)
 [board_modifier.py:64]: Searching for D18 footprint in C:\Users\oyarz\Documents\pcbs\split_keyboard\split_keyboard.kicad_pcb
 [board_modifier.py:84]: Setting D18 footprint position: (49130000, 87656500)
+[board_modifier.py:64]: Searching for LED_L18 footprint in C:\Users\oyarz\Documents\pcbs\split_keyboard\split_keyboard.kicad_pcb
+[board_modifier.py:84]: Setting LED_L18 footprint position: (44050000, 84626500)
 [board_modifier.py:97]: Getting L_SW19 footprint position: (101200000, 91675000)
 [board_modifier.py:64]: Searching for D19 footprint in C:\Users\oyarz\Documents\pcbs\split_keyboard\split_keyboard.kicad_pcb
 [board_modifier.py:84]: Setting D19 footprint position: (106280000, 94705000)
+[board_modifier.py:64]: Searching for LED_L19 footprint in C:\Users\oyarz\Documents\pcbs\split_keyboard\split_keyboard.kicad_pcb
+[board_modifier.py:84]: Setting LED_L19 footprint position: (101200000, 91675000)
 [board_modifier.py:97]: Getting L_SW20 footprint position: (82150000, 94056250)
 [board_modifier.py:64]: Searching for D20 footprint in C:\Users\oyarz\Documents\pcbs\split_keyboard\split_keyboard.kicad_pcb
 [board_modifier.py:84]: Setting D20 footprint position: (87230000, 97086250)
+[board_modifier.py:64]: Searching for LED_L20 footprint in C:\Users\oyarz\Documents\pcbs\split_keyboard\split_keyboard.kicad_pcb
+[board_modifier.py:84]: Setting LED_L20 footprint position: (82150000, 94056250)
 [board_modifier.py:97]: Getting L_SW21 footprint position: (120250000, 94056250)
 [board_modifier.py:64]: Searching for D21 footprint in C:\Users\oyarz\Documents\pcbs\split_keyboard\split_keyboard.kicad_pcb
 [board_modifier.py:84]: Setting D21 footprint position: (125330000, 97086250)
+[board_modifier.py:64]: Searching for LED_L21 footprint in C:\Users\oyarz\Documents\pcbs\split_keyboard\split_keyboard.kicad_pcb
+[board_modifier.py:84]: Setting LED_L21 footprint position: (120250000, 94056250)
 [board_modifier.py:97]: Getting L_SW22 footprint position: (139300000, 96437500)
 [board_modifier.py:64]: Searching for D22 footprint in C:\Users\oyarz\Documents\pcbs\split_keyboard\split_keyboard.kicad_pcb
 [board_modifier.py:84]: Setting D22 footprint position: (144380000, 99467500)
+[board_modifier.py:64]: Searching for LED_L22 footprint in C:\Users\oyarz\Documents\pcbs\split_keyboard\split_keyboard.kicad_pcb
+[board_modifier.py:84]: Setting LED_L22 footprint position: (139300000, 96437500)
 [board_modifier.py:97]: Getting L_SW23 footprint position: (63100000, 98818750)
 [board_modifier.py:64]: Searching for D23 footprint in C:\Users\oyarz\Documents\pcbs\split_keyboard\split_keyboard.kicad_pcb
 [board_modifier.py:84]: Setting D23 footprint position: (68180000, 101848750)
+[board_modifier.py:64]: Searching for LED_L23 footprint in C:\Users\oyarz\Documents\pcbs\split_keyboard\split_keyboard.kicad_pcb
+[board_modifier.py:84]: Setting LED_L23 footprint position: (63100000, 98818750)
 [board_modifier.py:97]: Getting L_SW24 footprint position: (44050000, 103676500)
 [board_modifier.py:64]: Searching for D24 footprint in C:\Users\oyarz\Documents\pcbs\split_keyboard\split_keyboard.kicad_pcb
 [board_modifier.py:84]: Setting D24 footprint position: (49130000, 106706500)
+[board_modifier.py:64]: Searching for LED_L24 footprint in C:\Users\oyarz\Documents\pcbs\split_keyboard\split_keyboard.kicad_pcb
+[board_modifier.py:84]: Setting LED_L24 footprint position: (44050000, 103676500)
 [board_modifier.py:97]: Getting L_SW25 footprint position: (152311392, 118973892)
 [board_modifier.py:64]: Searching for D25 footprint in C:\Users\oyarz\Documents\pcbs\split_keyboard\split_keyboard.kicad_pcb
 [board_modifier.py:84]: Setting D25 footprint position: (155195801, 124137948)
 [board_modifier.py:97]: Getting D25 footprint position: (155195801, 124137948)
+[board_modifier.py:64]: Searching for LED_L25 footprint in C:\Users\oyarz\Documents\pcbs\split_keyboard\split_keyboard.kicad_pcb
+[board_modifier.py:84]: Setting LED_L25 footprint position: (152311392, 118973892)
+[board_modifier.py:97]: Getting LED_L25 footprint position: (152311392, 118973892)
 [board_modifier.py:97]: Getting L_SW26 footprint position: (168809176, 128498892)
 [board_modifier.py:64]: Searching for D26 footprint in C:\Users\oyarz\Documents\pcbs\split_keyboard\split_keyboard.kicad_pcb
 [board_modifier.py:84]: Setting D26 footprint position: (171693585, 133662948)
 [board_modifier.py:97]: Getting D26 footprint position: (171693585, 133662948)
+[board_modifier.py:64]: Searching for LED_L26 footprint in C:\Users\oyarz\Documents\pcbs\split_keyboard\split_keyboard.kicad_pcb
+[board_modifier.py:84]: Setting LED_L26 footprint position: (168809176, 128498892)
+[board_modifier.py:97]: Getting LED_L26 footprint position: (168809176, 128498892)
 [board_modifier.py:64]: Searching for D1 footprint in C:\Users\oyarz\Documents\pcbs\split_keyboard\split_keyboard.kicad_pcb
 [key_placer.py:95]: Routing L_SW1 with D1
 [key_placer.py:131]: Using internal autorouter method
 [board_modifier.py:407]: Routing at B.Cu layer
-[board_modifier.py:460]: Routing pad (107490000, 29445000) with pad (106280000, 36605000) at 0 degree angle
+[board_modifier.py:460]: Routing pad (104770000, 39225000) with pad (106280000, 36605000) at 0 degree angle
+[board_modifier.py:256]: Track collision ignored, track starts or ends in pad L_SW1:
 [board_modifier.py:256]: Track collision ignored, track starts or ends in pad L_SW1:1
-[board_modifier.py:266]: Track collide with pad L_SW1:
-[board_modifier.py:344]: Could not add track segment due to detected collision
+[board_modifier.py:338]: Adding track segment (B.Cu): [(104770000, 39225000), (104770000, 38115000)]
+[board_modifier.py:256]: Track collision ignored, track starts or ends in pad L_SW1:
 [board_modifier.py:256]: Track collision ignored, track starts or ends in pad L_SW1:1
-[board_modifier.py:338]: Adding track segment (B.Cu): [(107490000, 29445000), (106280000, 28235000)]
-[board_modifier.py:256]: Track collision ignored, track starts or ends in pad L_SW1:1
-[board_modifier.py:266]: Track collide with pad L_SW1:
 [board_modifier.py:256]: Track collision ignored, track starts or ends in pad D1:2
-[board_modifier.py:287]: Track collision ignored, track starts or ends at the end of b534dc2f-62be-43f3-9b21-83fb1a102938 track
-[board_modifier.py:344]: Could not add track segment due to detected collision
+[board_modifier.py:287]: Track collision ignored, track starts or ends at the end of d1b97814-010b-473a-9a0e-490f628a0a44 track
+[board_modifier.py:338]: Adding track segment (B.Cu): [(104770000, 38115000), (106280000, 36605000)]
 [board_modifier.py:64]: Searching for D2 footprint in C:\Users\oyarz\Documents\pcbs\split_keyboard\split_keyboard.kicad_pcb
 [key_placer.py:95]: Routing L_SW2 with D2
 [key_placer.py:131]: Using internal autorouter method
 [board_modifier.py:407]: Routing at B.Cu layer
-[board_modifier.py:460]: Routing pad (88440000, 31826250) with pad (87230000, 38986250) at 0 degree angle
+[board_modifier.py:460]: Routing pad (85720000, 41606250) with pad (87230000, 38986250) at 0 degree angle
+[board_modifier.py:256]: Track collision ignored, track starts or ends in pad L_SW2:
 [board_modifier.py:256]: Track collision ignored, track starts or ends in pad L_SW2:1
-[board_modifier.py:266]: Track collide with pad L_SW2:
-[board_modifier.py:344]: Could not add track segment due to detected collision
+[board_modifier.py:338]: Adding track segment (B.Cu): [(85720000, 41606250), (85720000, 40496250)]
+[board_modifier.py:256]: Track collision ignored, track starts or ends in pad L_SW2:
 [board_modifier.py:256]: Track collision ignored, track starts or ends in pad L_SW2:1
-[board_modifier.py:338]: Adding track segment (B.Cu): [(88440000, 31826250), (87230000, 30616250)]
-[board_modifier.py:256]: Track collision ignored, track starts or ends in pad L_SW2:1
-[board_modifier.py:266]: Track collide with pad L_SW2:
 [board_modifier.py:256]: Track collision ignored, track starts or ends in pad D2:2
-[board_modifier.py:287]: Track collision ignored, track starts or ends at the end of 60773316-94c8-4933-a985-c3c63bd10097 track
-[board_modifier.py:344]: Could not add track segment due to detected collision
+[board_modifier.py:287]: Track collision ignored, track starts or ends at the end of ade09f59-881d-45b8-b888-e84554f98ab0 track
+[board_modifier.py:338]: Adding track segment (B.Cu): [(85720000, 40496250), (87230000, 38986250)]
 [board_modifier.py:64]: Searching for D3 footprint in C:\Users\oyarz\Documents\pcbs\split_keyboard\split_keyboard.kicad_pcb
 [key_placer.py:95]: Routing L_SW3 with D3
 [key_placer.py:131]: Using internal autorouter method
 [board_modifier.py:407]: Routing at B.Cu layer
-[board_modifier.py:460]: Routing pad (126540000, 31826250) with pad (125330000, 38986250) at 0 degree angle
+[board_modifier.py:460]: Routing pad (123820000, 41606250) with pad (125330000, 38986250) at 0 degree angle
+[board_modifier.py:256]: Track collision ignored, track starts or ends in pad L_SW3:
 [board_modifier.py:256]: Track collision ignored, track starts or ends in pad L_SW3:1
-[board_modifier.py:266]: Track collide with pad L_SW3:
-[board_modifier.py:344]: Could not add track segment due to detected collision
+[board_modifier.py:338]: Adding track segment (B.Cu): [(123820000, 41606250), (123820000, 40496250)]
+[board_modifier.py:256]: Track collision ignored, track starts or ends in pad L_SW3:
 [board_modifier.py:256]: Track collision ignored, track starts or ends in pad L_SW3:1
-[board_modifier.py:338]: Adding track segment (B.Cu): [(126540000, 31826250), (125330000, 30616250)]
-[board_modifier.py:256]: Track collision ignored, track starts or ends in pad L_SW3:1
-[board_modifier.py:266]: Track collide with pad L_SW3:
 [board_modifier.py:256]: Track collision ignored, track starts or ends in pad D3:2
-[board_modifier.py:287]: Track collision ignored, track starts or ends at the end of 09f69c28-be34-40a3-b2ba-872ea4476fa2 track
-[board_modifier.py:344]: Could not add track segment due to detected collision
+[board_modifier.py:287]: Track collision ignored, track starts or ends at the end of 22059ad5-7038-4e77-8619-7ee2edbafc56 track
+[board_modifier.py:338]: Adding track segment (B.Cu): [(123820000, 40496250), (125330000, 38986250)]
 [board_modifier.py:64]: Searching for D4 footprint in C:\Users\oyarz\Documents\pcbs\split_keyboard\split_keyboard.kicad_pcb
 [key_placer.py:95]: Routing L_SW4 with D4
 [key_placer.py:131]: Using internal autorouter method
 [board_modifier.py:407]: Routing at B.Cu layer
-[board_modifier.py:460]: Routing pad (145590000, 34207500) with pad (144380000, 41367500) at 0 degree angle
+[board_modifier.py:460]: Routing pad (142870000, 43987500) with pad (144380000, 41367500) at 0 degree angle
+[board_modifier.py:256]: Track collision ignored, track starts or ends in pad L_SW4:
 [board_modifier.py:256]: Track collision ignored, track starts or ends in pad L_SW4:1
-[board_modifier.py:266]: Track collide with pad L_SW4:
-[board_modifier.py:344]: Could not add track segment due to detected collision
+[board_modifier.py:338]: Adding track segment (B.Cu): [(142870000, 43987500), (142870000, 42877500)]
+[board_modifier.py:256]: Track collision ignored, track starts or ends in pad L_SW4:
 [board_modifier.py:256]: Track collision ignored, track starts or ends in pad L_SW4:1
-[board_modifier.py:338]: Adding track segment (B.Cu): [(145590000, 34207500), (144380000, 32997500)]
-[board_modifier.py:256]: Track collision ignored, track starts or ends in pad L_SW4:1
-[board_modifier.py:266]: Track collide with pad L_SW4:
 [board_modifier.py:256]: Track collision ignored, track starts or ends in pad D4:2
-[board_modifier.py:287]: Track collision ignored, track starts or ends at the end of 74fb7fd1-548b-4eaf-a207-f0acf48b451f track
-[board_modifier.py:344]: Could not add track segment due to detected collision
+[board_modifier.py:287]: Track collision ignored, track starts or ends at the end of 62b633b5-bda7-460f-93f9-6f4ee7ec244c track
+[board_modifier.py:338]: Adding track segment (B.Cu): [(142870000, 42877500), (144380000, 41367500)]
 [board_modifier.py:64]: Searching for D5 footprint in C:\Users\oyarz\Documents\pcbs\split_keyboard\split_keyboard.kicad_pcb
 [key_placer.py:95]: Routing L_SW5 with D5
 [key_placer.py:131]: Using internal autorouter method
 [board_modifier.py:407]: Routing at B.Cu layer
-[board_modifier.py:460]: Routing pad (69390000, 36588750) with pad (68180000, 43748750) at 0 degree angle
+[board_modifier.py:460]: Routing pad (66670000, 46368750) with pad (68180000, 43748750) at 0 degree angle
+[board_modifier.py:256]: Track collision ignored, track starts or ends in pad L_SW5:
 [board_modifier.py:256]: Track collision ignored, track starts or ends in pad L_SW5:1
-[board_modifier.py:266]: Track collide with pad L_SW5:
-[board_modifier.py:344]: Could not add track segment due to detected collision
+[board_modifier.py:338]: Adding track segment (B.Cu): [(66670000, 46368750), (66670000, 45258750)]
+[board_modifier.py:256]: Track collision ignored, track starts or ends in pad L_SW5:
 [board_modifier.py:256]: Track collision ignored, track starts or ends in pad L_SW5:1
-[board_modifier.py:338]: Adding track segment (B.Cu): [(69390000, 36588750), (68180000, 35378750)]
-[board_modifier.py:256]: Track collision ignored, track starts or ends in pad L_SW5:1
-[board_modifier.py:266]: Track collide with pad L_SW5:
 [board_modifier.py:256]: Track collision ignored, track starts or ends in pad D5:2
-[board_modifier.py:287]: Track collision ignored, track starts or ends at the end of c208c93d-1691-4c08-8087-1d63ddefe808 track
-[board_modifier.py:344]: Could not add track segment due to detected collision
+[board_modifier.py:287]: Track collision ignored, track starts or ends at the end of 53757a53-b1c2-4ef3-b647-807543c8a1d6 track
+[board_modifier.py:338]: Adding track segment (B.Cu): [(66670000, 45258750), (68180000, 43748750)]
 [board_modifier.py:64]: Searching for D6 footprint in C:\Users\oyarz\Documents\pcbs\split_keyboard\split_keyboard.kicad_pcb
 [key_placer.py:95]: Routing L_SW6 with D6
 [key_placer.py:131]: Using internal autorouter method
 [board_modifier.py:407]: Routing at B.Cu layer
-[board_modifier.py:460]: Routing pad (50340000, 41446500) with pad (49130000, 48606500) at 0 degree angle
+[board_modifier.py:460]: Routing pad (47620000, 51226500) with pad (49130000, 48606500) at 0 degree angle
+[board_modifier.py:256]: Track collision ignored, track starts or ends in pad L_SW6:
 [board_modifier.py:256]: Track collision ignored, track starts or ends in pad L_SW6:1
-[board_modifier.py:266]: Track collide with pad L_SW6:
-[board_modifier.py:344]: Could not add track segment due to detected collision
+[board_modifier.py:338]: Adding track segment (B.Cu): [(47620000, 51226500), (47620000, 50116500)]
+[board_modifier.py:256]: Track collision ignored, track starts or ends in pad L_SW6:
 [board_modifier.py:256]: Track collision ignored, track starts or ends in pad L_SW6:1
-[board_modifier.py:338]: Adding track segment (B.Cu): [(50340000, 41446500), (49130000, 40236500)]
-[board_modifier.py:256]: Track collision ignored, track starts or ends in pad L_SW6:1
-[board_modifier.py:266]: Track collide with pad L_SW6:
 [board_modifier.py:256]: Track collision ignored, track starts or ends in pad D6:2
-[board_modifier.py:287]: Track collision ignored, track starts or ends at the end of 75da300e-f2c3-4ba0-b984-3523c923fc2f track
-[board_modifier.py:344]: Could not add track segment due to detected collision
+[board_modifier.py:287]: Track collision ignored, track starts or ends at the end of 80ba9c93-4933-4714-8645-e30e32da4446 track
+[board_modifier.py:338]: Adding track segment (B.Cu): [(47620000, 50116500), (49130000, 48606500)]
 [board_modifier.py:64]: Searching for D7 footprint in C:\Users\oyarz\Documents\pcbs\split_keyboard\split_keyboard.kicad_pcb
 [key_placer.py:95]: Routing L_SW7 with D7
 [key_placer.py:131]: Using internal autorouter method
 [board_modifier.py:407]: Routing at B.Cu layer
-[board_modifier.py:460]: Routing pad (107490000, 48495000) with pad (106280000, 55655000) at 0 degree angle
+[board_modifier.py:460]: Routing pad (104770000, 58275000) with pad (106280000, 55655000) at 0 degree angle
+[board_modifier.py:256]: Track collision ignored, track starts or ends in pad L_SW7:
 [board_modifier.py:256]: Track collision ignored, track starts or ends in pad L_SW7:1
-[board_modifier.py:266]: Track collide with pad L_SW7:
-[board_modifier.py:344]: Could not add track segment due to detected collision
+[board_modifier.py:338]: Adding track segment (B.Cu): [(104770000, 58275000), (104770000, 57165000)]
+[board_modifier.py:256]: Track collision ignored, track starts or ends in pad L_SW7:
 [board_modifier.py:256]: Track collision ignored, track starts or ends in pad L_SW7:1
-[board_modifier.py:338]: Adding track segment (B.Cu): [(107490000, 48495000), (106280000, 47285000)]
-[board_modifier.py:256]: Track collision ignored, track starts or ends in pad L_SW7:1
-[board_modifier.py:266]: Track collide with pad L_SW7:
 [board_modifier.py:256]: Track collision ignored, track starts or ends in pad D7:2
-[board_modifier.py:287]: Track collision ignored, track starts or ends at the end of a70b7916-f9ba-410d-8cb8-0b54569d8ef1 track
-[board_modifier.py:344]: Could not add track segment due to detected collision
+[board_modifier.py:287]: Track collision ignored, track starts or ends at the end of 0b7484a9-efeb-4430-8ac4-313af6fe1185 track
+[board_modifier.py:338]: Adding track segment (B.Cu): [(104770000, 57165000), (106280000, 55655000)]
 [board_modifier.py:64]: Searching for D8 footprint in C:\Users\oyarz\Documents\pcbs\split_keyboard\split_keyboard.kicad_pcb
 [key_placer.py:95]: Routing L_SW8 with D8
 [key_placer.py:131]: Using internal autorouter method
 [board_modifier.py:407]: Routing at B.Cu layer
-[board_modifier.py:460]: Routing pad (88440000, 50876250) with pad (87230000, 58036250) at 0 degree angle
+[board_modifier.py:460]: Routing pad (85720000, 60656250) with pad (87230000, 58036250) at 0 degree angle
+[board_modifier.py:256]: Track collision ignored, track starts or ends in pad L_SW8:
 [board_modifier.py:256]: Track collision ignored, track starts or ends in pad L_SW8:1
-[board_modifier.py:266]: Track collide with pad L_SW8:
-[board_modifier.py:344]: Could not add track segment due to detected collision
+[board_modifier.py:338]: Adding track segment (B.Cu): [(85720000, 60656250), (85720000, 59546250)]
+[board_modifier.py:256]: Track collision ignored, track starts or ends in pad L_SW8:
 [board_modifier.py:256]: Track collision ignored, track starts or ends in pad L_SW8:1
-[board_modifier.py:338]: Adding track segment (B.Cu): [(88440000, 50876250), (87230000, 49666250)]
-[board_modifier.py:256]: Track collision ignored, track starts or ends in pad L_SW8:1
-[board_modifier.py:266]: Track collide with pad L_SW8:
 [board_modifier.py:256]: Track collision ignored, track starts or ends in pad D8:2
-[board_modifier.py:287]: Track collision ignored, track starts or ends at the end of c685e315-d2be-4641-9052-7c70d731da82 track
-[board_modifier.py:344]: Could not add track segment due to detected collision
+[board_modifier.py:287]: Track collision ignored, track starts or ends at the end of 6af74c04-ba8b-43f3-9ab5-2e1bb60dd8e6 track
+[board_modifier.py:338]: Adding track segment (B.Cu): [(85720000, 59546250), (87230000, 58036250)]
 [board_modifier.py:64]: Searching for D9 footprint in C:\Users\oyarz\Documents\pcbs\split_keyboard\split_keyboard.kicad_pcb
 [key_placer.py:95]: Routing L_SW9 with D9
 [key_placer.py:131]: Using internal autorouter method
 [board_modifier.py:407]: Routing at B.Cu layer
-[board_modifier.py:460]: Routing pad (126540000, 50876250) with pad (125330000, 58036250) at 0 degree angle
+[board_modifier.py:460]: Routing pad (123820000, 60656250) with pad (125330000, 58036250) at 0 degree angle
+[board_modifier.py:256]: Track collision ignored, track starts or ends in pad L_SW9:
 [board_modifier.py:256]: Track collision ignored, track starts or ends in pad L_SW9:1
-[board_modifier.py:266]: Track collide with pad L_SW9:
-[board_modifier.py:344]: Could not add track segment due to detected collision
+[board_modifier.py:338]: Adding track segment (B.Cu): [(123820000, 60656250), (123820000, 59546250)]
+[board_modifier.py:256]: Track collision ignored, track starts or ends in pad L_SW9:
 [board_modifier.py:256]: Track collision ignored, track starts or ends in pad L_SW9:1
-[board_modifier.py:338]: Adding track segment (B.Cu): [(126540000, 50876250), (125330000, 49666250)]
-[board_modifier.py:256]: Track collision ignored, track starts or ends in pad L_SW9:1
-[board_modifier.py:266]: Track collide with pad L_SW9:
 [board_modifier.py:256]: Track collision ignored, track starts or ends in pad D9:2
-[board_modifier.py:287]: Track collision ignored, track starts or ends at the end of 62857e27-bae6-44e6-90bf-c0e9d85467ab track
-[board_modifier.py:344]: Could not add track segment due to detected collision
+[board_modifier.py:287]: Track collision ignored, track starts or ends at the end of e88d4abb-eb63-4314-99b6-cdcf00533ee4 track
+[board_modifier.py:338]: Adding track segment (B.Cu): [(123820000, 59546250), (125330000, 58036250)]
 [board_modifier.py:64]: Searching for D10 footprint in C:\Users\oyarz\Documents\pcbs\split_keyboard\split_keyboard.kicad_pcb
 [key_placer.py:95]: Routing L_SW10 with D10
 [key_placer.py:131]: Using internal autorouter method
 [board_modifier.py:407]: Routing at B.Cu layer
-[board_modifier.py:460]: Routing pad (145590000, 53257500) with pad (144380000, 60417500) at 0 degree angle
+[board_modifier.py:460]: Routing pad (142870000, 63037500) with pad (144380000, 60417500) at 0 degree angle
+[board_modifier.py:256]: Track collision ignored, track starts or ends in pad L_SW10:
 [board_modifier.py:256]: Track collision ignored, track starts or ends in pad L_SW10:1
-[board_modifier.py:266]: Track collide with pad L_SW10:
-[board_modifier.py:344]: Could not add track segment due to detected collision
+[board_modifier.py:338]: Adding track segment (B.Cu): [(142870000, 63037500), (142870000, 61927500)]
+[board_modifier.py:256]: Track collision ignored, track starts or ends in pad L_SW10:
 [board_modifier.py:256]: Track collision ignored, track starts or ends in pad L_SW10:1
-[board_modifier.py:338]: Adding track segment (B.Cu): [(145590000, 53257500), (144380000, 52047500)]
-[board_modifier.py:256]: Track collision ignored, track starts or ends in pad L_SW10:1
-[board_modifier.py:266]: Track collide with pad L_SW10:
 [board_modifier.py:256]: Track collision ignored, track starts or ends in pad D10:2
-[board_modifier.py:287]: Track collision ignored, track starts or ends at the end of 3f37330a-ff66-40b7-b652-02852b93d6c3 track
-[board_modifier.py:344]: Could not add track segment due to detected collision
+[board_modifier.py:287]: Track collision ignored, track starts or ends at the end of a1954e8b-ebce-4cff-9ab6-7f89a1a40ca6 track
+[board_modifier.py:338]: Adding track segment (B.Cu): [(142870000, 61927500), (144380000, 60417500)]
 [board_modifier.py:64]: Searching for D11 footprint in C:\Users\oyarz\Documents\pcbs\split_keyboard\split_keyboard.kicad_pcb
 [key_placer.py:95]: Routing L_SW11 with D11
 [key_placer.py:131]: Using internal autorouter method
 [board_modifier.py:407]: Routing at B.Cu layer
-[board_modifier.py:460]: Routing pad (69390000, 55638750) with pad (68180000, 62798750) at 0 degree angle
+[board_modifier.py:460]: Routing pad (66670000, 65418750) with pad (68180000, 62798750) at 0 degree angle
+[board_modifier.py:256]: Track collision ignored, track starts or ends in pad L_SW11:
 [board_modifier.py:256]: Track collision ignored, track starts or ends in pad L_SW11:1
-[board_modifier.py:266]: Track collide with pad L_SW11:
-[board_modifier.py:344]: Could not add track segment due to detected collision
+[board_modifier.py:338]: Adding track segment (B.Cu): [(66670000, 65418750), (66670000, 64308750)]
+[board_modifier.py:256]: Track collision ignored, track starts or ends in pad L_SW11:
 [board_modifier.py:256]: Track collision ignored, track starts or ends in pad L_SW11:1
-[board_modifier.py:338]: Adding track segment (B.Cu): [(69390000, 55638750), (68180000, 54428750)]
-[board_modifier.py:256]: Track collision ignored, track starts or ends in pad L_SW11:1
-[board_modifier.py:266]: Track collide with pad L_SW11:
 [board_modifier.py:256]: Track collision ignored, track starts or ends in pad D11:2
-[board_modifier.py:287]: Track collision ignored, track starts or ends at the end of fe83b102-7040-40ad-8ddf-dd4890f28936 track
-[board_modifier.py:344]: Could not add track segment due to detected collision
+[board_modifier.py:287]: Track collision ignored, track starts or ends at the end of 5ee9c559-a741-40c6-b7b3-2793537a8603 track
+[board_modifier.py:338]: Adding track segment (B.Cu): [(66670000, 64308750), (68180000, 62798750)]
 [board_modifier.py:64]: Searching for D12 footprint in C:\Users\oyarz\Documents\pcbs\split_keyboard\split_keyboard.kicad_pcb
 [key_placer.py:95]: Routing L_SW12 with D12
 [key_placer.py:131]: Using internal autorouter method
 [board_modifier.py:407]: Routing at B.Cu layer
-[board_modifier.py:460]: Routing pad (50340000, 60496500) with pad (49130000, 67656500) at 0 degree angle
+[board_modifier.py:460]: Routing pad (47620000, 70276500) with pad (49130000, 67656500) at 0 degree angle
+[board_modifier.py:256]: Track collision ignored, track starts or ends in pad L_SW12:
 [board_modifier.py:256]: Track collision ignored, track starts or ends in pad L_SW12:1
-[board_modifier.py:266]: Track collide with pad L_SW12:
-[board_modifier.py:344]: Could not add track segment due to detected collision
+[board_modifier.py:338]: Adding track segment (B.Cu): [(47620000, 70276500), (47620000, 69166500)]
+[board_modifier.py:256]: Track collision ignored, track starts or ends in pad L_SW12:
 [board_modifier.py:256]: Track collision ignored, track starts or ends in pad L_SW12:1
-[board_modifier.py:338]: Adding track segment (B.Cu): [(50340000, 60496500), (49130000, 59286500)]
-[board_modifier.py:256]: Track collision ignored, track starts or ends in pad L_SW12:1
-[board_modifier.py:266]: Track collide with pad L_SW12:
 [board_modifier.py:256]: Track collision ignored, track starts or ends in pad D12:2
-[board_modifier.py:287]: Track collision ignored, track starts or ends at the end of 3373fc49-75f9-4496-9bbf-05d62f6598cf track
-[board_modifier.py:344]: Could not add track segment due to detected collision
+[board_modifier.py:287]: Track collision ignored, track starts or ends at the end of f1df6cab-3686-499e-864a-c3202b4df603 track
+[board_modifier.py:338]: Adding track segment (B.Cu): [(47620000, 69166500), (49130000, 67656500)]
 [board_modifier.py:64]: Searching for D13 footprint in C:\Users\oyarz\Documents\pcbs\split_keyboard\split_keyboard.kicad_pcb
 [key_placer.py:95]: Routing L_SW13 with D13
 [key_placer.py:131]: Using internal autorouter method
 [board_modifier.py:407]: Routing at B.Cu layer
-[board_modifier.py:460]: Routing pad (107490000, 67545000) with pad (106280000, 74705000) at 0 degree angle
+[board_modifier.py:460]: Routing pad (104770000, 77325000) with pad (106280000, 74705000) at 0 degree angle
+[board_modifier.py:256]: Track collision ignored, track starts or ends in pad L_SW13:
 [board_modifier.py:256]: Track collision ignored, track starts or ends in pad L_SW13:1
-[board_modifier.py:266]: Track collide with pad L_SW13:
-[board_modifier.py:344]: Could not add track segment due to detected collision
+[board_modifier.py:338]: Adding track segment (B.Cu): [(104770000, 77325000), (104770000, 76215000)]
+[board_modifier.py:256]: Track collision ignored, track starts or ends in pad L_SW13:
 [board_modifier.py:256]: Track collision ignored, track starts or ends in pad L_SW13:1
-[board_modifier.py:338]: Adding track segment (B.Cu): [(107490000, 67545000), (106280000, 66335000)]
-[board_modifier.py:256]: Track collision ignored, track starts or ends in pad L_SW13:1
-[board_modifier.py:266]: Track collide with pad L_SW13:
 [board_modifier.py:256]: Track collision ignored, track starts or ends in pad D13:2
-[board_modifier.py:287]: Track collision ignored, track starts or ends at the end of 2ae7b15a-1b93-45e0-8043-e1b0dac56640 track
-[board_modifier.py:344]: Could not add track segment due to detected collision
+[board_modifier.py:287]: Track collision ignored, track starts or ends at the end of 359076ee-a31f-4a5c-a414-b4c2696b5c23 track
+[board_modifier.py:338]: Adding track segment (B.Cu): [(104770000, 76215000), (106280000, 74705000)]
 [board_modifier.py:64]: Searching for D14 footprint in C:\Users\oyarz\Documents\pcbs\split_keyboard\split_keyboard.kicad_pcb
 [key_placer.py:95]: Routing L_SW14 with D14
 [key_placer.py:131]: Using internal autorouter method
 [board_modifier.py:407]: Routing at B.Cu layer
-[board_modifier.py:460]: Routing pad (88440000, 69926250) with pad (87230000, 77086250) at 0 degree angle
+[board_modifier.py:460]: Routing pad (85720000, 79706250) with pad (87230000, 77086250) at 0 degree angle
+[board_modifier.py:256]: Track collision ignored, track starts or ends in pad L_SW14:
 [board_modifier.py:256]: Track collision ignored, track starts or ends in pad L_SW14:1
-[board_modifier.py:266]: Track collide with pad L_SW14:
-[board_modifier.py:344]: Could not add track segment due to detected collision
+[board_modifier.py:338]: Adding track segment (B.Cu): [(85720000, 79706250), (85720000, 78596250)]
+[board_modifier.py:256]: Track collision ignored, track starts or ends in pad L_SW14:
 [board_modifier.py:256]: Track collision ignored, track starts or ends in pad L_SW14:1
-[board_modifier.py:338]: Adding track segment (B.Cu): [(88440000, 69926250), (87230000, 68716250)]
-[board_modifier.py:256]: Track collision ignored, track starts or ends in pad L_SW14:1
-[board_modifier.py:266]: Track collide with pad L_SW14:
 [board_modifier.py:256]: Track collision ignored, track starts or ends in pad D14:2
-[board_modifier.py:287]: Track collision ignored, track starts or ends at the end of 3f8afbc1-4b31-450c-a7c6-dac185f39d33 track
-[board_modifier.py:344]: Could not add track segment due to detected collision
+[board_modifier.py:287]: Track collision ignored, track starts or ends at the end of 9bfd9a87-6a20-432f-aed6-330e359b41e5 track
+[board_modifier.py:338]: Adding track segment (B.Cu): [(85720000, 78596250), (87230000, 77086250)]
 [board_modifier.py:64]: Searching for D15 footprint in C:\Users\oyarz\Documents\pcbs\split_keyboard\split_keyboard.kicad_pcb
 [key_placer.py:95]: Routing L_SW15 with D15
 [key_placer.py:131]: Using internal autorouter method
 [board_modifier.py:407]: Routing at B.Cu layer
-[board_modifier.py:460]: Routing pad (126540000, 69926250) with pad (125330000, 77086250) at 0 degree angle
+[board_modifier.py:460]: Routing pad (123820000, 79706250) with pad (125330000, 77086250) at 0 degree angle
+[board_modifier.py:256]: Track collision ignored, track starts or ends in pad L_SW15:
 [board_modifier.py:256]: Track collision ignored, track starts or ends in pad L_SW15:1
-[board_modifier.py:266]: Track collide with pad L_SW15:
-[board_modifier.py:344]: Could not add track segment due to detected collision
+[board_modifier.py:338]: Adding track segment (B.Cu): [(123820000, 79706250), (123820000, 78596250)]
+[board_modifier.py:256]: Track collision ignored, track starts or ends in pad L_SW15:
 [board_modifier.py:256]: Track collision ignored, track starts or ends in pad L_SW15:1
-[board_modifier.py:338]: Adding track segment (B.Cu): [(126540000, 69926250), (125330000, 68716250)]
-[board_modifier.py:256]: Track collision ignored, track starts or ends in pad L_SW15:1
-[board_modifier.py:266]: Track collide with pad L_SW15:
 [board_modifier.py:256]: Track collision ignored, track starts or ends in pad D15:2
-[board_modifier.py:287]: Track collision ignored, track starts or ends at the end of 97027667-fc61-4df1-8525-244b1e4b27c9 track
-[board_modifier.py:344]: Could not add track segment due to detected collision
+[board_modifier.py:287]: Track collision ignored, track starts or ends at the end of 4321a0c5-300e-4487-ba4f-4aff6c5ff380 track
+[board_modifier.py:338]: Adding track segment (B.Cu): [(123820000, 78596250), (125330000, 77086250)]
 [board_modifier.py:64]: Searching for D16 footprint in C:\Users\oyarz\Documents\pcbs\split_keyboard\split_keyboard.kicad_pcb
 [key_placer.py:95]: Routing L_SW16 with D16
 [key_placer.py:131]: Using internal autorouter method
 [board_modifier.py:407]: Routing at B.Cu layer
-[board_modifier.py:460]: Routing pad (145590000, 72307500) with pad (144380000, 79467500) at 0 degree angle
+[board_modifier.py:460]: Routing pad (142870000, 82087500) with pad (144380000, 79467500) at 0 degree angle
+[board_modifier.py:256]: Track collision ignored, track starts or ends in pad L_SW16:
 [board_modifier.py:256]: Track collision ignored, track starts or ends in pad L_SW16:1
-[board_modifier.py:266]: Track collide with pad L_SW16:
-[board_modifier.py:344]: Could not add track segment due to detected collision
+[board_modifier.py:338]: Adding track segment (B.Cu): [(142870000, 82087500), (142870000, 80977500)]
+[board_modifier.py:256]: Track collision ignored, track starts or ends in pad L_SW16:
 [board_modifier.py:256]: Track collision ignored, track starts or ends in pad L_SW16:1
-[board_modifier.py:338]: Adding track segment (B.Cu): [(145590000, 72307500), (144380000, 71097500)]
-[board_modifier.py:256]: Track collision ignored, track starts or ends in pad L_SW16:1
-[board_modifier.py:266]: Track collide with pad L_SW16:
 [board_modifier.py:256]: Track collision ignored, track starts or ends in pad D16:2
-[board_modifier.py:287]: Track collision ignored, track starts or ends at the end of 707268f7-44cf-4a8e-84df-a81f9f198a09 track
-[board_modifier.py:344]: Could not add track segment due to detected collision
+[board_modifier.py:287]: Track collision ignored, track starts or ends at the end of 6da7925e-6d9d-4d96-b7d1-d37f372bc7d4 track
+[board_modifier.py:338]: Adding track segment (B.Cu): [(142870000, 80977500), (144380000, 79467500)]
 [board_modifier.py:64]: Searching for D17 footprint in C:\Users\oyarz\Documents\pcbs\split_keyboard\split_keyboard.kicad_pcb
 [key_placer.py:95]: Routing L_SW17 with D17
 [key_placer.py:131]: Using internal autorouter method
 [board_modifier.py:407]: Routing at B.Cu layer
-[board_modifier.py:460]: Routing pad (69390000, 74688750) with pad (68180000, 81848750) at 0 degree angle
+[board_modifier.py:460]: Routing pad (66670000, 84468750) with pad (68180000, 81848750) at 0 degree angle
+[board_modifier.py:256]: Track collision ignored, track starts or ends in pad L_SW17:
 [board_modifier.py:256]: Track collision ignored, track starts or ends in pad L_SW17:1
-[board_modifier.py:266]: Track collide with pad L_SW17:
-[board_modifier.py:344]: Could not add track segment due to detected collision
+[board_modifier.py:338]: Adding track segment (B.Cu): [(66670000, 84468750), (66670000, 83358750)]
+[board_modifier.py:256]: Track collision ignored, track starts or ends in pad L_SW17:
 [board_modifier.py:256]: Track collision ignored, track starts or ends in pad L_SW17:1
-[board_modifier.py:338]: Adding track segment (B.Cu): [(69390000, 74688750), (68180000, 73478750)]
-[board_modifier.py:256]: Track collision ignored, track starts or ends in pad L_SW17:1
-[board_modifier.py:266]: Track collide with pad L_SW17:
 [board_modifier.py:256]: Track collision ignored, track starts or ends in pad D17:2
-[board_modifier.py:287]: Track collision ignored, track starts or ends at the end of 34ff2c03-20c4-48f9-bb47-2037e703ec00 track
-[board_modifier.py:344]: Could not add track segment due to detected collision
+[board_modifier.py:287]: Track collision ignored, track starts or ends at the end of ebe8cd08-ea0d-424a-8c4a-be7e1fdad33c track
+[board_modifier.py:338]: Adding track segment (B.Cu): [(66670000, 83358750), (68180000, 81848750)]
 [board_modifier.py:64]: Searching for D18 footprint in C:\Users\oyarz\Documents\pcbs\split_keyboard\split_keyboard.kicad_pcb
 [key_placer.py:95]: Routing L_SW18 with D18
 [key_placer.py:131]: Using internal autorouter method
 [board_modifier.py:407]: Routing at B.Cu layer
-[board_modifier.py:460]: Routing pad (50340000, 79546500) with pad (49130000, 86706500) at 0 degree angle
+[board_modifier.py:460]: Routing pad (47620000, 89326500) with pad (49130000, 86706500) at 0 degree angle
+[board_modifier.py:256]: Track collision ignored, track starts or ends in pad L_SW18:
 [board_modifier.py:256]: Track collision ignored, track starts or ends in pad L_SW18:1
-[board_modifier.py:266]: Track collide with pad L_SW18:
-[board_modifier.py:344]: Could not add track segment due to detected collision
+[board_modifier.py:338]: Adding track segment (B.Cu): [(47620000, 89326500), (47620000, 88216500)]
+[board_modifier.py:256]: Track collision ignored, track starts or ends in pad L_SW18:
 [board_modifier.py:256]: Track collision ignored, track starts or ends in pad L_SW18:1
-[board_modifier.py:338]: Adding track segment (B.Cu): [(50340000, 79546500), (49130000, 78336500)]
-[board_modifier.py:256]: Track collision ignored, track starts or ends in pad L_SW18:1
-[board_modifier.py:266]: Track collide with pad L_SW18:
 [board_modifier.py:256]: Track collision ignored, track starts or ends in pad D18:2
-[board_modifier.py:287]: Track collision ignored, track starts or ends at the end of f91d1149-0093-4cf6-8461-b757c85dd23c track
-[board_modifier.py:344]: Could not add track segment due to detected collision
+[board_modifier.py:287]: Track collision ignored, track starts or ends at the end of d15bc0bb-4d3e-49c7-9289-d1fc4218341a track
+[board_modifier.py:338]: Adding track segment (B.Cu): [(47620000, 88216500), (49130000, 86706500)]
 [board_modifier.py:64]: Searching for D19 footprint in C:\Users\oyarz\Documents\pcbs\split_keyboard\split_keyboard.kicad_pcb
 [key_placer.py:95]: Routing L_SW19 with D19
 [key_placer.py:131]: Using internal autorouter method
 [board_modifier.py:407]: Routing at B.Cu layer
-[board_modifier.py:460]: Routing pad (107490000, 86595000) with pad (106280000, 93755000) at 0 degree angle
+[board_modifier.py:460]: Routing pad (104770000, 96375000) with pad (106280000, 93755000) at 0 degree angle
+[board_modifier.py:256]: Track collision ignored, track starts or ends in pad L_SW19:
 [board_modifier.py:256]: Track collision ignored, track starts or ends in pad L_SW19:1
-[board_modifier.py:266]: Track collide with pad L_SW19:
-[board_modifier.py:344]: Could not add track segment due to detected collision
+[board_modifier.py:338]: Adding track segment (B.Cu): [(104770000, 96375000), (104770000, 95265000)]
+[board_modifier.py:256]: Track collision ignored, track starts or ends in pad L_SW19:
 [board_modifier.py:256]: Track collision ignored, track starts or ends in pad L_SW19:1
-[board_modifier.py:338]: Adding track segment (B.Cu): [(107490000, 86595000), (106280000, 85385000)]
-[board_modifier.py:256]: Track collision ignored, track starts or ends in pad L_SW19:1
-[board_modifier.py:266]: Track collide with pad L_SW19:
 [board_modifier.py:256]: Track collision ignored, track starts or ends in pad D19:2
-[board_modifier.py:287]: Track collision ignored, track starts or ends at the end of ad55642d-857e-40af-81f7-0afa34213712 track
-[board_modifier.py:344]: Could not add track segment due to detected collision
+[board_modifier.py:287]: Track collision ignored, track starts or ends at the end of 53af9e86-068f-42c3-853f-f390e5d81c35 track
+[board_modifier.py:338]: Adding track segment (B.Cu): [(104770000, 95265000), (106280000, 93755000)]
 [board_modifier.py:64]: Searching for D20 footprint in C:\Users\oyarz\Documents\pcbs\split_keyboard\split_keyboard.kicad_pcb
 [key_placer.py:95]: Routing L_SW20 with D20
 [key_placer.py:131]: Using internal autorouter method
 [board_modifier.py:407]: Routing at B.Cu layer
-[board_modifier.py:460]: Routing pad (88440000, 88976250) with pad (87230000, 96136250) at 0 degree angle
+[board_modifier.py:460]: Routing pad (85720000, 98756250) with pad (87230000, 96136250) at 0 degree angle
+[board_modifier.py:256]: Track collision ignored, track starts or ends in pad L_SW20:
 [board_modifier.py:256]: Track collision ignored, track starts or ends in pad L_SW20:1
-[board_modifier.py:266]: Track collide with pad L_SW20:
-[board_modifier.py:344]: Could not add track segment due to detected collision
+[board_modifier.py:338]: Adding track segment (B.Cu): [(85720000, 98756250), (85720000, 97646250)]
+[board_modifier.py:256]: Track collision ignored, track starts or ends in pad L_SW20:
 [board_modifier.py:256]: Track collision ignored, track starts or ends in pad L_SW20:1
-[board_modifier.py:338]: Adding track segment (B.Cu): [(88440000, 88976250), (87230000, 87766250)]
-[board_modifier.py:256]: Track collision ignored, track starts or ends in pad L_SW20:1
-[board_modifier.py:266]: Track collide with pad L_SW20:
 [board_modifier.py:256]: Track collision ignored, track starts or ends in pad D20:2
-[board_modifier.py:287]: Track collision ignored, track starts or ends at the end of 760b4434-d02b-4fa1-aeda-69073316d13f track
-[board_modifier.py:344]: Could not add track segment due to detected collision
+[board_modifier.py:287]: Track collision ignored, track starts or ends at the end of f87673bd-fa9f-4c77-9f1a-f07cd3266016 track
+[board_modifier.py:338]: Adding track segment (B.Cu): [(85720000, 97646250), (87230000, 96136250)]
 [board_modifier.py:64]: Searching for D21 footprint in C:\Users\oyarz\Documents\pcbs\split_keyboard\split_keyboard.kicad_pcb
 [key_placer.py:95]: Routing L_SW21 with D21
 [key_placer.py:131]: Using internal autorouter method
 [board_modifier.py:407]: Routing at B.Cu layer
-[board_modifier.py:460]: Routing pad (126540000, 88976250) with pad (125330000, 96136250) at 0 degree angle
+[board_modifier.py:460]: Routing pad (123820000, 98756250) with pad (125330000, 96136250) at 0 degree angle
+[board_modifier.py:256]: Track collision ignored, track starts or ends in pad L_SW21:
 [board_modifier.py:256]: Track collision ignored, track starts or ends in pad L_SW21:1
-[board_modifier.py:266]: Track collide with pad L_SW21:
-[board_modifier.py:344]: Could not add track segment due to detected collision
+[board_modifier.py:338]: Adding track segment (B.Cu): [(123820000, 98756250), (123820000, 97646250)]
+[board_modifier.py:256]: Track collision ignored, track starts or ends in pad L_SW21:
 [board_modifier.py:256]: Track collision ignored, track starts or ends in pad L_SW21:1
-[board_modifier.py:338]: Adding track segment (B.Cu): [(126540000, 88976250), (125330000, 87766250)]
-[board_modifier.py:256]: Track collision ignored, track starts or ends in pad L_SW21:1
-[board_modifier.py:266]: Track collide with pad L_SW21:
 [board_modifier.py:256]: Track collision ignored, track starts or ends in pad D21:2
-[board_modifier.py:287]: Track collision ignored, track starts or ends at the end of 1cceb428-5fc4-438d-b896-cfbd930a385f track
-[board_modifier.py:344]: Could not add track segment due to detected collision
+[board_modifier.py:287]: Track collision ignored, track starts or ends at the end of a9dd9236-539c-46e1-8b49-2a9f63e3c599 track
+[board_modifier.py:338]: Adding track segment (B.Cu): [(123820000, 97646250), (125330000, 96136250)]
 [board_modifier.py:64]: Searching for D22 footprint in C:\Users\oyarz\Documents\pcbs\split_keyboard\split_keyboard.kicad_pcb
 [key_placer.py:95]: Routing L_SW22 with D22
 [key_placer.py:131]: Using internal autorouter method
 [board_modifier.py:407]: Routing at B.Cu layer
-[board_modifier.py:460]: Routing pad (145590000, 91357500) with pad (144380000, 98517500) at 0 degree angle
+[board_modifier.py:460]: Routing pad (142870000, 101137500) with pad (144380000, 98517500) at 0 degree angle
+[board_modifier.py:256]: Track collision ignored, track starts or ends in pad L_SW22:
 [board_modifier.py:256]: Track collision ignored, track starts or ends in pad L_SW22:1
-[board_modifier.py:266]: Track collide with pad L_SW22:
-[board_modifier.py:344]: Could not add track segment due to detected collision
+[board_modifier.py:338]: Adding track segment (B.Cu): [(142870000, 101137500), (142870000, 100027500)]
+[board_modifier.py:256]: Track collision ignored, track starts or ends in pad L_SW22:
 [board_modifier.py:256]: Track collision ignored, track starts or ends in pad L_SW22:1
-[board_modifier.py:338]: Adding track segment (B.Cu): [(145590000, 91357500), (144380000, 90147500)]
-[board_modifier.py:256]: Track collision ignored, track starts or ends in pad L_SW22:1
-[board_modifier.py:266]: Track collide with pad L_SW22:
 [board_modifier.py:256]: Track collision ignored, track starts or ends in pad D22:2
-[board_modifier.py:287]: Track collision ignored, track starts or ends at the end of 27646646-fb7d-4d08-80f1-7a7448aa6dcf track
-[board_modifier.py:344]: Could not add track segment due to detected collision
+[board_modifier.py:287]: Track collision ignored, track starts or ends at the end of d461ac4d-ef4f-4b93-abc0-a0526fc84036 track
+[board_modifier.py:338]: Adding track segment (B.Cu): [(142870000, 100027500), (144380000, 98517500)]
 [board_modifier.py:64]: Searching for D23 footprint in C:\Users\oyarz\Documents\pcbs\split_keyboard\split_keyboard.kicad_pcb
 [key_placer.py:95]: Routing L_SW23 with D23
 [key_placer.py:131]: Using internal autorouter method
 [board_modifier.py:407]: Routing at B.Cu layer
-[board_modifier.py:460]: Routing pad (69390000, 93738750) with pad (68180000, 100898750) at 0 degree angle
+[board_modifier.py:460]: Routing pad (66670000, 103518750) with pad (68180000, 100898750) at 0 degree angle
+[board_modifier.py:256]: Track collision ignored, track starts or ends in pad L_SW23:
 [board_modifier.py:256]: Track collision ignored, track starts or ends in pad L_SW23:1
-[board_modifier.py:266]: Track collide with pad L_SW23:
-[board_modifier.py:344]: Could not add track segment due to detected collision
+[board_modifier.py:338]: Adding track segment (B.Cu): [(66670000, 103518750), (66670000, 102408750)]
+[board_modifier.py:256]: Track collision ignored, track starts or ends in pad L_SW23:
 [board_modifier.py:256]: Track collision ignored, track starts or ends in pad L_SW23:1
-[board_modifier.py:338]: Adding track segment (B.Cu): [(69390000, 93738750), (68180000, 92528750)]
-[board_modifier.py:256]: Track collision ignored, track starts or ends in pad L_SW23:1
-[board_modifier.py:266]: Track collide with pad L_SW23:
 [board_modifier.py:256]: Track collision ignored, track starts or ends in pad D23:2
-[board_modifier.py:287]: Track collision ignored, track starts or ends at the end of 46c713d3-ff9e-4e85-b179-52552464f36d track
-[board_modifier.py:344]: Could not add track segment due to detected collision
+[board_modifier.py:287]: Track collision ignored, track starts or ends at the end of 42664377-b420-4692-bae6-d7ab81c525e8 track
+[board_modifier.py:338]: Adding track segment (B.Cu): [(66670000, 102408750), (68180000, 100898750)]
 [board_modifier.py:64]: Searching for D24 footprint in C:\Users\oyarz\Documents\pcbs\split_keyboard\split_keyboard.kicad_pcb
 [key_placer.py:95]: Routing L_SW24 with D24
 [key_placer.py:131]: Using internal autorouter method
 [board_modifier.py:407]: Routing at B.Cu layer
-[board_modifier.py:460]: Routing pad (50340000, 98596500) with pad (49130000, 105756500) at 0 degree angle
+[board_modifier.py:460]: Routing pad (47620000, 108376500) with pad (49130000, 105756500) at 0 degree angle
+[board_modifier.py:256]: Track collision ignored, track starts or ends in pad L_SW24:
 [board_modifier.py:256]: Track collision ignored, track starts or ends in pad L_SW24:1
-[board_modifier.py:266]: Track collide with pad L_SW24:
-[board_modifier.py:344]: Could not add track segment due to detected collision
+[board_modifier.py:338]: Adding track segment (B.Cu): [(47620000, 108376500), (47620000, 107266500)]
+[board_modifier.py:256]: Track collision ignored, track starts or ends in pad L_SW24:
 [board_modifier.py:256]: Track collision ignored, track starts or ends in pad L_SW24:1
-[board_modifier.py:338]: Adding track segment (B.Cu): [(50340000, 98596500), (49130000, 97386500)]
-[board_modifier.py:256]: Track collision ignored, track starts or ends in pad L_SW24:1
-[board_modifier.py:266]: Track collide with pad L_SW24:
 [board_modifier.py:256]: Track collision ignored, track starts or ends in pad D24:2
-[board_modifier.py:287]: Track collision ignored, track starts or ends at the end of 99b86de6-6f32-443a-ab4c-4bd114d0153e track
-[board_modifier.py:344]: Could not add track segment due to detected collision
+[board_modifier.py:287]: Track collision ignored, track starts or ends at the end of 38124348-93af-4810-8f59-433a1e2dbfcf track
+[board_modifier.py:338]: Adding track segment (B.Cu): [(47620000, 107266500), (49130000, 105756500)]
 [board_modifier.py:64]: Searching for D25 footprint in C:\Users\oyarz\Documents\pcbs\split_keyboard\split_keyboard.kicad_pcb
 [key_placer.py:95]: Routing L_SW25 with D25
 [key_placer.py:131]: Using internal autorouter method
 [board_modifier.py:407]: Routing at B.Cu layer
-[board_modifier.py:460]: Routing pad (160298692, 117719483) with pad (155670801, 123315224) at 30.0 degree angle
+[board_modifier.py:460]: Routing pad (153053103, 124829211) with pad (155670801, 123315224) at 30.0 degree angle
+[board_modifier.py:256]: Track collision ignored, track starts or ends in pad L_SW25:
 [board_modifier.py:256]: Track collision ignored, track starts or ends in pad L_SW25:1
-[board_modifier.py:266]: Track collide with pad L_SW25:
-[board_modifier.py:344]: Could not add track segment due to detected collision
+[board_modifier.py:338]: Adding track segment (B.Cu): [(153053103, 124829211), (153608102, 123867922)]
+[board_modifier.py:256]: Track collision ignored, track starts or ends in pad L_SW25:
 [board_modifier.py:256]: Track collision ignored, track starts or ends in pad L_SW25:1
-[board_modifier.py:338]: Adding track segment (B.Cu): [(160298692, 117719483), (159855800, 116066591)]
-[board_modifier.py:256]: Track collision ignored, track starts or ends in pad L_SW25:1
-[board_modifier.py:266]: Track collide with pad L_SW25:
 [board_modifier.py:256]: Track collision ignored, track starts or ends in pad D25:2
-[board_modifier.py:287]: Track collision ignored, track starts or ends at the end of 3611fd2f-cdad-42a7-a949-46310ba395c0 track
-[board_modifier.py:344]: Could not add track segment due to detected collision
+[board_modifier.py:287]: Track collision ignored, track starts or ends at the end of f466c050-e294-49b4-88e5-cfc975c3165f track
+[board_modifier.py:338]: Adding track segment (B.Cu): [(153608102, 123867922), (155670801, 123315224)]
 [board_modifier.py:64]: Searching for D26 footprint in C:\Users\oyarz\Documents\pcbs\split_keyboard\split_keyboard.kicad_pcb
 [key_placer.py:95]: Routing L_SW26 with D26
 [key_placer.py:131]: Using internal autorouter method
 [board_modifier.py:407]: Routing at B.Cu layer
-[board_modifier.py:460]: Routing pad (176796476, 127244483) with pad (172168585, 132840224) at 30.0 degree angle
+[board_modifier.py:460]: Routing pad (169550887, 134354211) with pad (172168585, 132840224) at 30.0 degree angle
+[board_modifier.py:256]: Track collision ignored, track starts or ends in pad L_SW26:
 [board_modifier.py:256]: Track collision ignored, track starts or ends in pad L_SW26:1
-[board_modifier.py:266]: Track collide with pad L_SW26:
+[board_modifier.py:310]: Track collide with another track: 1de8bb03-87b3-4760-b583-bb018daada7f
+[board_modifier.py:310]: Track collide with another track: 3ae8a480-59f6-4da2-a3cf-d7d145daa33b
 [board_modifier.py:344]: Could not add track segment due to detected collision
+[board_modifier.py:256]: Track collision ignored, track starts or ends in pad L_SW26:
 [board_modifier.py:256]: Track collision ignored, track starts or ends in pad L_SW26:1
-[board_modifier.py:338]: Adding track segment (B.Cu): [(176796476, 127244483), (176353585, 125591590)]
-[board_modifier.py:256]: Track collision ignored, track starts or ends in pad L_SW26:1
-[board_modifier.py:266]: Track collide with pad L_SW26:
-[board_modifier.py:256]: Track collision ignored, track starts or ends in pad D26:2
-[board_modifier.py:287]: Track collision ignored, track starts or ends at the end of 9d960c6e-9cf3-476b-bf20-92cf9c0f42c0 track
+[board_modifier.py:310]: Track collide with another track: 3ae8a480-59f6-4da2-a3cf-d7d145daa33b
 [board_modifier.py:344]: Could not add track segment due to detected collision
 [key_placer.py:162]: Removing dangling tracks
-[key_placer.py:174]: Removing 9d960c6e-9cf3-476b-bf20-92cf9c0f42c0
-[key_placer.py:174]: Removing 3611fd2f-cdad-42a7-a949-46310ba395c0
-[key_placer.py:174]: Removing 99b86de6-6f32-443a-ab4c-4bd114d0153e
-[key_placer.py:174]: Removing 46c713d3-ff9e-4e85-b179-52552464f36d
-[key_placer.py:174]: Removing 27646646-fb7d-4d08-80f1-7a7448aa6dcf
-[key_placer.py:174]: Removing 1cceb428-5fc4-438d-b896-cfbd930a385f
-[key_placer.py:174]: Removing 760b4434-d02b-4fa1-aeda-69073316d13f
-[key_placer.py:174]: Removing ad55642d-857e-40af-81f7-0afa34213712
-[key_placer.py:174]: Removing f91d1149-0093-4cf6-8461-b757c85dd23c
-[key_placer.py:174]: Removing 34ff2c03-20c4-48f9-bb47-2037e703ec00
-[key_placer.py:174]: Removing 707268f7-44cf-4a8e-84df-a81f9f198a09
-[key_placer.py:174]: Removing 97027667-fc61-4df1-8525-244b1e4b27c9
-[key_placer.py:174]: Removing 3f8afbc1-4b31-450c-a7c6-dac185f39d33
-[key_placer.py:174]: Removing 2ae7b15a-1b93-45e0-8043-e1b0dac56640
-[key_placer.py:174]: Removing 3373fc49-75f9-4496-9bbf-05d62f6598cf
-[key_placer.py:174]: Removing fe83b102-7040-40ad-8ddf-dd4890f28936
-[key_placer.py:174]: Removing 3f37330a-ff66-40b7-b652-02852b93d6c3
-[key_placer.py:174]: Removing 62857e27-bae6-44e6-90bf-c0e9d85467ab
-[key_placer.py:174]: Removing c685e315-d2be-4641-9052-7c70d731da82
-[key_placer.py:174]: Removing a70b7916-f9ba-410d-8cb8-0b54569d8ef1
-[key_placer.py:174]: Removing 75da300e-f2c3-4ba0-b984-3523c923fc2f
-[key_placer.py:174]: Removing c208c93d-1691-4c08-8087-1d63ddefe808
-[key_placer.py:174]: Removing 74fb7fd1-548b-4eaf-a207-f0acf48b451f
-[key_placer.py:174]: Removing 09f69c28-be34-40a3-b2ba-872ea4476fa2
-[key_placer.py:174]: Removing 60773316-94c8-4933-a985-c3c63bd10097
-[key_placer.py:174]: Removing b534dc2f-62be-43f3-9b21-83fb1a102938
+[key_placer.py:174]: Removing 137b1d3d-276e-47d1-8dc3-9663dae8264a
+[key_placer.py:174]: Removing e42982dd-89c4-4d00-8922-bae0cf50d6b7
+[key_placer.py:174]: Removing 78098e44-fa0f-49ff-b29e-54fbc5821427
+[key_placer.py:174]: Removing b8929df3-6b40-4d5f-8b73-45a18ee6597e
+[key_placer.py:174]: Removing 7762db2c-4277-427a-877d-43310b6cb6d6
+[key_placer.py:174]: Removing 90c47e60-3028-4c6f-884d-e07d0c01c13a
+[key_placer.py:174]: Removing 31f8c846-b73d-4878-ab2e-51182d2c807f
+[key_placer.py:174]: Removing 54118311-ca86-4e65-8023-8fc2c6b678a2
+[key_placer.py:174]: Removing 5fa33ffb-cec1-4e69-adf9-dbc616e85c14
+[key_placer.py:174]: Removing 4ec0df78-8f08-49dd-8475-fa1762167a43
+[key_placer.py:174]: Removing 598f0b57-d105-4346-8af3-b2138067ba14
+[key_placer.py:174]: Removing c006deb9-e592-4771-bba4-e83706371fa7
+[key_placer.py:174]: Removing ebf75277-afbb-48a5-8cc7-8205c286c7e6
+[key_placer.py:174]: Removing 933b4274-cfb1-4827-b2ff-10515a2378eb
+[key_placer.py:174]: Removing 2873e958-3006-412a-a033-3675e670def8
+[key_placer.py:174]: Removing 64f2bb5f-0263-4fd4-ab79-6f8f5a20d9bd
+[key_placer.py:174]: Removing 0b9d59af-4f89-4bac-8975-5d4d3a52df96
+[key_placer.py:174]: Removing 735b59e5-6840-4304-9e14-45ed33628dcc
+[key_placer.py:174]: Removing 8c981690-fb7b-41af-8316-347bf5df8fbb
+[key_placer.py:174]: Removing a5cd79ae-fac2-423f-80ca-8d72fc07efbe
+[key_placer.py:174]: Removing 465e0d9c-590b-4869-ae88-834f6e44264c
+[key_placer.py:174]: Removing b01e3b74-8956-45d7-b4a7-27d76206c254
+[key_placer.py:174]: Removing 1eaac676-5b30-40bc-8e40-dfaa4a4bb686
+[key_placer.py:174]: Removing 48742ffd-1da7-43b1-b0b9-6cacda86a615
+[key_placer.py:174]: Removing af5734fb-e581-4e8b-bb1f-fdd9f8ed133e
+[key_placer.py:174]: Removing e8cebbf6-0839-46ee-8e0e-c65badeab531
+[key_placer.py:174]: Removing 1a8bb4b6-9f08-4963-a276-b6198abeac70
+[key_placer.py:174]: Removing 7401f028-40f6-4e89-b594-74d7e94dcbd1
+[key_placer.py:174]: Removing 178907e4-e26b-41cc-8d70-3f8d6b3a4aa0
+[key_placer.py:174]: Removing c30bcecd-e7b1-4d54-aa27-7cc5c3cc59d0
+[key_placer.py:174]: Removing d6732cfd-2f8c-4238-982c-daf40e46b8bc
+[key_placer.py:174]: Removing f8e0e7fd-ec47-4972-8c5b-8c4132cb0986
+[key_placer.py:174]: Removing 10823976-b106-4757-9d09-2901ac27de7f
+[key_placer.py:174]: Removing aea077aa-17eb-4932-8486-22b1392ee61b
+[key_placer.py:174]: Removing 6fdd2045-76f4-4ce4-8f38-c54cfed1bcec
+[key_placer.py:174]: Removing 6fff2c8f-1b9a-4623-bfcc-874f3561ab71
+[key_placer.py:174]: Removing a90f7843-ae6a-4b99-8838-135b64b25ecf
+[key_placer.py:174]: Removing ab29fa9d-6956-4359-8719-331967e561c2
+[key_placer.py:174]: Removing 1ae67c36-bdb8-4cd3-a67a-9b1da1be278c
+[key_placer.py:174]: Removing ed75a0d5-e939-4973-95fe-393c556d76c1
+[key_placer.py:174]: Removing 09da4cf0-caa8-42d7-8901-b4952f8aac2b
+[key_placer.py:174]: Removing 34c963fe-66c2-408c-a427-878a8b22a568
+[key_placer.py:174]: Removing 29368861-485b-4007-af55-25695190c9e4
+[key_placer.py:174]: Removing 522b7375-9555-4c6e-b749-c1f849aba2d8
+[key_placer.py:174]: Removing 428f599b-f4fd-4df1-beff-e007b3a347d2
+[key_placer.py:174]: Removing d805d282-ca14-456b-b7c3-d608fb1c6d9e
+[key_placer.py:174]: Removing 0757d78a-df7f-4c01-abf9-09dce4eb287e
+[key_placer.py:174]: Removing af61f3ca-c419-401a-acf5-bca94f2a026a
+[key_placer.py:174]: Removing 82770ba0-b87a-4cf1-b93e-1d6f012339a6
+[key_placer.py:174]: Removing d51f5ecf-6cb2-4545-8bb3-77eee368ee58
+[key_placer.py:174]: Removing 92c13bd2-9fbc-4086-89a1-f79110312909
+[key_placer.py:174]: Removing ac79d002-d256-40e2-a2dc-32fdc7455bf4
+[key_placer.py:174]: Removing 1cf8218c-a3e9-40a4-95e7-fd6f7f68d0a8
+[key_placer.py:174]: Removing ba0aecc3-8643-4615-984a-41a8704e58fe
+[key_placer.py:174]: Removing 35b10367-86f4-4a58-804b-2303ce24ce67
+[key_placer.py:174]: Removing 8901524c-a89e-44af-aeeb-52041467fec5
+[key_placer.py:174]: Removing 7bbb2782-8d58-493f-a529-f38068f13578
+[key_placer.py:174]: Removing c610c632-22f7-43c5-b6ac-a491a91f0b89
+[key_placer.py:174]: Removing 500bddae-2bda-48ea-9ad9-a5c00c966678
+[key_placer.py:174]: Removing 85d60cb4-d2b1-4db8-92bf-9e4dd407f852
+[key_placer.py:174]: Removing 00d73f77-7668-4078-9a47-915d09916137
+[key_placer.py:174]: Removing 8a0dc87c-ebf2-4b26-b320-864e0f972d1c
+[key_placer.py:174]: Removing 4d040d0c-5c42-4792-9e21-50fe249171ad
+[key_placer.py:174]: Removing cfe154fb-074c-429f-a4a5-c6c557e5f3d1
+[key_placer.py:174]: Removing 0ed8f9ea-47b0-4327-ab91-befdeb59058a
+[key_placer.py:174]: Removing a6621354-1f12-4783-8b91-f2aee47f73cf
+[key_placer.py:174]: Removing 403a83f5-6df2-476c-850d-8b55844e1bfc
+[key_placer.py:174]: Removing eb3fd6ae-d481-4d0e-b986-919196d75c14
+[key_placer.py:174]: Removing 72ec5948-e21e-4e5b-add1-e3a5a9983fa6
+[key_placer.py:174]: Removing cb1314b6-aacc-40d4-bd26-bf48e0128330
+[key_placer.py:174]: Removing d9d6b520-0502-4358-880e-0ef9c2aca015
+[key_placer.py:174]: Removing bee6fd0d-ee38-475e-b7bd-d53ae619939a
+[key_placer.py:174]: Removing d7e08b45-c4d0-48c2-a5fd-4a0180dcdb60
+[key_placer.py:174]: Removing 2c9a0ed0-2a25-4eeb-86f1-5b20e02f1eec
+[key_placer.py:174]: Removing cc863bed-1a3f-49e5-94a4-64316ae6f279
+[key_placer.py:174]: Removing 336b2513-0c37-455b-bba0-ace6b4d717ee
+[key_placer.py:174]: Removing 0d610e93-2f07-4503-8489-4466b098a9a2
+[key_placer.py:174]: Removing 21957d11-876a-4d10-9af8-6f166a79b3c1
+[key_placer.py:174]: Removing b38d0aad-ced2-4d00-ae0d-275dd0b8b132
+[key_placer.py:174]: Removing feb6b8cc-5e97-4747-af84-b4a3e24f2219
+[key_placer.py:174]: Removing 7bcb688a-6a5f-4183-9015-135c72ecc157
+[key_placer.py:174]: Removing 8b67a903-b200-4fd7-8ce1-212a0f51bb00
+[key_placer.py:174]: Removing 2f8a1261-22d6-4b89-819c-9ca89280901d
+[key_placer.py:174]: Removing c59df872-8980-4505-84b6-8bc1f670ae30
+[key_placer.py:174]: Removing 0f88a958-f8c6-4cfd-be8a-3bba574a1cd5
+[key_placer.py:174]: Removing 97d9d8a6-0ff8-4eb9-9553-d8383ca298ef
+[key_placer.py:174]: Removing efca382a-95a7-48e3-9eee-2ecf65ddd691
+[key_placer.py:174]: Removing 0f452bea-8791-4b51-a797-bb98b01ae6ec
+[key_placer.py:174]: Removing 424ef32c-0f33-4258-8259-89fb72eadded
+[key_placer.py:174]: Removing 1a236c6f-3d9d-4c54-90d3-e5e28af29e74
+[key_placer.py:174]: Removing f010d363-d3f3-48e2-b397-9335af627264
+[key_placer.py:174]: Removing 6214b870-1ec7-4dca-a335-b0a80766791a
+[key_placer.py:174]: Removing 629923c4-d4d3-4ab2-8ffd-3e8c1459971e
+[key_placer.py:174]: Removing 2c6c96a3-37c6-4b36-8eb6-06e307880063
+[key_placer.py:174]: Removing 09e8ab7c-7f4d-4539-9e30-f72ffd7530e9
+[key_placer.py:174]: Removing f84719b1-2974-4ea4-b99a-cdda8271582c
+[key_placer.py:174]: Removing 8b9e11b4-2978-4ada-ad9e-e0990d9951c8
+[key_placer.py:174]: Removing 9d14ffdb-b2b9-4c2f-be5f-34c0b1411eb6
+[key_placer.py:174]: Removing 5c945a23-6c50-48ab-9c03-dfd4647db562
+[key_placer.py:174]: Removing bf7694ab-d930-4fe1-82d2-f8fd80d545b0
+[key_placer.py:174]: Removing 080ea8ab-d68f-41e5-9f0f-b583ebbbb292
+[key_placer.py:174]: Removing f2a0ade8-c1c1-4bd2-9dc2-23c6d0957cd8
+[key_placer.py:174]: Removing 2adddd79-eda2-4c87-9587-819067674b8b
+[key_placer.py:174]: Removing cdb13eb9-82d0-405f-b658-fcc7ee6229e3
 [key_placer.py:174]: Removing e88d9942-3a31-4e89-bcf1-5591f846264f
 [key_placer.py:174]: Removing 1f1a5861-c615-4225-8014-37354b69f7b0
 [key_placer.py:174]: Removing 826ad816-8313-47d0-a670-c8ec69972672
 [key_placer.py:174]: Removing a160f2cf-d327-485b-84e7-fde1c7485390
 [key_placer.py:174]: Removing ac8b3e90-f40a-48b2-9aa4-acb44b19c582
+[key_placer.py:174]: Removing ca0ccacd-4381-4e17-97e9-1a8a9b11f970
+[key_placer.py:174]: Removing ef65cc16-5e08-405f-8ab0-7730f88be386
+[key_placer.py:174]: Removing 0f692fe4-52e1-47e6-ba64-8bbb7b390652
+[key_placer.py:174]: Removing 47d2b6c6-3556-4298-889e-f58f5ffe0409
+[key_placer.py:174]: Removing dfb8476c-aa40-4046-8886-468484a83a2e
+[key_placer.py:174]: Removing 13847010-adf2-42cc-85a2-187529ace418
+[key_placer.py:174]: Removing 24b670b4-9aea-4eef-aaf2-6c8dbef2f2ae
+[key_placer.py:174]: Removing 04b27747-0109-405f-9547-ebfcdd96f7ac
+[key_placer.py:174]: Removing 21d554e5-bbe7-4ce1-9b77-5f582d3dc0e4
+[key_placer.py:174]: Removing bca8c89d-aa14-4fe6-a56f-2416cb14798e
+[key_placer.py:174]: Removing f55dcbcb-1fb8-41a0-9e02-921a38dc6101
+[key_placer.py:174]: Removing 0c115500-d284-4e63-abfa-a874aeb9acbf
+[key_placer.py:174]: Removing 21059a64-fee1-40ac-8342-67853a95efba
+[key_placer.py:174]: Removing dfe6dce6-3dd1-46c9-a6b4-189ef6cbb77c
+[key_placer.py:174]: Removing ec8571ca-eed8-43d9-9697-04d4b3bffc08
+[key_placer.py:174]: Removing 18b01b8f-2e4d-40e3-86ab-419127bdeca9
+[key_placer.py:174]: Removing 3813d588-8120-43a5-8e8a-9078b451407b
+[key_placer.py:174]: Removing 878ec079-b417-4f7e-bf3b-4cb71e6e3588
+[key_placer.py:174]: Removing 411f3fd7-4faa-4790-b629-ac8273731990
+[key_placer.py:174]: Removing ea216a16-74d0-4052-86e4-adb5a8d93337
+[key_placer.py:174]: Removing 48c70c76-33ac-4efc-a9e1-b4a43f7f8e64
+[key_placer.py:174]: Removing 63c31d22-a1f6-4534-b7e7-caa7725e253a
+[key_placer.py:174]: Removing e8b0ba36-158a-4be7-9187-8acc5337185d
+[key_placer.py:174]: Removing 951b3405-3d05-4a1b-b450-b7090c6f2940
+[key_placer.py:174]: Removing abc73797-e3f6-4f6a-90f1-d9236f9ff138
+[key_placer.py:174]: Removing 717e376b-dbb1-4c43-a390-34455b5b2f4f
+[key_placer.py:174]: Removing c4bc57c6-c2a0-47f8-b8c1-4ec713926efe
+[key_placer.py:174]: Removing 9c81ba0d-862b-40a9-b3b4-9e66e8e801c3
+[key_placer.py:174]: Removing d26fc8a6-1a8d-42fb-b093-2ec1cd55c5b4
+[key_placer.py:174]: Removing 42dc2a3a-7fe7-46ea-8898-3265652e6f0d
+[key_placer.py:174]: Removing 532ad755-d574-4136-8845-160da1c18e3f
+[key_placer.py:174]: Removing 59fab3c4-306a-4be8-a434-418344c19a90
+[key_placer.py:174]: Removing 91e9cf43-33d1-4f7f-a935-656f7f423109
+[key_placer.py:174]: Removing 0b0bab22-bff5-4de4-a755-fd6c28a1e294
+[key_placer.py:174]: Removing 6229a87b-c840-4b62-a5c2-938da3108be8
+[key_placer.py:174]: Removing 8bf03dbd-d988-4565-af8f-d6d0b8458249
+[key_placer.py:174]: Removing df0d7bfd-140b-49ab-86d4-9fad3e620d4a
+[key_placer.py:174]: Removing 3d55302b-63d1-4dfb-947f-ccdb81812308
+[key_placer.py:174]: Removing f6119a1e-085e-4f3d-9e2a-87019c6dd884
+[key_placer.py:174]: Removing 12c7fbab-cd0c-4dcc-b9a9-11b7c43d4cd3
+[key_placer.py:174]: Removing 56427d04-aa8f-44c8-af4b-3b4e08f48013
+[key_placer.py:174]: Removing c2d8a832-b83d-448e-9149-b774cd76ab30
+[key_placer.py:174]: Removing d0aaf83f-bca8-4f97-87e3-51f07a025933
+[key_placer.py:174]: Removing 06d06874-8aba-4647-b0c1-3a1709a1fd0c
+[key_placer.py:174]: Removing b0178c07-3966-42c6-9633-e5b7f3bd975c
+[key_placer.py:174]: Removing 3c1479fc-133c-4036-b46b-0eaf797c970a
+[key_placer.py:174]: Removing c33164ba-0543-4ed5-964b-0a21e0e669d2
+[key_placer.py:174]: Removing 224ee0d8-ec55-4b4a-847e-83a3d9d657ad
+[key_placer.py:174]: Removing 5b029dba-a922-4743-b238-d9aa2437056d
+[key_placer.py:174]: Removing 057b4ac9-71c8-4b79-93fe-f3c4d674f395
+[key_placer.py:174]: Removing 4bc64b3f-dc6d-4317-8279-404b35a21acd
+[key_placer.py:174]: Removing 272cc507-8c7f-4d4c-866c-a26d75fe7fba
+[key_placer.py:174]: Removing d7e269be-25ed-4c2e-8731-5e9955428b9b
+[key_placer.py:174]: Removing 0f62895b-376e-4a22-a4ef-60af1c04e667
+[key_placer.py:174]: Removing cb1b68fb-475a-4820-b0ff-657d4c9490bf
+[key_placer.py:174]: Removing 4500d9b9-a346-4669-b77f-cac61cbc19e6
+[key_placer.py:174]: Removing f9b18e2a-8b8c-4bfc-952d-6ea887c2e61f
+[key_placer.py:174]: Removing 1e495735-9263-4f01-bdf3-aca88e6c4113
+[key_placer.py:174]: Removing 7d36f3bf-3179-44e8-a8a5-abb0a719633c
+[key_placer.py:174]: Removing b9f41af1-14a5-4323-9621-0d62e89f3adc
+[key_placer.py:174]: Removing ec2a2a15-55d5-4850-aba7-1bd523487bd4
+[key_placer.py:174]: Removing 5e38c3a2-8678-48cb-a877-fbd8306523e3
+[key_placer.py:174]: Removing 99d8720a-ad06-4943-baa4-df19ee6acce7
+[key_placer.py:174]: Removing 0f36677d-f3e6-482f-a6f3-ebfc54d5997b
+[key_placer.py:174]: Removing d1191a5b-a254-4573-96f8-3b9fbed1e454
+[key_placer.py:174]: Removing 94f389e7-b752-4faa-bbba-0e18ca8173f4
+[key_placer.py:174]: Removing e4741c50-6acf-4981-a36a-edfbc844c82c
+[key_placer.py:174]: Removing 0417b49e-2f09-4858-b326-53a7127f7df6
+[key_placer.py:174]: Removing 23e3bf9f-e693-45bd-bdd5-db43246caebb
+[key_placer.py:174]: Removing 037bf138-bd6f-4fd4-ae16-3a253b95b655
+[key_placer.py:174]: Removing d3a5df24-a954-46a2-806b-82082c7e5d21
+[key_placer.py:174]: Removing face6d22-d714-4097-9720-031da5c304ae
+[key_placer.py:174]: Removing 82089318-d649-48d5-aebf-c13baa47ea42
+[key_placer.py:174]: Removing cd6bec13-6f69-4695-8dd9-64cec0d737cc
+[key_placer.py:174]: Removing eb2b4896-833e-4e1d-b9f7-420e7eee7d9a
+[key_placer.py:174]: Removing 4e2a1559-152d-4653-8295-43319beb2e2d
+[key_placer.py:174]: Removing 226e7285-a187-4eda-9b7b-5311d8715007
+[key_placer.py:174]: Removing 29bc71d2-8288-466d-b846-bd6b1264e032
+[key_placer.py:174]: Removing 31f2565a-8fb2-4ecc-a034-d7cc94704919
+[key_placer.py:174]: Removing 5b32b92e-5d8e-4b76-80bd-93d4692d6922
+[key_placer.py:174]: Removing 7a8ce38f-ddb0-453f-b571-f20a379447c8
+[key_placer.py:174]: Removing a490d195-e4c9-4781-a3fb-66e485f9c41c
+[key_placer.py:174]: Removing c08a8797-3d8b-4c3e-9b86-855245a47bf3
+[key_placer.py:174]: Removing d24bd581-6020-40dd-b6c3-966e647a2e2b
+[key_placer.py:174]: Removing 04d3f80b-9d79-4bd0-bde9-77ba4bb3b183
+[key_placer.py:174]: Removing 5ec9a9cc-db8f-4cfd-aa4c-262ec7bf2b67
+[key_placer.py:174]: Removing d23a2efd-ebab-4caf-aa76-14073dce5d96
 [key_placer.py:162]: Removing dangling tracks
+[key_placer.py:174]: Removing 73c64617-506e-4eda-a90b-72b955fb079b
+[key_placer.py:174]: Removing ff562430-c388-4929-931b-11354d8ffd70
+[key_placer.py:174]: Removing c96425ed-fdc2-4378-ac05-cb7a91b2a659
+[key_placer.py:174]: Removing 9d8dd422-392c-455a-be02-12b1d0a872a3
+[key_placer.py:174]: Removing bd4e6f71-cc2f-4a7f-88ea-d8f60d452a56
+[key_placer.py:174]: Removing 318e8103-950b-4bd7-844e-7fb922894e1b
+[key_placer.py:174]: Removing e318b55e-0257-4b5b-91d1-8564fdc545fb
+[key_placer.py:174]: Removing 5123ac07-6c70-4aba-9898-6ca85b59b31f
+[key_placer.py:174]: Removing 1d5b3972-655d-45a7-877e-8cf53dabaabc
+[key_placer.py:174]: Removing 486a33b1-d4d0-4ba0-bbd4-e0f47b66910e
+[key_placer.py:174]: Removing c6e15738-7dec-4918-a978-f22dc7468a76
+[key_placer.py:174]: Removing d9f17434-0d4a-4a6f-a9a5-7ba010c42c6f
+[key_placer.py:174]: Removing 95cb3357-cfd4-41e0-9e30-3bf85aea3732
+[key_placer.py:174]: Removing ab2466a2-18dc-4378-9a3f-650738132305
+[key_placer.py:174]: Removing dc1fd5b8-99c6-44f5-9a05-656616e15eed
+[key_placer.py:174]: Removing e0d3754b-c485-4d22-89f9-ea15834ec34d
+[key_placer.py:174]: Removing 80401768-9eee-4bab-bdde-bedcd6637327
+[key_placer.py:174]: Removing 46ec652d-1ea5-4059-969e-a116cba3374a
+[key_placer.py:174]: Removing 829a3bcd-a20f-4c69-a389-036b329757f6
+[key_placer.py:174]: Removing c2428428-c275-4c53-8880-0164d1e2391c
+[key_placer.py:174]: Removing f2ac610b-6953-4dc9-b4e0-37fd92457719
+[key_placer.py:174]: Removing 252946e4-64a6-423d-b03d-376185587d2f
+[key_placer.py:174]: Removing 533668c4-3a6c-4e92-8be7-95512daf67de
+[key_placer.py:174]: Removing 61d4defa-15ad-4150-add8-da46d4689ab3
+[key_placer.py:174]: Removing 712658da-78b4-4080-b1f0-d04b71ccc92b
+[key_placer.py:174]: Removing 11bea53a-3172-415e-81cc-e21853fc5a84
+[key_placer.py:174]: Removing 13064498-0c74-41e8-8c2a-fe01146ca3ee
+[key_placer.py:174]: Removing 63d78277-f3eb-4228-a39e-5765ec804c09
+[key_placer.py:174]: Removing eca67f36-f612-488a-a89b-5573de902b1b
+[key_placer.py:174]: Removing c4b8521e-6bcd-469f-afe6-95d4bdb3279a
+[key_placer.py:174]: Removing 91f72cb0-176e-4e41-ac59-937138acaa2b
+[key_placer.py:174]: Removing 9e24aa2b-6468-42c9-805c-9cd630c1091b
+[key_placer.py:174]: Removing c8cf6bd6-8bc6-4a11-8350-c482255c8c59
+[key_placer.py:174]: Removing 676759e1-ebde-4888-80f2-ba90053c8c1e
+[key_placer.py:174]: Removing 73d48394-6a65-494b-95b7-4b463b60efa4
+[key_placer.py:174]: Removing 63e633ea-3ca4-42d1-8c66-d74bc41ea72e
+[key_placer.py:174]: Removing c3cb3672-2220-4893-a14f-e8106dbf56a8
+[key_placer.py:174]: Removing 7cf69530-fd11-48f7-8737-79c24cf7c6bc
+[key_placer.py:174]: Removing c2d131e4-8d58-40f7-8705-212e8ba15376
+[key_placer.py:174]: Removing 63da910c-0122-4349-8730-5750055ced36
+[key_placer.py:174]: Removing 6ad99b88-e77f-4f39-a029-481817d04ce9
+[key_placer.py:174]: Removing 97f5b9a7-3f98-43f1-81ca-51f1c1e84bc4
+[key_placer.py:174]: Removing 6931b9a7-3564-4975-bf75-63d09a28bc4b
+[key_placer.py:174]: Removing 737277e0-59b4-4908-9dec-52e0cc42917c
+[key_placer.py:174]: Removing ca8aa96f-2ac4-4b7a-84d5-bceab4b9d99c
+[key_placer.py:174]: Removing 32ffab55-6196-4a40-9da0-fe78bcb4ec96
+[key_placer.py:174]: Removing 09bcf6df-9c80-424e-aa76-16942b05a38e
+[key_placer.py:174]: Removing 12b74964-3fc9-416a-94e1-e3d4c62e24e9
+[key_placer.py:174]: Removing 1d965920-fcb1-4bc4-82ad-e3e023e4b5f8
+[key_placer.py:174]: Removing 43f40d80-ec5f-4033-8572-289ee90848d0
+[key_placer.py:174]: Removing a89a0d73-5455-4429-83a3-8fc158bc2a4f
+[key_placer.py:174]: Removing 0ab4cf0f-482d-4ba1-b765-2a411d857bcd
+[key_placer.py:174]: Removing 771a4b9c-c3ef-4191-a3e2-6a2cc0655603
+[key_placer.py:174]: Removing a75233af-e134-4901-ad39-7e1a239f57e0
 [key_placer.py:174]: Removing f32dc4e8-b0c7-446a-8808-728f6e775b7c
 [key_placer.py:174]: Removing 92661996-e084-417d-9de0-24a7e777cecf
 [key_placer.py:174]: Removing fb67887e-6bef-4800-806d-c37d475be60f
 [key_placer.py:174]: Removing 30c1b847-6f86-4df6-8942-0cd32b6d3dcc
 [key_placer.py:174]: Removing 84996287-ad81-4bb8-a982-b45d88b5d1e3
+[key_placer.py:174]: Removing 68dd7924-0ed9-48cc-98a0-4694a6a88990
+[key_placer.py:174]: Removing 3f8e7054-fba2-44eb-91db-30ff19ee2726
+[key_placer.py:174]: Removing 7e610370-bee2-4d69-89fb-f5b62e1741d8
+[key_placer.py:174]: Removing 41fdfef0-ab57-4fe3-ac36-b2fec0976216
+[key_placer.py:174]: Removing 95e07093-0e42-4706-b910-c239d43c45cf
+[key_placer.py:174]: Removing adb7657a-9bdd-46e4-8c6a-70ffd254cc20
+[key_placer.py:174]: Removing 2cec0f1f-035b-4e93-b58b-9fabbfd175d0
+[key_placer.py:174]: Removing 35977d64-853c-43b8-a501-4431ba52aba8
+[key_placer.py:174]: Removing 8fd419e1-fbdf-4729-9d29-58bbb0f2b951
+[key_placer.py:174]: Removing 98df4463-16a5-43ca-ba51-1e70d9481ccf
+[key_placer.py:174]: Removing ab9ee5b8-2607-462a-b436-14bc66beb705
+[key_placer.py:174]: Removing 10df9358-1ac3-4451-9195-9bad168c7dba
+[key_placer.py:174]: Removing 59fe3549-684d-43bd-9772-43d4526fdc97
+[key_placer.py:174]: Removing a5dd79c1-9150-487e-afad-ab3c7b0a77bc
+[key_placer.py:174]: Removing bed7346f-e9fa-4f43-a946-497de9d7fabf
+[key_placer.py:174]: Removing 6059cc1a-d99b-4bae-9e98-4e4544923ffb
+[key_placer.py:174]: Removing b33a20b7-f667-48f3-b655-c4691952ed06
+[key_placer.py:174]: Removing 18349e5c-7245-4ca1-9d8e-dc9ce60335b6
+[key_placer.py:174]: Removing 728b9feb-dc01-4241-bf37-208ae10840aa
+[key_placer.py:174]: Removing 17f650f4-22bb-4660-a432-fa9842abde79
+[key_placer.py:174]: Removing 5132370d-f950-4d02-9e16-7ceaf212dabb
+[key_placer.py:174]: Removing cb202259-180e-4164-ac91-114ef18ad162
+[key_placer.py:174]: Removing fe5a1332-a151-488f-801f-afdd4bd81ecb
+[key_placer.py:174]: Removing 5c2abbe0-28e7-4df6-aa02-7b58e2b5ac5a
+[key_placer.py:174]: Removing 0b2591f7-adb6-4d8a-9a5c-fe8ceddad716
+[key_placer.py:174]: Removing 7d1a7ae2-9980-4b93-8300-388e9c371485
+[key_placer.py:174]: Removing 73e0c46c-c39a-4d34-9a59-ec37ffa64915
+[key_placer.py:174]: Removing 8d8df5ce-bcc3-4702-bff6-c1f9f45b8c1c
+[key_placer.py:174]: Removing cca65fde-4a54-4319-be69-e275da5f12dc
+[key_placer.py:174]: Removing f48f93a9-c199-43ce-8eb8-5e12644a1709
+[key_placer.py:174]: Removing 76ba66d0-5842-4447-92cf-ff0245767741
+[key_placer.py:174]: Removing fa344614-5857-4a25-9237-76fc2053d873
+[key_placer.py:174]: Removing 80af1c4c-c2a4-4a17-90ae-225b5883a2c3
+[key_placer.py:174]: Removing 826b0730-3d71-41dc-8868-62e7c5514dd6
+[key_placer.py:174]: Removing 3d941622-c4fa-4b75-b1b4-8a2d9908930e
+[key_placer.py:174]: Removing dbb08b83-4622-4bc4-af6a-de7e64e98c95
+[key_placer.py:174]: Removing 65f601a7-e577-48ee-b699-36013dfa3961
+[key_placer.py:174]: Removing a79597fd-ec3f-477d-b1e5-314d6ef3f9f1
+[key_placer.py:174]: Removing 0d010f91-aa8a-4c41-9322-f847ade88388
+[key_placer.py:174]: Removing 3699c5d6-104e-453d-891a-407452b766f9
+[key_placer.py:174]: Removing 57e7b60c-16e3-41f3-ab2e-ab175b409088
+[key_placer.py:174]: Removing 763f04e1-5af5-45c3-bd38-1392c8e75792
+[key_placer.py:174]: Removing 196f9ff5-1947-4abd-bb83-06dada49cf34
+[key_placer.py:174]: Removing 297bb426-e16d-4259-93ef-f39507db87a8
+[key_placer.py:174]: Removing e8a83230-429a-477a-9a99-486fe3f575dc
+[key_placer.py:174]: Removing 42d91de2-6d5e-4de5-be7c-8674b28e7500
+[key_placer.py:174]: Removing bf3b3005-2ced-4c54-9561-e3fe614cee62
+[key_placer.py:174]: Removing bb5b7d91-a0cf-46af-86ab-2e6daa933fb9
+[key_placer.py:174]: Removing edab5c5e-3a20-4d39-851b-9c69b0cb8eb6
+[key_placer.py:174]: Removing 97deae85-3c28-4eaf-8b09-737d19c3b07e
+[key_placer.py:174]: Removing e4928401-0e55-45e1-b585-8ef8921b0219
+[key_placer.py:174]: Removing d4cd0465-031d-4649-9697-aaa9271a9c4f
+[key_placer.py:174]: Removing f5de988c-126e-4b8b-b114-9827716b8213
+[key_placer.py:174]: Removing 8d8b74f6-8d03-4090-bba7-dadfb3e79987
+[key_placer.py:174]: Removing b05b55ce-8c85-4c70-ac11-c31798d934e5
+[key_placer.py:174]: Removing 91747722-a6e4-4c05-bd2c-a74b96b306cf
+[key_placer.py:174]: Removing dc93324f-a331-4b1f-a574-68d65b863f21
+[key_placer.py:174]: Removing 3c9bd368-9666-4e04-a858-c15cdf4d63ab
+[key_placer.py:174]: Removing e4ffa700-eaa8-4456-907d-1440e6135352
+[key_placer.py:174]: Removing 11ce19cc-fcc0-4985-a849-cb754768f798
+[key_placer.py:174]: Removing 30de1f83-6910-45b9-bc32-4c7190e4a0cb
+[key_placer.py:174]: Removing cebca4ca-e490-45f9-ad76-b08601b2abee
+[key_placer.py:174]: Removing d13fc2c7-a710-411b-918b-ecafd73dc7df
+[key_placer.py:174]: Removing 1e8822ba-607e-452d-a3d3-603b0e56c395
+[key_placer.py:174]: Removing ca6d4b7a-aa1a-4b5f-8728-ec383b5854aa
+[key_placer.py:174]: Removing e93afd0c-302f-43a8-a008-84ae2a2082c9
+[key_placer.py:174]: Removing f6f55f4a-d594-4212-92f9-be21a77f3059
+[key_placer.py:174]: Removing 3dd116a7-a6d5-4de5-9e9c-b932195c6980
+[key_placer.py:174]: Removing 70c24c30-2ba1-46aa-8fca-ae2a5abf7b57
+[key_placer.py:174]: Removing 8c6d3ff6-06d5-4399-8cf8-4293243996a1
+[key_placer.py:174]: Removing 9f77163e-7782-4d79-b27b-1bef59dcebb0
+[key_placer.py:174]: Removing a88f189f-21ea-404a-8fe6-17e4d82b766a
+[key_placer.py:174]: Removing e9bca5a6-4003-4665-ac9c-5b4c813972be
+[key_placer.py:174]: Removing f224d554-d29a-49ba-890a-72b94556d118
 [key_placer.py:162]: Removing dangling tracks
+[key_placer.py:174]: Removing 716d9307-aea9-4328-8268-549b2f3afc93
+[key_placer.py:174]: Removing 61dce546-108b-44e8-969a-02597566414e
+[key_placer.py:174]: Removing e72158cc-d711-46ca-80d7-ff8d45319d54
+[key_placer.py:174]: Removing 24912149-e2f0-427f-95be-48b3ed930a4a
+[key_placer.py:174]: Removing 65b36718-869e-4076-a89f-7ff51a1571f2
+[key_placer.py:174]: Removing 401ff5a2-b770-4e25-9ae4-f7c48fa405af
+[key_placer.py:174]: Removing 12fc673f-2f01-4663-bcf2-de836e7ba51c
+[key_placer.py:174]: Removing 825f5d71-d6b2-4289-8bf3-e3e04b34d5bc
+[key_placer.py:174]: Removing 148f99d3-1078-4cf8-88cc-28e195e48a7b
+[key_placer.py:174]: Removing 57a71de4-efce-46bb-b5a1-55163d8a5b4e
+[key_placer.py:174]: Removing 837ead24-44ee-4e44-83ea-840becddecf1
+[key_placer.py:174]: Removing 88672070-b6bb-4f1d-8a31-febef9977313
+[key_placer.py:174]: Removing 6eb7fb58-1dde-4b48-9c13-b407ada1cad9
+[key_placer.py:174]: Removing 5a0ab5f6-76ad-4e1b-a405-2f91d63a8b6d
+[key_placer.py:174]: Removing 62176a46-1e71-4331-8f79-fc5c18a9d759
+[key_placer.py:174]: Removing 72999dd6-15d4-4c41-bf2c-15caf04d650e
+[key_placer.py:174]: Removing 271ca1f1-1170-4c09-956a-a3d8525a310d
+[key_placer.py:174]: Removing 1407b04b-b3e2-49af-a7a8-de0206a2cfb9
+[key_placer.py:174]: Removing 4ddd8637-60f9-4d6e-b54d-f513b612f04b
+[key_placer.py:174]: Removing 821a8dff-6e20-4dbd-8c81-044bf92c3bbf
+[key_placer.py:174]: Removing d06a5089-bf91-4e7d-a64b-2be69dc777e2
+[key_placer.py:174]: Removing 572d9cce-54e7-48d7-83e7-caa9b8d29755
+[key_placer.py:174]: Removing a664bee3-5d0f-4a10-8083-0acd59e3df89
+[key_placer.py:174]: Removing b6296aeb-5d96-41d3-9d7d-35c912b55c13
+[key_placer.py:174]: Removing 041a3f73-a549-4486-b353-2ea0b9e90b15
+[key_placer.py:174]: Removing bf699993-6b0a-480b-8cdd-effb9d7d71f8
+[key_placer.py:174]: Removing 80197fdd-b915-4eec-9e33-4d33485e9b1e
+[key_placer.py:174]: Removing 81cd91df-e98c-4e2e-9ba4-98130c3600eb
 [key_placer.py:174]: Removing ea63635d-fe3e-4676-ac56-48a98fe15425
 [key_placer.py:174]: Removing 20303141-c90b-4ca4-9294-dbf821774613
 [key_placer.py:174]: Removing 44c4dd01-676a-4812-b29e-9d4a20c6bdaa
 [key_placer.py:174]: Removing 4440f165-d19d-4c6d-9aee-80603a1b0d91
 [key_placer.py:174]: Removing a718b8b6-844a-4901-8c37-0543ae4985a1
+[key_placer.py:174]: Removing 974d860f-0682-42fe-a3a1-1bcd6766eb93
+[key_placer.py:174]: Removing c3cd2951-a552-4f5e-9dfe-c9c188b7bda2
+[key_placer.py:174]: Removing d4f18aa9-b4f5-42ac-bd83-52be157da6bf
+[key_placer.py:174]: Removing 15c96ab3-ad02-44db-981e-6789661c5f6c
+[key_placer.py:174]: Removing 3eca1385-99f6-4595-9558-972348b4edc1
+[key_placer.py:174]: Removing 42b54f97-841c-44bd-9aee-deb2209b9fab
+[key_placer.py:174]: Removing d30f23c6-2361-4e8e-962d-1646b3316f7f
+[key_placer.py:174]: Removing f469483f-810b-4216-89b8-c9daf0a8f907
+[key_placer.py:174]: Removing 3fcd5438-cc8f-44bf-ad79-08dd3103543d
+[key_placer.py:174]: Removing 4039816f-65ce-4054-9f0c-2c6dcb61c4c8
+[key_placer.py:174]: Removing b83f9d7f-03d4-4d80-b929-021aa2610af1
+[key_placer.py:174]: Removing fcc00aa7-edb7-42ad-9b84-2750e1c00a01
+[key_placer.py:174]: Removing 25f7122d-fbe2-427f-9c70-fa9203c24580
+[key_placer.py:174]: Removing 692d30e8-c84d-479d-a863-5ac9ce4d9abd
+[key_placer.py:174]: Removing 44a5e6a3-6274-4809-b0d1-2923c15c2953
+[key_placer.py:174]: Removing 1c65d926-12f9-4253-bc30-ad49a4c17a41
+[key_placer.py:174]: Removing 9340b14a-e3b2-40a2-9e6b-90d9cdc0c170
+[key_placer.py:174]: Removing 8b69af11-208a-46b3-baeb-9d02f2ea5ec0
+[key_placer.py:174]: Removing 70ef2abb-a56b-43c6-b1c1-b9600b37f93e
+[key_placer.py:174]: Removing 99555318-4441-42ce-851b-a3b1430f60a5
+[key_placer.py:174]: Removing 994fa1ae-9301-4484-882e-1eb251d333eb
+[key_placer.py:174]: Removing b5b03969-a9b5-4e3d-bb29-512657a6d40d
+[key_placer.py:174]: Removing 40e99d27-b033-406f-b481-d95783d7040b
+[key_placer.py:174]: Removing d8cc80a9-40e9-4ccd-9b9d-bc7be7cb24a7
+[key_placer.py:174]: Removing 5450636e-a0cd-4046-8df7-4dc760024121
+[key_placer.py:174]: Removing 738bf288-c19e-4eb2-84d3-38e09877e2b9
+[key_placer.py:174]: Removing 193004b8-a413-4d4c-a347-caccb2b6cd09
+[key_placer.py:174]: Removing 656ddb7f-69b5-4fad-b41e-37a0de1de0df
+[key_placer.py:174]: Removing 23e3b499-f3df-4d7a-aa54-57f0a2e911c6
+[key_placer.py:174]: Removing 01176f6a-d007-45bb-afed-b386ddcdd00b
+[key_placer.py:174]: Removing 7b65cff9-912f-4606-a3bd-5d0489fa1057
+[key_placer.py:174]: Removing d99cd2ee-182c-489b-81cc-ec356bf4e91d
+[key_placer.py:174]: Removing 4386d018-0cf7-47b5-923b-e98a1074ec60
+[key_placer.py:174]: Removing 8e8abe97-e231-4259-9f91-1a676aacea20
+[key_placer.py:174]: Removing 29b3d42d-6f20-4b15-8788-b273fd14249b
+[key_placer.py:174]: Removing 8f521cfd-5c7b-4860-8d71-88b92d0c60ca
+[key_placer.py:174]: Removing 8e882e6b-7fff-47a7-a000-3f1758b30f13
+[key_placer.py:174]: Removing d1c47633-d8a8-4f6f-9bb0-517a0ac54628
+[key_placer.py:174]: Removing 80aeeffa-51b0-4b73-8cef-0c46c8c0dc2c
+[key_placer.py:174]: Removing 16737716-3993-4c3e-a53c-555d86db8a01
+[key_placer.py:174]: Removing 7e319fe8-2c90-4809-a53c-d61a1963b9ef
+[key_placer.py:174]: Removing 8665c973-9df7-4861-a41c-de85b352b02c
+[key_placer.py:174]: Removing 89d34ce4-4a2f-4ff6-86bb-61025fbf8bdd
+[key_placer.py:174]: Removing 6d1b5c4d-bb92-40fc-96b5-5dd9be5d04f8
+[key_placer.py:174]: Removing f94511e8-26aa-4faa-9046-c2e8c7e082c9
+[key_placer.py:174]: Removing b7e56968-3d10-4b00-a499-58580e25eb32
+[key_placer.py:174]: Removing 3682ce33-22b5-489e-b241-23ca7e3c7a39
+[key_placer.py:174]: Removing 784069a0-def7-4ec4-93d6-4125fe8a522e
+[key_placer.py:174]: Removing 4124032c-768b-4f02-a452-4e5b0175e8f8
+[key_placer.py:174]: Removing 417f972c-935f-40bd-a12f-9d8333cf5a12
+[key_placer.py:174]: Removing 7ec601ef-b438-476c-8fcd-d6381f2af766
+[key_placer.py:174]: Removing 85d1bf06-c525-446c-ab8a-0529e4615256
+[key_placer.py:174]: Removing 8764e3c8-c5e7-47f5-b9cd-91b2bba16666
+[key_placer.py:174]: Removing 9a9d871e-dbea-4de7-bfb3-1b5de8293e3f
 [key_placer.py:162]: Removing dangling tracks
+[key_placer.py:174]: Removing e1d5d158-22b4-42df-9d8f-d312d8d621ba
+[key_placer.py:174]: Removing c6dd386c-5bc0-452c-aef2-228be29039b6
+[key_placer.py:174]: Removing f3b5a0c1-ada8-4647-815c-462da54c0996
+[key_placer.py:174]: Removing 07c5dcc8-5240-457b-83af-a08cb185d947
+[key_placer.py:174]: Removing 0af2cfb9-dc88-448b-9d6e-d4339cb06bba
+[key_placer.py:174]: Removing 92333b4a-0d56-4054-a416-c22e7670e16e
+[key_placer.py:174]: Removing 3ea9bb6a-492c-4a13-9997-5dc1f83cbac3
+[key_placer.py:174]: Removing 18b49cbf-09a9-4b52-a617-a46a817e1331
+[key_placer.py:174]: Removing a3120656-06ef-4d48-9e2b-1d8ef153f79d
+[key_placer.py:174]: Removing 59f05a0f-26a5-4b5a-9937-e87a68ca03cb
+[key_placer.py:174]: Removing e2968f14-1587-4a19-8aca-6c32a6436759
+[key_placer.py:174]: Removing f2fe93ba-bac7-4be1-8879-0dad396d8297
+[key_placer.py:174]: Removing 4f4af38d-72a3-4023-b89a-ef5f1678d958
+[key_placer.py:174]: Removing 41e3d9ae-4cd3-4bc6-9bde-fcea8b65104b
+[key_placer.py:174]: Removing 23576297-95e7-468a-8196-6395a10dd5e3
+[key_placer.py:174]: Removing e40a41cd-971d-4f77-b633-c1033de7f6f5
+[key_placer.py:174]: Removing fe3f05fb-fdc0-4d91-ad4f-094d9fe36312
 [key_placer.py:174]: Removing 63749d53-1882-4a6b-bafa-3db08b592be8
 [key_placer.py:174]: Removing 9da9b885-e875-4751-bf73-f2d3ec2c6fae
 [key_placer.py:174]: Removing 7f52ebc6-393a-4e72-a005-70d8dd221a24
 [key_placer.py:174]: Removing 3fb6b735-71ea-4f76-b268-b4deb5382ffb
 [key_placer.py:174]: Removing f22bd134-b909-41ec-b864-6e1bafdfc31f
+[key_placer.py:174]: Removing 609237dc-b79d-4f1d-a2b0-9781b7ff5f36
+[key_placer.py:174]: Removing 8ee144e0-ebe2-47a7-8972-235ced8694f5
+[key_placer.py:174]: Removing 4eb6daa1-710f-466f-9cc4-6a8787bd44db
+[key_placer.py:174]: Removing 72844d94-722d-42e2-ad4f-f906208b615b
+[key_placer.py:174]: Removing a04e416f-d576-4bc9-a51c-67b3d4084db4
+[key_placer.py:174]: Removing b2d1366f-2343-489e-aecb-96c5dacd3461
+[key_placer.py:174]: Removing 38fa5b32-85f9-42ba-952a-128ac0a2cea1
+[key_placer.py:174]: Removing 1710b542-3a2e-4dcd-9157-ef698a8e0c7e
+[key_placer.py:174]: Removing 09f17230-fc5a-4431-9e9a-db75f19d1711
+[key_placer.py:174]: Removing 1853f006-8c25-4983-bb1b-dd4b8d737210
+[key_placer.py:174]: Removing 41641235-b7f8-4a90-bd5a-6646df354bdf
+[key_placer.py:174]: Removing 65407e1b-e50d-4b8f-bc87-97ef828c3122
+[key_placer.py:174]: Removing e3748ab3-119e-45f8-95d5-e5dc264793b2
+[key_placer.py:174]: Removing 2613b959-6d58-4950-8ee8-752ab438b9bc
+[key_placer.py:174]: Removing 06a1e5d5-2160-421e-bde9-799fd55ab9aa
+[key_placer.py:174]: Removing 1cbe5124-6286-407c-ae0e-88b84d3086f8
+[key_placer.py:174]: Removing b857db29-9e58-45c4-b295-fce18450d191
+[key_placer.py:174]: Removing 2de8bd4d-3a86-474b-bad7-21d10dd8552f
+[key_placer.py:174]: Removing 0f008c46-8e4f-4740-849e-4c75465f69e2
+[key_placer.py:174]: Removing 682ea5b6-c39d-4e1d-b04b-0a8985c65a95
+[key_placer.py:174]: Removing 1322c4e0-7e78-4288-b2bc-784b004f4215
+[key_placer.py:174]: Removing 15d11944-3b90-4eb8-a390-02f82f24c626
+[key_placer.py:174]: Removing 34d3126b-6165-4686-81a5-66c20d948801
+[key_placer.py:174]: Removing 5419e992-d60c-4af3-ab9c-52c85b118ffd
+[key_placer.py:174]: Removing 3ca7f468-518d-48c9-be65-9ab94f7f71de
+[key_placer.py:174]: Removing 51d97300-ca39-478c-a4d9-48adf732dafd
+[key_placer.py:174]: Removing 7b3124d7-af45-4014-9f62-eea5dcd75271
+[key_placer.py:174]: Removing 87e131cc-a7eb-4707-b2d9-f2e9fbd9e84b
 [key_placer.py:162]: Removing dangling tracks
+[key_placer.py:174]: Removing b9561df6-fc43-41a6-994c-6a86abbfdb66
+[key_placer.py:174]: Removing 3228c82b-fcc5-444e-abec-7413c69d3367
+[key_placer.py:174]: Removing 324a5d40-1cc7-4751-95cd-68823abc0d2d
+[key_placer.py:174]: Removing d4792ee1-ef2c-463d-9f18-574678e213c0
+[key_placer.py:174]: Removing 5906f52c-6e21-4159-8c69-436030dde674
+[key_placer.py:174]: Removing bf1cfe60-c3e0-4350-b5b2-8f78932bd626
+[key_placer.py:174]: Removing fb1d029b-b102-4023-99ee-e95ff95f394f
+[key_placer.py:174]: Removing c3b103e6-b4a5-4c8c-bb95-3915047971b8
+[key_placer.py:174]: Removing 9267c5af-11a1-42eb-baed-f9cf19c7898d
+[key_placer.py:174]: Removing 4afb390c-33c1-47e2-9af1-ea5bae4fe399
+[key_placer.py:174]: Removing fc145b36-418d-46aa-89ad-e7e6d7afa9ac
+[key_placer.py:174]: Removing 4b51d02b-7292-4f66-ba94-dcc6aabb77d4
+[key_placer.py:174]: Removing cd422dc1-ed73-4063-9204-173a252a4408
 [key_placer.py:174]: Removing 5026a910-9ea7-4fb4-9e6d-eec63688eb26
 [key_placer.py:174]: Removing 6af6cac8-6984-43d0-ac28-14520cf3a12d
 [key_placer.py:174]: Removing 703b3dee-a575-427f-adab-2948b209b529
 [key_placer.py:174]: Removing 68f1638b-d097-4ee2-8a49-1bff9ceafc1d
 [key_placer.py:174]: Removing d417df23-43a1-4340-bbf0-235e24faf4eb
+[key_placer.py:174]: Removing a3be687a-a64c-4940-a04b-efa423ac185b
+[key_placer.py:174]: Removing 4fff9877-1810-4f6b-b1bf-d02a9e9e087a
+[key_placer.py:174]: Removing 480f94ad-3780-4704-b2a6-893b19615231
+[key_placer.py:174]: Removing 9bec581b-b40e-4878-8b24-4ab31f9c4473
+[key_placer.py:174]: Removing 67765996-29ac-428a-b1d7-8fbc143b7561
+[key_placer.py:174]: Removing 074b07fd-c500-4d3c-97e6-9f839422260d
+[key_placer.py:174]: Removing 11548206-f461-475e-8769-d2a7f2838822
+[key_placer.py:174]: Removing d3149f43-7e8f-4270-b470-92d5dca7d6c2
+[key_placer.py:174]: Removing 6549f09d-e993-41d1-b2fd-b043dc723ea7
+[key_placer.py:174]: Removing b178bfc2-759c-4d88-ab87-1280c52205bf
+[key_placer.py:174]: Removing f21e02f4-f028-40d5-b8ba-bea5e0cdf2ea
+[key_placer.py:174]: Removing 1682cb23-963d-4905-8d7d-864787f9f0d3
+[key_placer.py:174]: Removing 996bcf16-d6b5-4f55-8583-d5eaa37af086
+[key_placer.py:174]: Removing 45b83ce1-5d93-4cb5-ae6d-cf656f47e122
+[key_placer.py:174]: Removing 5bec09e1-f57d-4ea2-b9dd-75fa2ff8f088
+[key_placer.py:174]: Removing ceac9f09-7305-4b68-ade2-11f57b169dbb
+[key_placer.py:174]: Removing fb085bc3-4cef-4f3f-a7f5-0b71555b0cdd
 [key_placer.py:162]: Removing dangling tracks
+[key_placer.py:174]: Removing e06ab975-de91-4412-9402-8b8a48b91a65
+[key_placer.py:174]: Removing 1de8bb03-87b3-4760-b583-bb018daada7f
+[key_placer.py:174]: Removing 9d7a9e2c-9cdb-4146-b266-96adb7f04b50
+[key_placer.py:174]: Removing 9af1d255-9cde-4c82-9aad-e46d5ba4af5d
+[key_placer.py:174]: Removing 20770eed-b3fc-4c92-ab99-1808405da24f
+[key_placer.py:174]: Removing 54643b3d-de5a-4555-8dd7-c14817350db2
+[key_placer.py:174]: Removing 3683d828-a600-4f99-b9e2-e73e779b0bc6
+[key_placer.py:174]: Removing 124c5235-131e-41ca-ba7b-b5f7f384a6cc
+[key_placer.py:174]: Removing 817acf36-3a8c-445a-9798-10d0d00277ed
+[key_placer.py:174]: Removing aa6755dd-c7a2-41d0-ad0d-3bcb3a5e1a34
+[key_placer.py:174]: Removing 9c873a7b-810c-4346-bd7b-4a5602b44b58
+[key_placer.py:174]: Removing 59f64c9d-3e29-496b-84c5-16a4c1c4783e
 [key_placer.py:174]: Removing 285da04c-dfca-4d13-b866-e57255e6de76
 [key_placer.py:174]: Removing 08089cc2-cb6f-4252-9984-838e5f127969
 [key_placer.py:174]: Removing ad6f1def-c437-42af-880b-bfd6512799ab
 [key_placer.py:174]: Removing 18bec2a3-fcd1-450f-bf81-7d4a32f427bc
 [key_placer.py:174]: Removing f9965171-e8de-434a-80f6-c7991c249e55
+[key_placer.py:174]: Removing 69fb49ef-6acf-413b-83b8-97cc6ecc73f6
+[key_placer.py:174]: Removing 0640c1d3-c187-419d-bd5c-318814c04909
+[key_placer.py:174]: Removing b1e702ea-dcc8-4bd6-bc3a-59d6ce658b93
+[key_placer.py:174]: Removing 01fd562f-821f-4798-9aa1-be8d4c6b4ee7
+[key_placer.py:174]: Removing c7a9449c-8922-4af2-b609-2320fd3c48d7
+[key_placer.py:174]: Removing a7c01394-dce0-465d-b056-968d30f5706b
+[key_placer.py:174]: Removing 6a077743-1fe2-450b-92ed-a64d8813b953
+[key_placer.py:174]: Removing dff36d51-002c-40e7-bb30-35c681d2e029
+[key_placer.py:174]: Removing 3856b106-bc1e-4c6b-bc40-08cb4dbea812
+[key_placer.py:174]: Removing 8b279066-5c77-4c6c-83e4-5c6f34ed158b
+[key_placer.py:174]: Removing 9a774145-191e-4723-8f6d-76fac36fbd4c
+[key_placer.py:174]: Removing 161a4568-5abf-40a2-8e31-1b25e302a0a6
+[key_placer.py:174]: Removing c5a361bc-d316-489a-83a0-a382bb222044
+[key_placer.py:174]: Removing d5937bec-6950-4260-b82c-3105cfc9fb30
+[key_placer.py:174]: Removing db787896-cfd5-4422-8e57-d700c9102257
 [key_placer.py:162]: Removing dangling tracks
+[key_placer.py:174]: Removing 01ad6313-02a8-4f19-9a96-7adf3919af33
+[key_placer.py:174]: Removing 3c14280b-f13d-4df8-b3ce-42a9636b0e2d
+[key_placer.py:174]: Removing 7f504bd5-ced9-447e-9e1d-af9e8bb846c4
+[key_placer.py:174]: Removing 93d2ef18-13f6-46b8-917a-a9377e2133a1
+[key_placer.py:174]: Removing 6893a2cc-4175-4a30-b7ac-93b23efe413a
+[key_placer.py:174]: Removing a5f0c62a-e015-40b9-ae46-b3e911058726
+[key_placer.py:174]: Removing ce5c9d44-42ab-47eb-8274-f814552bf9f9
+[key_placer.py:174]: Removing 369e6d38-e8be-460f-9b55-0c77de0f62e5
+[key_placer.py:174]: Removing f9b76ff1-32c9-48cf-b3c0-55b0704322f0
+[key_placer.py:174]: Removing 82aae718-8422-40fa-8b3f-487cac9249d9
+[key_placer.py:174]: Removing f0c368cc-20b6-45fc-90f1-fdac1d0ef12d
 [key_placer.py:174]: Removing dc20001a-c5ef-4f2e-bc78-08b6354a25d6
 [key_placer.py:174]: Removing 916c8a4b-0441-4b66-9385-200e3d3568aa
 [key_placer.py:174]: Removing c3f660ad-fb19-46cc-b200-b36039fa4abc
 [key_placer.py:174]: Removing 426e2244-6c7d-40e5-bb77-dc1ff5d1b24a
 [key_placer.py:174]: Removing b35da46f-1134-4b5b-9a2b-10452db531c4
+[key_placer.py:174]: Removing 61a6b80a-5472-4358-b1cc-b51e219c5868
+[key_placer.py:174]: Removing d40377d9-3d11-44a4-85b0-49829602e61b
+[key_placer.py:174]: Removing 61ac59b3-a49e-454b-8ae6-bd99b9ef23a4
+[key_placer.py:174]: Removing 0d663714-5316-49b0-8309-09f1cf9287a6
+[key_placer.py:174]: Removing 054372df-fab5-4ff9-8b78-1a1c51f29837
+[key_placer.py:174]: Removing 6ec21353-55ba-4b23-8c2c-54bc09ab5926
+[key_placer.py:174]: Removing e8092d1b-580c-4df8-80af-3092f00d1792
+[key_placer.py:174]: Removing 649ac16d-294e-4542-933f-dbc9f730b873
+[key_placer.py:174]: Removing 0fc1da9e-4efc-4540-b8d0-2565eabfbcc3
+[key_placer.py:174]: Removing a16c8f13-f00e-4852-9397-d2b82aebdc24
 [key_placer.py:162]: Removing dangling tracks
+[key_placer.py:174]: Removing 8b12a5e5-0060-4212-ad73-dd287eef5d2a
+[key_placer.py:174]: Removing 1b1ced6b-6aee-47d1-a429-c01e2a6cd01f
+[key_placer.py:174]: Removing aa4d9b0d-0e2c-4153-b8cd-c9a794020243
+[key_placer.py:174]: Removing d5575760-5b22-46ee-8f9e-e68b4971d8a2
+[key_placer.py:174]: Removing 324fcad0-538b-484c-bbbe-496c703adefa
+[key_placer.py:174]: Removing 64ce262b-0ab5-44a2-aa41-33bb569571f3
+[key_placer.py:174]: Removing 4347514e-b1bd-40a3-b081-b9bd999b82a9
+[key_placer.py:174]: Removing f6dd6737-7536-499f-a27a-3bcd349ce3ca
+[key_placer.py:174]: Removing 08bb2fb1-12c0-4c77-b312-1c0fd3ab144f
+[key_placer.py:174]: Removing d2719341-fcf4-42ae-b45b-f90399b7505b
+[key_placer.py:174]: Removing 26bbf481-7cde-489c-bacd-67913fcdbbdd
 [key_placer.py:174]: Removing 08c32947-d45b-4161-94ae-95f3f08675b9
 [key_placer.py:174]: Removing 8dae2229-ad6e-42ca-a4b2-af0417c89fc9
 [key_placer.py:174]: Removing 54824436-6184-42ce-bfbc-7ac549721c28
 [key_placer.py:174]: Removing 0c3f04d3-b5fb-42f3-8430-699eb8ed54d4
 [key_placer.py:174]: Removing 5fa8f227-4237-4676-9116-c0a2ebc064f4
+[key_placer.py:174]: Removing 41d49980-e710-45d1-ab74-1fb6eb1be47d
+[key_placer.py:174]: Removing 268fe24b-d75b-4841-9014-dfc803c5a748
+[key_placer.py:174]: Removing 457b450e-4979-42ef-9163-e1df39cb6707
+[key_placer.py:174]: Removing b91c9fd8-1c6d-44b6-9ec6-f85ac46048c5
+[key_placer.py:174]: Removing d77ce568-e668-4946-a417-d08aed66c39e
+[key_placer.py:174]: Removing 16919a83-5e0c-4c82-9ec5-44e69a2da5bf
+[key_placer.py:174]: Removing de2bfa89-3093-4b8d-83c1-924abca251b9
 [key_placer.py:162]: Removing dangling tracks
+[key_placer.py:174]: Removing 1606964b-6d7a-4f84-822b-bff970ef1839
+[key_placer.py:174]: Removing 09bc675e-72af-46a1-9c45-3b6f58674880
+[key_placer.py:174]: Removing e4c5ebaf-6ed0-4a0e-8909-04dd4bf96649
+[key_placer.py:174]: Removing 22e3293f-a7c7-4c60-8109-1ef9f309f8c2
+[key_placer.py:174]: Removing da2acb60-65bd-4c06-88c1-2c61581eb31e
+[key_placer.py:174]: Removing e7236c55-9548-44ef-9f63-f04b3157c635
+[key_placer.py:174]: Removing b9b0909a-a1bf-435d-a918-1d7a13b14fc6
+[key_placer.py:174]: Removing 86bf4168-2aa1-4b98-a28b-f92dfb4a4987
+[key_placer.py:174]: Removing 4bf70046-8839-4abe-b825-48f42bd635b5
+[key_placer.py:174]: Removing e4b1f5e5-ab1f-4984-91ea-af23bd73491e
 [key_placer.py:174]: Removing 5137da19-d431-474a-aebb-dfbf5cdc057c
 [key_placer.py:174]: Removing 36e2dc48-6294-4ab6-a156-aa3395b27481
 [key_placer.py:174]: Removing 641b2d97-c992-4e46-ae87-b90878c839bc
 [key_placer.py:174]: Removing b68a7454-3401-4247-8deb-6ed1f9354a24
 [key_placer.py:174]: Removing c022bec2-23a1-4517-a208-2f2c1305cf53
+[key_placer.py:174]: Removing 485d633e-f2fb-41d6-99ef-be1d83b7e70e
+[key_placer.py:174]: Removing 17906d20-402c-4822-aa3f-a3d2a62b37ee
+[key_placer.py:174]: Removing d0a0c1b8-d388-4260-8f2d-540bf72e54cc
+[key_placer.py:174]: Removing e4e0eb2d-0a77-4b24-9195-456497709083
+[key_placer.py:174]: Removing bfbbf825-da07-4832-b02e-cc9bd8c2b2bd
+[key_placer.py:174]: Removing 150d83ae-d3e3-4ab3-a830-bf840db83956
+[key_placer.py:174]: Removing cbd9cbef-02c7-48b7-a917-a86528a94fa9
 [key_placer.py:162]: Removing dangling tracks
+[key_placer.py:174]: Removing 428c304e-8406-4644-a56a-94991bb7623c
+[key_placer.py:174]: Removing 3dac1417-a529-4923-8905-ea14bca56f52
+[key_placer.py:174]: Removing 1f705a75-421f-4ec9-82f4-543e341f9972
+[key_placer.py:174]: Removing 3abe8548-65b2-42d6-abc4-e1140374ca50
+[key_placer.py:174]: Removing e1ae40af-9aa4-4ce7-9e2d-79ed268f9c5c
+[key_placer.py:174]: Removing b31a6111-c8b2-490f-883d-0773ac324e1e
+[key_placer.py:174]: Removing 6f6f009c-569e-426b-aa35-603bc4ce52af
+[key_placer.py:174]: Removing 1852ff04-c042-4b54-8ae1-4dc1ddb8b572
+[key_placer.py:174]: Removing c82e885c-7e80-43e0-8f3a-6c19dd5beb1d
+[key_placer.py:174]: Removing 16406b58-9e80-406c-a967-0b3c9a5d8a5e
 [key_placer.py:174]: Removing b7ed6034-ce33-4dbe-93ba-21c4c8c38899
 [key_placer.py:174]: Removing eb3c1870-390d-46b9-8fa2-cf4115038f0d
 [key_placer.py:174]: Removing 309a2e41-083b-4c9c-8061-447386156388
 [key_placer.py:174]: Removing 4816a011-48e9-44e4-909b-fb4f2aa9e9f8
 [key_placer.py:174]: Removing f8725533-ee80-4b99-8df6-6fb9cdc67c28
+[key_placer.py:174]: Removing dc9cbf7e-4453-4d42-843a-aa4f9f604189
+[key_placer.py:174]: Removing df79d538-64f3-46f9-9828-67e40208bfef
+[key_placer.py:174]: Removing 93ab4206-7b9a-4513-a378-b80e437a43ce
+[key_placer.py:174]: Removing 12d1c0d5-0b7f-44c6-8d45-9172b826d00a
+[key_placer.py:174]: Removing 86e0c557-f617-4f57-b49d-77c83c7b471a
+[key_placer.py:174]: Removing 06654f56-32a5-4325-a9b4-51564b40cbcd
+[key_placer.py:174]: Removing 3613d760-3654-4431-9e5e-e5a698e4913a
 [key_placer.py:162]: Removing dangling tracks
+[key_placer.py:174]: Removing 92b29242-d434-4400-b5e0-982379db7338
+[key_placer.py:174]: Removing 701b9e39-13fa-40d2-943a-4621cc0844d2
+[key_placer.py:174]: Removing c50563d1-4e4b-4a24-bdcc-e9e0915096c9
+[key_placer.py:174]: Removing 1dc7fe2b-42fd-4266-944a-0265a9cbc291
+[key_placer.py:174]: Removing 6d8a2f35-eedb-48db-b1fb-9bafe6be1bef
+[key_placer.py:174]: Removing 18aaf418-aaee-4b5d-bc92-ca70b6582891
+[key_placer.py:174]: Removing 5c0a5115-c72e-4273-8c87-78ea1693e6a7
+[key_placer.py:174]: Removing c3d746e5-2532-4a59-98cd-9a498aff4c7c
+[key_placer.py:174]: Removing 96fe3875-08c7-43b6-92a8-51ace37d6edd
 [key_placer.py:174]: Removing 89cc17fe-7244-4d99-9941-63c1c43e5482
 [key_placer.py:174]: Removing a3a9177f-ddfa-48ec-aaf8-1c114d5fbd8b
 [key_placer.py:174]: Removing e9c9d4b7-25f2-4efd-9f3d-d071f4592001
 [key_placer.py:174]: Removing 8dd98143-ba30-47e4-b961-8f321d4c7cb2
 [key_placer.py:174]: Removing f71443e6-5f6d-4fc1-8804-25ab845a13ad
+[key_placer.py:174]: Removing 5f928aa6-5d32-432c-a102-5f1afe834e83
+[key_placer.py:174]: Removing 23c29073-c668-4a29-828d-8f70c15f581c
+[key_placer.py:174]: Removing bafa7f6d-b928-45d7-8d1a-c0688ae3df0e
+[key_placer.py:174]: Removing 496e175a-a704-424a-a643-0c941a7d4733
+[key_placer.py:174]: Removing 6521b9cf-1476-4d89-8533-b2ff72bf61d4
+[key_placer.py:174]: Removing 68a6c4ef-4aa2-4e0b-b3aa-6e8c7e1c849a
+[key_placer.py:174]: Removing 507416d1-50bd-4295-87e4-b35442910291
+[key_placer.py:174]: Removing e3ddb4a3-98a9-48fa-9990-07558c8f42ec
 [key_placer.py:162]: Removing dangling tracks
+[key_placer.py:174]: Removing 7f110990-4b77-4475-8742-fa32e995f663
+[key_placer.py:174]: Removing 6693c59e-42f6-448c-9fb8-5e2d04f335e1
+[key_placer.py:174]: Removing 7f5f8ccd-d801-4238-9fde-e7342716c959
+[key_placer.py:174]: Removing 92f34540-adf4-44ee-97b6-e0db83d28bc4
+[key_placer.py:174]: Removing 6d637ff7-22a1-4321-be26-37d254740ae7
+[key_placer.py:174]: Removing 74cf78b5-f6d2-4d94-a8fc-8a7257756478
+[key_placer.py:174]: Removing 53d21f4b-c30a-41ec-9946-69a3ffb82b2c
+[key_placer.py:174]: Removing 49164aac-e5bd-4f5a-bd60-9a2b0585126a
+[key_placer.py:174]: Removing 45996058-0c4a-4496-a258-a6537706aa40
 [key_placer.py:174]: Removing bf9c3b83-05b0-409d-8aa4-8a670d0d622c
 [key_placer.py:174]: Removing ceba6f54-3a57-431e-9afb-0829a27cfa7b
 [key_placer.py:174]: Removing 46133eaa-5148-4549-81a4-52cbf2d89a9a
 [key_placer.py:174]: Removing 34d04a1d-8421-4154-8c6c-d62234fe9504
 [key_placer.py:174]: Removing 5eb5c452-c674-42e9-8acd-5dec9f545442
+[key_placer.py:174]: Removing 02d98c6c-746e-4469-8ef5-bf4944c21840
+[key_placer.py:174]: Removing 3aa8a53f-d203-47e2-a902-94107d3550ba
+[key_placer.py:174]: Removing 0345d47a-544b-4913-a55a-4e543ce6d819
+[key_placer.py:174]: Removing 205a7823-4b34-4cc3-b8db-538b3c01858b
+[key_placer.py:174]: Removing 07623254-630c-4352-a78d-9ca98275b7da
+[key_placer.py:174]: Removing 0e2e4316-eea1-42ce-9b99-201feeb20822
 [key_placer.py:162]: Removing dangling tracks
+[key_placer.py:174]: Removing 44a3e6de-f607-45a2-9d56-2b0910d6546c
+[key_placer.py:174]: Removing 1920f088-4f72-4afd-86ed-52a216d545b5
+[key_placer.py:174]: Removing 39c38462-217f-4701-bcd8-8c2706f28f21
+[key_placer.py:174]: Removing 806dbcac-1cc2-4c7b-b4f8-5740be4e508e
+[key_placer.py:174]: Removing 8d6f8b7a-e61c-4d10-a872-f2e261929dc6
+[key_placer.py:174]: Removing 5cf0bf57-7f66-4a15-8e03-24ff0faa86ea
+[key_placer.py:174]: Removing 45f0df00-3e0d-47c7-b021-7555eed385e1
+[key_placer.py:174]: Removing 23878291-45df-435a-b0dd-f3a9e7015575
+[key_placer.py:174]: Removing 389c5482-623c-44e9-941a-32504b719e05
 [key_placer.py:174]: Removing b128d31e-8c2d-4f0c-94ce-fdbf08f4d37d
 [key_placer.py:174]: Removing b91d677c-35aa-4c5a-9c58-11ec421208a1
 [key_placer.py:174]: Removing 286fddcb-97cf-4c34-ab11-fd6573fd69a1
 [key_placer.py:174]: Removing 1a2346a0-0a25-4157-8fee-808373f594b3
 [key_placer.py:174]: Removing a3752b30-a9e9-43ae-b969-96b89ea3405b
+[key_placer.py:174]: Removing 1f6b6c39-5919-41b4-bb03-c3330c1bff9b
+[key_placer.py:174]: Removing ffafe593-a96f-4760-86a5-926f92240ab8
+[key_placer.py:174]: Removing 214af23b-1174-44cf-8d00-c883ff00c48a
+[key_placer.py:174]: Removing 1d816578-c4a5-4d04-a9e7-44e1223ba29e
+[key_placer.py:174]: Removing 24de7c0b-4c7a-4c0e-96e6-d24a17069f7f
+[key_placer.py:174]: Removing 6896313b-2d53-48b8-a286-183ec0f31356
 [key_placer.py:162]: Removing dangling tracks
+[key_placer.py:174]: Removing aed88f24-7a3b-4e01-99e4-735f321ce002
+[key_placer.py:174]: Removing 62300c2e-a5ec-48e3-8de7-10f15e813eaf
+[key_placer.py:174]: Removing c6ef557c-533b-4a74-a68f-cf31b5b468ca
+[key_placer.py:174]: Removing 82c5fe8f-1627-444b-b9b6-9fe3d5474456
+[key_placer.py:174]: Removing 6f360a6c-38bd-4783-922d-299ca2a7a255
+[key_placer.py:174]: Removing 09bb31ff-8419-478e-83a4-051cbe4a7b96
+[key_placer.py:174]: Removing 237ef0f8-b474-4444-bf6c-219a30eba8e3
+[key_placer.py:174]: Removing 2c2a1315-9123-422b-9004-cee4db02db50
 [key_placer.py:174]: Removing cf277fd1-262e-4764-95ed-bba67e73ce1d
 [key_placer.py:174]: Removing 050c8b12-6605-41b2-9cee-0dac97600ec5
 [key_placer.py:174]: Removing 5ba4c2fd-b11e-4003-bdb9-11716496e8ed
 [key_placer.py:174]: Removing 3f58f868-35bd-447b-98e9-53fb66dd6e77
 [key_placer.py:174]: Removing f926d2a8-17f7-4fc7-a667-14f4b85c6cf1
+[key_placer.py:174]: Removing 1c28f057-87d8-42d1-8f9d-ae1eb4814526
+[key_placer.py:174]: Removing 13d77609-2e32-4642-9898-2c5c71b0d93e
+[key_placer.py:174]: Removing 5af39f5c-b296-4a17-8eb1-7f4f9cf49304
+[key_placer.py:174]: Removing c5a317b8-8bdb-4076-b5a2-4fe87ef70a7e
+[key_placer.py:174]: Removing 6c828c4b-a4a2-4507-97e0-6c0029fc7e05
+[key_placer.py:174]: Removing eeb52878-22bf-452c-b28a-5f8aaff34c19
 [key_placer.py:162]: Removing dangling tracks
+[key_placer.py:174]: Removing e12b3534-121a-474d-b186-520cc2827527
+[key_placer.py:174]: Removing f61a4fb7-fe56-455f-9e25-a290d7f760ac
+[key_placer.py:174]: Removing 4e2d5d3a-246c-424d-b533-5c07ee021328
+[key_placer.py:174]: Removing fc858b4a-4c1b-4a5a-a413-f7cb09682a06
+[key_placer.py:174]: Removing 30ae99b1-8217-43c1-9eeb-aca8af841924
+[key_placer.py:174]: Removing 8a6c6ce2-0af0-4ad1-baae-3f2f0051524d
+[key_placer.py:174]: Removing f9bd06da-dbeb-40c2-ac84-2fbb213fc8c0
+[key_placer.py:174]: Removing fd1db69c-7549-4720-9d7f-ce9f93203441
 [key_placer.py:174]: Removing 2bb9dcb8-dc33-47c1-abf1-d5e7c82e757a
 [key_placer.py:174]: Removing c569a59c-d70b-4889-b469-46470b6aac32
 [key_placer.py:174]: Removing 8432c524-57f7-4949-bbde-0cdf0f5d527a
 [key_placer.py:174]: Removing 790c5fb6-ee24-4b1f-ae68-d0d4e5967e87
 [key_placer.py:174]: Removing d7c15761-c501-49bf-b842-1bccddb37cf7
+[key_placer.py:174]: Removing 5641919e-83cb-4b3a-983a-6cd87b4e2ca0
+[key_placer.py:174]: Removing fa3997f0-2fc4-4ac4-bc18-4eed7bcfa188
+[key_placer.py:174]: Removing b4b8b495-babb-4529-aec1-dcc3d952639d
+[key_placer.py:174]: Removing c0757d9c-7848-4434-b12b-d7cf2cdeb7dd
+[key_placer.py:174]: Removing 9cf1c281-6cb5-4e58-b378-30924b144a01
+[key_placer.py:174]: Removing c37ef210-790d-4edd-a38f-f726eb5d50c0
 [key_placer.py:162]: Removing dangling tracks
+[key_placer.py:174]: Removing ba2f0219-4dfa-41c6-98b0-c498a1fc4dbb
+[key_placer.py:174]: Removing 40913271-0f5e-4048-9895-eab385d21c5a
+[key_placer.py:174]: Removing 5b7e19f5-75e1-43fc-9232-413eab54e8ff
+[key_placer.py:174]: Removing 0bdee8cc-e952-4f81-9061-0707e9ac0b7a
+[key_placer.py:174]: Removing 1435eb78-b916-4036-9ec9-6c8fe4ebf380
+[key_placer.py:174]: Removing eb0b3a89-d105-4368-a493-fa8b3d8d064a
+[key_placer.py:174]: Removing 4d0cd79e-7c96-400d-9083-a9c82bdd5e67
+[key_placer.py:174]: Removing 61e85736-35f4-48b2-a63d-7aabe4638c5d
 [key_placer.py:174]: Removing 20b0a125-d684-471f-b8fa-4cdeb8cbf9b0
 [key_placer.py:174]: Removing 8c03a93e-81c7-4905-a70e-91d92e78f8a6
 [key_placer.py:174]: Removing 6f72f5af-91c6-4277-bd0a-f94a216e3151
 [key_placer.py:174]: Removing 093b0b5b-b2b6-423f-a9e0-c198e7bc13e0
 [key_placer.py:174]: Removing 4b442ef3-251b-4339-9579-95cb8aaed8b8
+[key_placer.py:174]: Removing ba348735-b8e1-44d5-9081-ffb27c945a81
+[key_placer.py:174]: Removing 46382e99-fb6e-4ff7-b619-dee231e5cdc6
+[key_placer.py:174]: Removing d681083a-22d3-4e24-9e89-eb70a8798d38
+[key_placer.py:174]: Removing 45343df8-7eb4-40df-adff-481f7a1a8a79
+[key_placer.py:174]: Removing 382624e5-9942-46d7-8aea-e85c05698050
+[key_placer.py:174]: Removing f4b94bbb-1eee-4108-8d56-80c2fe35dc67
 [key_placer.py:162]: Removing dangling tracks
+[key_placer.py:174]: Removing e55b2354-64df-477d-9fb7-1e57d2e489e7
+[key_placer.py:174]: Removing c9b969ca-0621-45f0-945c-0ab37c6810ac
+[key_placer.py:174]: Removing 84345efe-7ea2-4e40-a1e9-b2d9eb6e317c
+[key_placer.py:174]: Removing e63487d4-ef80-4035-9ee9-84e3b15dfc9b
+[key_placer.py:174]: Removing ec0aafdc-d04e-4c8f-94ed-10a32a519ed3
+[key_placer.py:174]: Removing 25eba874-3fa5-4d96-86dd-bad2772e4a38
+[key_placer.py:174]: Removing 7065b235-9a54-4f0b-a913-9e067c533b55
+[key_placer.py:174]: Removing 2ba2f90b-b451-47b6-8398-1ac9337468c0
 [key_placer.py:174]: Removing 382aba85-1133-464a-920d-a819f58e11bf
 [key_placer.py:174]: Removing 21382a1f-740c-47d3-a3f1-30397207e149
 [key_placer.py:174]: Removing 5c34ea2a-14f7-4ab4-99df-0722e1d54813
 [key_placer.py:174]: Removing 1a9a9ef9-ef44-453e-86f6-ab81456ff4b9
 [key_placer.py:174]: Removing a659c9ed-a242-43eb-b924-a05f941c9e61
+[key_placer.py:174]: Removing fbf56a19-8f0f-464d-8961-6f10dd8295a8
+[key_placer.py:174]: Removing b892e4d8-a036-41e0-9297-1af87a689f24
+[key_placer.py:174]: Removing b75abe71-6f20-4c21-b366-64eaea8316a3
+[key_placer.py:174]: Removing 515c8b3d-747a-4646-abff-1780e428d0c6
+[key_placer.py:174]: Removing c9fd4ff0-ca9c-4d9e-9ec3-2f026523a4e4
+[key_placer.py:174]: Removing fb5b0f3f-807f-40f6-ab3f-28c9dee0fc46
 [key_placer.py:162]: Removing dangling tracks
+[key_placer.py:174]: Removing 6a1ccc98-830e-44ec-b28f-dfe64ce796fd
+[key_placer.py:174]: Removing 58a04eba-dc66-471c-aa81-53d4e909323b
+[key_placer.py:174]: Removing 1bf89e68-77ff-4b80-9859-989a5046153b
+[key_placer.py:174]: Removing 4b0e0374-85b8-4045-9cf2-676e7b27c1b1
+[key_placer.py:174]: Removing fedcfc53-e4d4-4997-8f1d-bcb8080a6034
+[key_placer.py:174]: Removing 99db4ddd-99e0-48a3-b5ab-798570b6eee9
+[key_placer.py:174]: Removing 6214c6f7-f52f-4bd3-bb7e-394180e592f8
+[key_placer.py:174]: Removing 56b97e39-88ce-4ad6-8bd1-0317b974fcb9
 [key_placer.py:174]: Removing 75788205-9256-4924-a1d3-b6d6399ee102
 [key_placer.py:174]: Removing 98c35544-41f0-41f3-9283-7044c060e40d
 [key_placer.py:174]: Removing 7940ef31-572f-4882-a39f-0b5f5dcabbf4
 [key_placer.py:174]: Removing bf74d6f3-06eb-4537-88ad-cb5a9b7b7c1e
 [key_placer.py:174]: Removing feac7192-2f7d-4d78-8fd9-94a1708ae2b8
+[key_placer.py:174]: Removing 903729a7-cbaa-4800-9184-5f9d7ba7db4a
+[key_placer.py:174]: Removing 0288222e-773e-4512-b7be-f3391bbd4b5b
+[key_placer.py:174]: Removing b8f90806-0c11-43d8-9410-277b32b10568
+[key_placer.py:174]: Removing a42388b0-8e62-44df-a0b6-b46a438fc1e5
+[key_placer.py:174]: Removing 3a6c6457-6938-40bb-a1c2-9e84fdcf14c2
+[key_placer.py:174]: Removing a01df4f1-945d-4951-8613-2458fbdbdc33
 [key_placer.py:162]: Removing dangling tracks
+[key_placer.py:174]: Removing f9a3d451-43db-4e96-b47d-8d9273b1c718
+[key_placer.py:174]: Removing a02073e3-6f50-4bbd-971e-a22ad5fc5266
+[key_placer.py:174]: Removing 57390808-7c1b-47c5-bb10-036fbaa4f1f0
+[key_placer.py:174]: Removing 33fc0494-ab31-4dbe-bd7a-b833fcc5d091
+[key_placer.py:174]: Removing fba3e547-36be-4047-aedb-6d48e21175a4
+[key_placer.py:174]: Removing 1136ceeb-15cc-451a-b453-5aa665fd2834
+[key_placer.py:174]: Removing 8b08c47d-9617-4b65-aeb0-14cc461d5ab0
+[key_placer.py:174]: Removing b1440421-ac3d-4a6d-9ca4-c9924e0bd9b0
 [key_placer.py:174]: Removing da2b161e-daaf-4fcb-b1e3-1eab7e5e65de
 [key_placer.py:174]: Removing d601c8c0-f268-47bf-9989-7fb38a88d27d
 [key_placer.py:174]: Removing c5a0ff1b-0d69-4ac6-9da0-effc3ce749f2
 [key_placer.py:174]: Removing 81bdcc2b-3431-4954-8ef2-17ffc025255c
+[key_placer.py:174]: Removing 4487c8f8-ccc5-4002-a63c-28a4adef2445
+[key_placer.py:174]: Removing b8f79215-d304-4530-990f-924e2d5f5346
+[key_placer.py:174]: Removing feef1b5a-ee55-4e99-9db9-b79fd66e747e
+[key_placer.py:174]: Removing 5bd7499b-14ea-4085-8114-f430bd0ae196
+[key_placer.py:174]: Removing 2b061f71-73f4-4aef-97ea-2da071d33fd9
+[key_placer.py:174]: Removing 8af50064-383e-426e-adfa-32b152e7aa61
 [key_placer.py:162]: Removing dangling tracks
+[key_placer.py:174]: Removing d0fe8ce6-305a-471f-96b7-d26d9fcb2ab9
+[key_placer.py:174]: Removing fdaffc0d-2f00-49d5-987d-fc69c5a05c6b
+[key_placer.py:174]: Removing 737549a4-e33b-45d8-ac75-871ab2860cf8
+[key_placer.py:174]: Removing c6741d69-a849-4542-836c-2266822dddd7
+[key_placer.py:174]: Removing ff0afdc3-8c90-415c-b222-75f204a39077
+[key_placer.py:174]: Removing 6bfbb674-a8a6-4865-8331-c5dca7f5c733
+[key_placer.py:174]: Removing bdf050c1-822d-4795-99db-a3df0f088409
+[key_placer.py:174]: Removing a9ce9bcd-ad25-4a42-9b11-6333af54cf61
 [key_placer.py:174]: Removing 6884dbb9-c47e-423a-aeb8-a20a5a51eb6f
 [key_placer.py:174]: Removing 3c924933-a7af-4e57-a1b2-b9d9db593448
 [key_placer.py:174]: Removing 349828ca-20e3-4fd7-a856-0843b2a630b1
 [key_placer.py:174]: Removing 60ccd696-6513-4708-aa58-46fdf3abc727
+[key_placer.py:174]: Removing 32426e03-30ae-4efd-b49f-08cf59927c99
+[key_placer.py:174]: Removing 27dd1bff-6d1d-4f80-98dd-deed1d3940d2
+[key_placer.py:174]: Removing bae59518-7ffc-4139-a9a4-97e090453647
+[key_placer.py:174]: Removing 1dae6463-d5b1-4cd8-9521-902668eb7f8a
+[key_placer.py:174]: Removing 026b77b6-1a57-49e0-8f53-2a421288b8a8
+[key_placer.py:174]: Removing d1633fc9-41c2-4476-a6e9-c74ccf00e836
 [key_placer.py:162]: Removing dangling tracks
+[key_placer.py:174]: Removing 66aa4583-fb7e-49cf-b204-546e8759bc80
+[key_placer.py:174]: Removing b4de397e-1112-407c-a7fe-d57b47bd3e70
+[key_placer.py:174]: Removing 6c1df90e-0844-413c-9b8c-f1b2185b050b
+[key_placer.py:174]: Removing a71e7518-2201-4778-a829-85d2257c9a3c
+[key_placer.py:174]: Removing 4d1ae12f-d294-4b6f-9c73-974ce2049f50
+[key_placer.py:174]: Removing 0fea50c2-dee1-4752-8626-89cce4bdad62
+[key_placer.py:174]: Removing 7af538a1-b2b7-4bf6-8f31-2d7260d4cef7
+[key_placer.py:174]: Removing 355e2c29-b02d-4872-95b8-adcba205fcae
 [key_placer.py:174]: Removing 8bafc90d-618e-4a98-9353-9b28556c1159
 [key_placer.py:174]: Removing bda5f998-77d6-4dba-84a7-c6d30d2271ef
 [key_placer.py:174]: Removing 06afa517-fd57-4e47-9af9-a327a8030dd3
 [key_placer.py:174]: Removing af688bf7-9abc-4158-a1db-5eeca4251bf1
+[key_placer.py:174]: Removing 14fbbeb3-04c5-4ba7-8bf6-ddbff02aef08
+[key_placer.py:174]: Removing 51b70107-13a2-4395-a670-7ce9a6f9bb9d
+[key_placer.py:174]: Removing 91bb01a5-3f94-44e6-b61a-36093d47b570
+[key_placer.py:174]: Removing 804e250b-63e1-45a2-bc7f-79b5610e0c7c
+[key_placer.py:174]: Removing 133ad9d8-391d-4b7d-a54d-67c505e45690
+[key_placer.py:174]: Removing c51ee795-e217-4e13-b789-ebf48bcf289b
 [key_placer.py:162]: Removing dangling tracks
+[key_placer.py:174]: Removing d04580ff-384e-461c-8a30-110e5297ae35
+[key_placer.py:174]: Removing 2d102542-3a25-4616-b0c7-0a49898dc2a0
+[key_placer.py:174]: Removing 444b1b6e-1683-46f5-b51e-a1e1f343f46a
+[key_placer.py:174]: Removing 3adc65e2-9884-4c8b-b863-3bd4999912d8
+[key_placer.py:174]: Removing a0f8f817-2171-43eb-ae82-934480b4599c
+[key_placer.py:174]: Removing 6b106f35-3e8b-4105-b07c-5b4a4339c6fb
+[key_placer.py:174]: Removing 73b55d70-8853-4f52-b852-020c28e8d492
+[key_placer.py:174]: Removing d0986f90-0fcd-4967-90ca-1a5dfbb564c3
 [key_placer.py:174]: Removing 357f14bb-8fa7-45d4-aec1-6651fabf6b5e
 [key_placer.py:174]: Removing f5e6d3ec-a1d7-43dd-8e92-6a1164e06a8e
 [key_placer.py:174]: Removing e94b11b6-a7b1-481a-9e7f-e018774dd160
 [key_placer.py:174]: Removing 5f60d4f9-4b37-481a-b7e9-0f32d28ad9cb
+[key_placer.py:174]: Removing 0fdd7b4e-135c-4fb8-b409-709aee75e94f
+[key_placer.py:174]: Removing d157b42a-6f7e-4234-9cf2-f4822d7ff20a
+[key_placer.py:174]: Removing 6f5513d2-2525-47bd-8f39-ba3b2888d114
+[key_placer.py:174]: Removing 831ffc5a-4a7d-4c4c-b088-ee8bf294bd81
+[key_placer.py:174]: Removing 81b85f5c-c23c-4fad-b8eb-0b809d70bd17
+[key_placer.py:174]: Removing d624f941-c436-4a26-acea-57a7618344e2
 [key_placer.py:162]: Removing dangling tracks
+[key_placer.py:174]: Removing 54d415fb-0a23-443b-840c-f9a69c2ee598
+[key_placer.py:174]: Removing 933819f1-ac02-45dc-97e6-8ddfa3be2280
+[key_placer.py:174]: Removing 59753eaf-d65a-47ff-ad1f-fa5192499350
+[key_placer.py:174]: Removing a6947ed8-4d77-4334-8d3c-0550e4c4a3a4
+[key_placer.py:174]: Removing af2e715f-509a-4696-81d6-137234767770
+[key_placer.py:174]: Removing e1e7818d-7bb6-464b-8242-9cda4bcbb012
+[key_placer.py:174]: Removing b890ba25-0d31-4b21-b0a8-fb5b7ff1f50a
+[key_placer.py:174]: Removing 2efc65d4-2781-4211-b2ad-1176ef78fc27
 [key_placer.py:174]: Removing 3c944c86-492b-428b-86fa-f92c8089a2d9
 [key_placer.py:174]: Removing 8fd3b849-27f2-4630-a307-dcb4e8ab945e
 [key_placer.py:174]: Removing 0451091f-95df-41fd-bcb8-6d1caf6a688f
 [key_placer.py:174]: Removing 52b8d618-70a4-4e28-8966-39250f47c1a0
+[key_placer.py:174]: Removing 0e2d9206-5955-4fbb-bba6-8676765a4b5c
+[key_placer.py:174]: Removing c8617d35-9e5d-41ab-b1cc-efe2bb6cb41d
+[key_placer.py:174]: Removing a4cb4043-1faa-4c67-afc4-788c75f52ea6
+[key_placer.py:174]: Removing 10fb7349-ddb6-4643-bae6-92a9e94531d6
 [key_placer.py:162]: Removing dangling tracks
-[key_placer.py:174]: Removing 8357f17e-d685-4d23-a075-742e5b9385ae
+[key_placer.py:174]: Removing 4b99091e-1436-442c-9098-5ec42b433cc8
+[key_placer.py:174]: Removing a60398c6-293b-4f24-b2d3-0c91814fcec4
+[key_placer.py:174]: Removing d4046016-8410-476a-abb4-99423c1827b9
+[key_placer.py:174]: Removing f60317c8-0ee6-436d-bf32-d0194195094c
+[key_placer.py:174]: Removing ee22e074-9fc0-41a5-a066-3976f755d857
+[key_placer.py:174]: Removing a36ccadf-e388-4242-8e10-b0a9b9e4e840
 [key_placer.py:174]: Removing 0f323521-fa45-459f-a15f-19d4101729cf
 [key_placer.py:174]: Removing cfa36ea6-4502-4847-95aa-50688a799d01
 [key_placer.py:174]: Removing a23bc7a6-7124-44c2-8379-cf87c4fd0edd
+[key_placer.py:174]: Removing f8cc3268-1967-4071-9cfb-6de32eeac0c0
+[key_placer.py:174]: Removing a2b4c634-a1b8-4080-a03f-3b1ddc837f5a
+[key_placer.py:174]: Removing b20a7f8c-4796-4d8a-8456-217f6bae5e3d
+[key_placer.py:174]: Removing 7f2ed9cb-c48e-4ecf-a358-ccf79a0b302c
 [key_placer.py:162]: Removing dangling tracks
-[key_placer.py:174]: Removing 364194c1-833f-4b88-b11f-55d02f4cf3cf
+[key_placer.py:174]: Removing 96a875e7-9c02-4363-a63e-781a707b0a15
+[key_placer.py:174]: Removing 27ddbbf1-cd88-459c-8c9d-08ec0e296846
+[key_placer.py:174]: Removing 238bbe89-9d42-4695-ba88-27eba064ced3
+[key_placer.py:174]: Removing 6805e260-acdc-4fcf-9fc6-dacc430ea976
+[key_placer.py:174]: Removing a8650d34-b7df-4b29-9c5b-c38715bacd1b
+[key_placer.py:174]: Removing b7e67540-664b-4c94-adf2-8020f66c796c
 [key_placer.py:174]: Removing 2d0254ab-5603-4a3a-8739-dfd4807fd039
 [key_placer.py:174]: Removing 8e80d498-6b80-4be6-a3b4-3aef147fff98
 [key_placer.py:174]: Removing 84cac85e-2b90-4fc4-a91f-8ba4dc388e6a
+[key_placer.py:174]: Removing ced52b0c-fbcb-4649-af8e-da53a8e613b3
+[key_placer.py:174]: Removing 2cd3849f-ebf1-4df6-b476-99c6ad14493e
+[key_placer.py:174]: Removing 93509b1b-28dd-48f0-85d0-378e8504ee09
+[key_placer.py:174]: Removing caa9b9a1-238e-4ebd-86a6-3db06c722553
 [key_placer.py:162]: Removing dangling tracks
-[key_placer.py:174]: Removing aa251565-8d9b-42a9-9dd6-b8623d117def
+[key_placer.py:174]: Removing 086e6ac3-e3fb-449d-bc97-327add80ec0a
+[key_placer.py:174]: Removing 82740a60-139e-4859-b60d-37ca2ab5f703
+[key_placer.py:174]: Removing 8f6b292c-98fa-45de-86dc-97ff78dffc71
+[key_placer.py:174]: Removing ad71a011-0682-4ba0-878e-f503c9c1bfbb
+[key_placer.py:174]: Removing 8252f732-9c60-4154-94a5-5378e52a0137
+[key_placer.py:174]: Removing 59fd068a-8cae-4cc4-8f4b-22268f8bd0d2
 [key_placer.py:174]: Removing 99b41ae0-3ff6-4df1-86a3-3b65d9256dd8
 [key_placer.py:174]: Removing c43b3d88-6cc2-48b5-8736-c7cb611eb1ea
 [key_placer.py:174]: Removing 7f58a6e3-aa50-40aa-ab24-c2164c0ab29a
+[key_placer.py:174]: Removing a78d9564-6d6e-402a-bbd4-8cf4c383d336
+[key_placer.py:174]: Removing 6bf0bd31-18b4-4dd9-b56a-c97fb583b4af
+[key_placer.py:174]: Removing 2b2467f9-de5c-47eb-b501-e7bbb3c77d42
+[key_placer.py:174]: Removing 761c0162-6f9a-4ce3-a76e-b0d5a050c9aa
 [key_placer.py:162]: Removing dangling tracks
-[key_placer.py:174]: Removing f2d0616a-777d-4282-b16b-4b61cabdd464
+[key_placer.py:174]: Removing a44a61e9-23ff-4315-9f5b-f3fb388a6abb
+[key_placer.py:174]: Removing a8aa8144-f8c0-44d6-9338-ecc0b08cec26
+[key_placer.py:174]: Removing 4f1ce0a6-7a23-4213-a73b-0a292fbad041
+[key_placer.py:174]: Removing 16c980e0-a20f-4994-8592-19f85f21e799
+[key_placer.py:174]: Removing 00e97cf2-fe60-4f50-b06c-42b872a1b703
 [key_placer.py:174]: Removing 5e1deb7d-187f-45b8-aa65-18b0f7acdd27
-[key_placer.py:174]: Removing 08512274-64a8-40f4-a647-bab2f28118fd
 [key_placer.py:174]: Removing c35744a3-2983-4cbd-94b4-8de20e7cf90a
+[key_placer.py:174]: Removing 94c330de-9ed2-4d00-91c8-71633980ab5b
+[key_placer.py:174]: Removing b2a47611-044f-4480-ba25-b9e47410dbc8
+[key_placer.py:174]: Removing 8e2586e1-280a-4a60-9ed7-7614906a58a4
+[key_placer.py:174]: Removing f72a2920-6c96-4e0f-8902-4bce6884be3f
 [key_placer.py:162]: Removing dangling tracks
-[key_placer.py:174]: Removing 9a036569-2afe-4b0c-ba9d-ff4a9d645340
+[key_placer.py:174]: Removing 87bc7f11-e461-4e07-a234-cecc6a940704
+[key_placer.py:174]: Removing bb93ef2d-e4e5-4196-b3be-7097713623e3
+[key_placer.py:174]: Removing bcaab2f4-b6c5-4aba-b1f4-a786a11fc204
+[key_placer.py:174]: Removing 66bde160-f971-4b7b-a941-af315f34901a
 [key_placer.py:174]: Removing aad6d47c-c2b8-4f26-9f4a-73064f05133d
-[key_placer.py:174]: Removing 93c650a2-b51f-4462-98e7-7c050d1db90c
 [key_placer.py:174]: Removing cf134336-3650-4178-8f6e-6b9cf095006c
+[key_placer.py:174]: Removing e605a7e5-9d76-4f61-a4f4-9d981e033d07
+[key_placer.py:174]: Removing 5b0366f6-db38-4f5a-9f83-f0f986c77779
+[key_placer.py:174]: Removing ac83ab19-9471-4861-969f-7956198d920f
+[key_placer.py:174]: Removing 2e0e2da2-d63d-412d-a9bc-72c2ef524f06
 [key_placer.py:162]: Removing dangling tracks
-[key_placer.py:174]: Removing 5a6fc5d2-c6de-40c8-9015-8d77bb2593a8
+[key_placer.py:174]: Removing 9ddc62e0-52b0-453c-87df-74f7b6a22798
+[key_placer.py:174]: Removing ec61c56b-2e1e-4eb0-b031-c25d42d1eca2
+[key_placer.py:174]: Removing a2c10baf-ccb9-4b6b-a024-f06a9f299bf3
+[key_placer.py:174]: Removing ad3c9c3f-da88-4aee-b12c-e4571c9e6be1
 [key_placer.py:174]: Removing d5670668-b38f-4f25-9fcb-fadece38d5f6
-[key_placer.py:174]: Removing e18ac6bc-a19f-4779-9757-93ae79e5048e
 [key_placer.py:174]: Removing f90ca9be-d2a3-4673-adb8-0ae08f5858ef
+[key_placer.py:174]: Removing a9ec5ffc-692a-42e3-8455-d047a8ea0b08
+[key_placer.py:174]: Removing 44d6b205-9554-4707-a5f1-14816db1c457
+[key_placer.py:174]: Removing 03af4c68-883e-4125-9917-afb16d58eff0
 [key_placer.py:162]: Removing dangling tracks
-[key_placer.py:174]: Removing 0b4b21f8-dbdd-4e00-b4a4-b2e324aeb3a6
+[key_placer.py:174]: Removing f88dd53d-73c5-408e-a6d4-5c5a3a090caf
+[key_placer.py:174]: Removing 97edd981-8fc7-46b9-b9b9-537b3a9ee0df
+[key_placer.py:174]: Removing 650cc9ce-dbd6-4f29-b71b-8995f58f3c8d
+[key_placer.py:174]: Removing dc9de954-e7e4-47a1-9fd4-8bb71356117a
 [key_placer.py:174]: Removing 23e72f01-2bdf-4ef4-895e-b299656e34eb
-[key_placer.py:174]: Removing c538fa38-eae3-481a-bb14-a64aec47d56b
-[key_placer.py:174]: Removing cc632642-b958-473e-826a-7b826ca728b0
+[key_placer.py:174]: Removing cec8256e-c5b6-4853-ab30-38d574911249
+[key_placer.py:174]: Removing b37aef0b-24b5-4e88-b8af-2aaaf7b34f85
+[key_placer.py:174]: Removing 4475724b-9f8e-4604-bd20-30a6697b6a5f
 [key_placer.py:162]: Removing dangling tracks
-[key_placer.py:174]: Removing 4cd1a47a-2df3-431f-acda-5cd786200a15
+[key_placer.py:174]: Removing c433db24-20f6-4c8b-b768-32f8cf0f43b7
+[key_placer.py:174]: Removing 4fde7706-b90e-4bda-ae5f-e49c7a79cc03
+[key_placer.py:174]: Removing 8b1cf3d0-4549-4819-8853-552198a27a89
+[key_placer.py:174]: Removing c0d33afa-e090-425d-bcb2-6b4fa5a6fb14
 [key_placer.py:174]: Removing cbcfc4ee-47c5-466e-a157-b1394104fb4c
-[key_placer.py:174]: Removing 7ae79691-8483-4e19-af18-2c8c6ac94666
-[key_placer.py:174]: Removing 66d4a564-fdf9-4d34-9529-dee1168ebd86
+[key_placer.py:174]: Removing ce042590-cc23-4d18-bc96-9b0320dca4ba
+[key_placer.py:174]: Removing 056e964f-3cb1-45dc-b32c-3e56ad02f062
 [key_placer.py:162]: Removing dangling tracks
-[key_placer.py:174]: Removing 46c8c5e5-58d3-499d-9e5c-9b4ed9196eab
+[key_placer.py:174]: Removing bc0b06a4-6d29-4b7a-a8f8-24cd8ac05a93
+[key_placer.py:174]: Removing e1dbfa55-e4ae-43b9-9073-90326fb1e7e2
 [key_placer.py:174]: Removing fbbd541f-c117-4d44-82ac-625c2019ab73
-[key_placer.py:174]: Removing 5bdedcd4-040d-40fa-98bb-03312ccabbbe
-[key_placer.py:174]: Removing d552ca12-246a-4d8b-a906-fe07284e8bcf
+[key_placer.py:174]: Removing f49d7410-6c3f-477f-ba3a-6e0d1f842b68
+[key_placer.py:174]: Removing 48974a42-1017-4833-8fae-cdc63b02390b
 [key_placer.py:162]: Removing dangling tracks
-[key_placer.py:174]: Removing 0ec78921-ea13-4af2-9ceb-943fb444a570
-[key_placer.py:174]: Removing 75273980-bdc8-4ab6-ad04-dfd529e87fc2
-[key_placer.py:174]: Removing 51b7f19d-cff2-4205-ac42-ba9bec20254d
+[key_placer.py:174]: Removing 8a3f0223-75a5-4d23-900a-6f9fcb2bd481
+[key_placer.py:174]: Removing d1b60ee1-9094-4315-a8e6-0630a9e91348
+[key_placer.py:174]: Removing 37d85bca-342b-4c00-8dab-1a785345c4d7
+[key_placer.py:174]: Removing 1fbec2d6-6c3d-493c-b55a-9faba412be4a
 [key_placer.py:162]: Removing dangling tracks
-[key_placer.py:174]: Removing 6c77b5f9-083f-4ef2-b2af-6811e9d5d699
-[key_placer.py:174]: Removing 8c77978b-387a-4823-a921-96ddb0f94c33
-[key_placer.py:174]: Removing 69748c6e-db71-48c0-a7b7-099a9027c27e
+[key_placer.py:174]: Removing 4ec431bc-7906-4d16-9b91-c4ef13865970
+[key_placer.py:174]: Removing dc91bf06-ef08-437e-af04-8b2532af9d8d
+[key_placer.py:174]: Removing 656f2bd2-a80e-4a16-84b1-41eabe713cf1
+[key_placer.py:174]: Removing d105dfa3-60c1-49b2-9acb-5aafccc29ed7
 [key_placer.py:162]: Removing dangling tracks
-[key_placer.py:174]: Removing 3f502ae8-b0b2-4b57-bab2-3bfd0c2e5678
-[key_placer.py:174]: Removing e3a17fa6-c100-4855-a2e9-d27cc5ed7c14
-[key_placer.py:174]: Removing 54e4dac0-6696-43b8-8310-3381d6d1acdd
+[key_placer.py:174]: Removing 950199a3-9173-4b84-836b-0f0520318528
+[key_placer.py:174]: Removing 31395ac1-a896-49b8-99b5-9d780c2f7d88
+[key_placer.py:174]: Removing 7ba24c6d-8117-4923-8edf-c6aea313402b
+[key_placer.py:174]: Removing f01ec24c-fa18-4c03-8b25-8c742ad469e6
 [key_placer.py:162]: Removing dangling tracks
-[key_placer.py:174]: Removing c47d6a76-c9fa-4d0e-9bee-234eb45cf832
-[key_placer.py:174]: Removing c57b4e72-112e-4339-b9de-81d87414b28c
-[key_placer.py:162]: Removing dangling tracks
-[key_placer.py:174]: Removing d814fdd0-df7d-4f69-89f2-5966ddbd498d
-[key_placer.py:162]: Removing dangling tracks
-[key_placer.py:174]: Removing 67d35734-7f10-4f04-abcc-e03d9780ff8f
-[key_placer.py:162]: Removing dangling tracks
-[key_placer.py:174]: Removing 153f4cfb-882b-4780-bce4-daf6302a8094
+[key_placer.py:174]: Removing 90825741-611d-4082-8fd7-4b208be0f716
+[key_placer.py:174]: Removing a80eee02-5199-4dbf-a365-67c4fc8ca25a
+[key_placer.py:174]: Removing 91481904-b16f-449a-ab65-8e77208e9865
 [key_placer.py:162]: Removing dangling tracks
