@@ -1,11 +1,4 @@
-23764637853536941
-3434
-1769
-1769
-Connector
-0
-4
-4
+23766328471488422
 Audio_Module
 Reverb_BTDR-1H
 Digital Reverberation Unit, http://www.belton.co.kr/inc/downfile.php?seq=17&file=pdf (footprint from http://www.uk-electronic.de/PDF/BTDR-1.pdf)
@@ -98286,3 +98279,17 @@ varistor
 0
 2
 2
+custom
+D_0805
+
+
+0
+2
+2
+custom
+SK6812-MINI-E
+
+
+0
+4
+4
