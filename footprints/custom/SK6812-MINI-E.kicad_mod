@@ -4,7 +4,7 @@
       (effects (font (size 0.5 0.5) (thickness 0.08128)) (justify left bottom mirror))
     (tstamp 9dd9b8b0-c6a3-4142-a717-fa8328f711fa)
   )
-  (fp_text value "SK6812-E" (at 1.6225 3.9775) (layer "B.Fab")
+  (fp_text value "SK6812-E" (at 1.6225 3.9775) (layer "B.Fab") hide
       (effects (font (size 0.73152 0.73152) (thickness 0.08128)) (justify left bottom mirror))
     (tstamp 6e93f756-ddce-4a02-a22e-8a1856384267)
   )
@@ -86,8 +86,8 @@
       )
     )
   )
-  (model SK6812-MINI-E.step
-    (at (xyz 0 0 -0.065))
+  (model "SK6812-MINI-E.step"
+    (offset (xyz 0 0 -1.650999975))
     (scale (xyz 1 1 1))
     (rotate (xyz -90 0 0))
   )
