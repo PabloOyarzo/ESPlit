@@ -1985,6 +1985,10 @@
     (stroke (width 0) (type default))
     (uuid 06ed7fbf-6ad6-455a-9677-d627903a786a)
   )
+  (wire (pts (xy 678.18 77.47) (xy 678.18 76.2))
+    (stroke (width 0) (type default))
+    (uuid 07528f8d-ad9a-43e6-9361-43d3279a5796)
+  )
   (wire (pts (xy 148.59 54.61) (xy 148.59 39.37))
     (stroke (width 0) (type default))
     (uuid 07872506-0b8e-4eda-bf09-4c28360a4155)
@@ -6326,7 +6330,7 @@
   (symbol (lib_id "Device:D") (at 678.18 96.52 90) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 018acbc3-ebd4-4b7a-baad-e696116a427f)
-    (property "Reference" "R_D22" (at 681.99 96.52 0)
+    (property "Reference" "R_D23" (at 681.99 96.52 0)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "D" (at 681.99 96.52 0)
@@ -6349,7 +6353,7 @@
     (instances
       (project "split_keyboard"
         (path "/48c5ed27-feda-4a94-9dac-8f2f8efef842"
-          (reference "R_D22") (unit 1)
+          (reference "R_D23") (unit 1)
         )
       )
     )
@@ -6566,7 +6570,7 @@
   (symbol (lib_id "Switch:SW_Push") (at 668.02 60.96 0) (mirror y) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 0673c22d-3027-48b7-8171-580307db0838)
-    (property "Reference" "R_SW7" (at 668.02 57.15 0)
+    (property "Reference" "R_SW12" (at 668.02 57.15 0)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "L_SW" (at 668.02 55.88 0)
@@ -6583,7 +6587,7 @@
     (instances
       (project "split_keyboard"
         (path "/48c5ed27-feda-4a94-9dac-8f2f8efef842"
-          (reference "R_SW7") (unit 1)
+          (reference "R_SW12") (unit 1)
         )
       )
     )
@@ -6695,7 +6699,7 @@
   (symbol (lib_id "Switch:SW_Push") (at 154.94 39.37 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 08c359df-54b9-4fca-b4f4-acba522f7ff8)
-    (property "Reference" "L_SW2" (at 154.94 35.56 0)
+    (property "Reference" "L_SW5" (at 154.94 35.56 0)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "L_SW" (at 154.94 34.29 0)
@@ -6712,7 +6716,7 @@
     (instances
       (project "split_keyboard"
         (path "/48c5ed27-feda-4a94-9dac-8f2f8efef842"
-          (reference "L_SW2") (unit 1)
+          (reference "L_SW5") (unit 1)
         )
       )
     )
@@ -6721,7 +6725,7 @@
   (symbol (lib_id "Device:D") (at 205.74 74.93 270) (mirror x) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 08c9c03e-69c7-463f-bc77-43d029d690cf)
-    (property "Reference" "L_D17" (at 201.93 74.93 0)
+    (property "Reference" "L_D14" (at 201.93 74.93 0)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "D" (at 201.93 74.93 0)
@@ -6744,7 +6748,7 @@
     (instances
       (project "split_keyboard"
         (path "/48c5ed27-feda-4a94-9dac-8f2f8efef842"
-          (reference "L_D17") (unit 1)
+          (reference "L_D14") (unit 1)
         )
       )
     )
@@ -6827,7 +6831,7 @@
   (symbol (lib_id "Switch:SW_Push") (at 215.9 39.37 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 0a314313-7ac4-4ca9-88cc-18b2bf0029f8)
-    (property "Reference" "L_SW6" (at 215.9 35.56 0)
+    (property "Reference" "L_SW1" (at 215.9 35.56 0)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "L_SW" (at 215.9 34.29 0)
@@ -6844,7 +6848,7 @@
     (instances
       (project "split_keyboard"
         (path "/48c5ed27-feda-4a94-9dac-8f2f8efef842"
-          (reference "L_SW6") (unit 1)
+          (reference "L_SW1") (unit 1)
         )
       )
     )
@@ -7003,7 +7007,7 @@
   (symbol (lib_id "Device:D") (at 662.94 66.04 90) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 0e188e22-22db-4973-914d-1ccc6d0e15c0)
-    (property "Reference" "R_D7" (at 666.75 66.04 0)
+    (property "Reference" "R_D12" (at 666.75 66.04 0)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "D" (at 666.75 66.04 0)
@@ -7026,7 +7030,7 @@
     (instances
       (project "split_keyboard"
         (path "/48c5ed27-feda-4a94-9dac-8f2f8efef842"
-          (reference "R_D7") (unit 1)
+          (reference "R_D12") (unit 1)
         )
       )
     )
@@ -7134,7 +7138,7 @@
   (symbol (lib_id "Switch:SW_Push") (at 698.5 60.96 0) (mirror y) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 1964cc4d-51b9-4a36-bd3d-5934d57bf6d5)
-    (property "Reference" "R_SW9" (at 698.5 57.15 0)
+    (property "Reference" "R_SW10" (at 698.5 57.15 0)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "L_SW" (at 698.5 55.88 0)
@@ -7151,7 +7155,7 @@
     (instances
       (project "split_keyboard"
         (path "/48c5ed27-feda-4a94-9dac-8f2f8efef842"
-          (reference "R_SW9") (unit 1)
+          (reference "R_SW10") (unit 1)
         )
       )
     )
@@ -7414,7 +7418,7 @@
   (symbol (lib_id "Switch:SW_Push") (at 200.66 39.37 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 1edd4c90-66d4-4da7-a81a-a8af8af035d6)
-    (property "Reference" "L_SW5" (at 200.66 35.56 0)
+    (property "Reference" "L_SW2" (at 200.66 35.56 0)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "L_SW" (at 200.66 34.29 0)
@@ -7431,7 +7435,7 @@
     (instances
       (project "split_keyboard"
         (path "/48c5ed27-feda-4a94-9dac-8f2f8efef842"
-          (reference "L_SW5") (unit 1)
+          (reference "L_SW2") (unit 1)
         )
       )
     )
@@ -7695,7 +7699,7 @@
   (symbol (lib_id "Switch:SW_Push") (at 652.78 91.44 0) (mirror y) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 2a193426-7db6-42ae-9d88-205d73575761)
-    (property "Reference" "R_SW20" (at 652.78 87.63 0)
+    (property "Reference" "R_SW25" (at 652.78 87.63 0)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "L_SW" (at 652.78 86.36 0)
@@ -7712,7 +7716,7 @@
     (instances
       (project "split_keyboard"
         (path "/48c5ed27-feda-4a94-9dac-8f2f8efef842"
-          (reference "R_SW20") (unit 1)
+          (reference "R_SW25") (unit 1)
         )
       )
     )
@@ -7721,7 +7725,7 @@
   (symbol (lib_id "Switch:SW_Push") (at 728.98 60.96 0) (mirror y) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 2a1a403a-63ca-4506-83d4-2e778d2a9e02)
-    (property "Reference" "R_SW11" (at 728.98 57.15 0)
+    (property "Reference" "R_SW8" (at 728.98 57.15 0)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "L_SW" (at 728.98 55.88 0)
@@ -7738,7 +7742,7 @@
     (instances
       (project "split_keyboard"
         (path "/48c5ed27-feda-4a94-9dac-8f2f8efef842"
-          (reference "R_SW11") (unit 1)
+          (reference "R_SW8") (unit 1)
         )
       )
     )
@@ -7880,7 +7884,7 @@
   (symbol (lib_id "Device:D") (at 723.9 66.04 90) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 300b8c4d-c2b8-4ee4-aee1-2ae6fc79073a)
-    (property "Reference" "R_D11" (at 727.71 66.04 0)
+    (property "Reference" "R_D8" (at 727.71 66.04 0)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "D" (at 727.71 66.04 0)
@@ -7903,7 +7907,7 @@
     (instances
       (project "split_keyboard"
         (path "/48c5ed27-feda-4a94-9dac-8f2f8efef842"
-          (reference "R_D11") (unit 1)
+          (reference "R_D8") (unit 1)
         )
       )
     )
@@ -7987,7 +7991,7 @@
   (symbol (lib_id "Device:D") (at 662.94 96.52 90) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 31cfa0a9-71f6-4474-9bf9-37ffceeaa60f)
-    (property "Reference" "R_D21" (at 666.75 96.52 0)
+    (property "Reference" "R_D24" (at 666.75 96.52 0)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "D" (at 666.75 96.52 0)
@@ -8010,7 +8014,7 @@
     (instances
       (project "split_keyboard"
         (path "/48c5ed27-feda-4a94-9dac-8f2f8efef842"
-          (reference "R_D21") (unit 1)
+          (reference "R_D24") (unit 1)
         )
       )
     )
@@ -8019,7 +8023,7 @@
   (symbol (lib_id "Device:D") (at 739.14 96.52 90) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 3239a963-30a1-441b-b4c0-13b24b76a245)
-    (property "Reference" "R_D26" (at 742.95 96.52 0)
+    (property "Reference" "R_D19" (at 742.95 96.52 0)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "D" (at 742.95 96.52 0)
@@ -8042,7 +8046,7 @@
     (instances
       (project "split_keyboard"
         (path "/48c5ed27-feda-4a94-9dac-8f2f8efef842"
-          (reference "R_D26") (unit 1)
+          (reference "R_D19") (unit 1)
         )
       )
     )
@@ -8581,7 +8585,7 @@
   (symbol (lib_id "Device:D") (at 175.26 74.93 270) (mirror x) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 408eefd3-a9c0-4e89-a3e7-ec0f2cca234b)
-    (property "Reference" "L_D15" (at 171.45 74.93 0)
+    (property "Reference" "L_D16" (at 171.45 74.93 0)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "D" (at 171.45 74.93 0)
@@ -8604,7 +8608,7 @@
     (instances
       (project "split_keyboard"
         (path "/48c5ed27-feda-4a94-9dac-8f2f8efef842"
-          (reference "L_D15") (unit 1)
+          (reference "L_D16") (unit 1)
         )
       )
     )
@@ -8702,7 +8706,7 @@
   (symbol (lib_id "Switch:SW_Push") (at 185.42 39.37 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 47c87cc4-bc92-41f4-accd-a389145e014e)
-    (property "Reference" "L_SW4" (at 185.42 35.56 0)
+    (property "Reference" "L_SW3" (at 185.42 35.56 0)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "L_SW" (at 185.42 34.29 0)
@@ -8719,7 +8723,7 @@
     (instances
       (project "split_keyboard"
         (path "/48c5ed27-feda-4a94-9dac-8f2f8efef842"
-          (reference "L_SW4") (unit 1)
+          (reference "L_SW3") (unit 1)
         )
       )
     )
@@ -8820,7 +8824,7 @@
   (symbol (lib_id "Device:D") (at 190.5 44.45 270) (mirror x) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 4b1475f0-b206-4315-b823-7bc19e274681)
-    (property "Reference" "L_D4" (at 186.69 44.45 0)
+    (property "Reference" "L_D3" (at 186.69 44.45 0)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "D" (at 186.69 44.45 0)
@@ -8843,7 +8847,7 @@
     (instances
       (project "split_keyboard"
         (path "/48c5ed27-feda-4a94-9dac-8f2f8efef842"
-          (reference "L_D4") (unit 1)
+          (reference "L_D3") (unit 1)
         )
       )
     )
@@ -9108,7 +9112,7 @@
   (symbol (lib_id "Switch:SW_Push") (at 185.42 69.85 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 5ba645c7-ef0c-41d2-bd38-7e7b44943041)
-    (property "Reference" "L_SW16" (at 185.42 66.04 0)
+    (property "Reference" "L_SW15" (at 185.42 66.04 0)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "L_SW" (at 185.42 64.77 0)
@@ -9125,7 +9129,7 @@
     (instances
       (project "split_keyboard"
         (path "/48c5ed27-feda-4a94-9dac-8f2f8efef842"
-          (reference "L_SW16") (unit 1)
+          (reference "L_SW15") (unit 1)
         )
       )
     )
@@ -9293,7 +9297,7 @@
   (symbol (lib_id "Device:D") (at 693.42 66.04 90) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 693052d2-e7b8-4751-9c34-96ca4f983d0d)
-    (property "Reference" "R_D9" (at 697.23 66.04 0)
+    (property "Reference" "R_D10" (at 697.23 66.04 0)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "D" (at 697.23 66.04 0)
@@ -9316,7 +9320,7 @@
     (instances
       (project "split_keyboard"
         (path "/48c5ed27-feda-4a94-9dac-8f2f8efef842"
-          (reference "R_D9") (unit 1)
+          (reference "R_D10") (unit 1)
         )
       )
     )
@@ -9325,7 +9329,7 @@
   (symbol (lib_id "Device:D") (at 708.66 66.04 90) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 6ab26d99-59ae-4e8c-8972-ea71f19fdf9b)
-    (property "Reference" "R_D10" (at 712.47 66.04 0)
+    (property "Reference" "R_D9" (at 712.47 66.04 0)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "D" (at 712.47 66.04 0)
@@ -9348,7 +9352,7 @@
     (instances
       (project "split_keyboard"
         (path "/48c5ed27-feda-4a94-9dac-8f2f8efef842"
-          (reference "R_D10") (unit 1)
+          (reference "R_D9") (unit 1)
         )
       )
     )
@@ -9534,7 +9538,7 @@
   (symbol (lib_id "Switch:SW_Push") (at 139.7 69.85 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 6de167bf-0027-43cc-8a28-d3482493d1f0)
-    (property "Reference" "L_SW13" (at 139.7 66.04 0)
+    (property "Reference" "L_SW18" (at 139.7 66.04 0)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "L_SW" (at 139.7 64.77 0)
@@ -9551,7 +9555,7 @@
     (instances
       (project "split_keyboard"
         (path "/48c5ed27-feda-4a94-9dac-8f2f8efef842"
-          (reference "L_SW13") (unit 1)
+          (reference "L_SW18") (unit 1)
         )
       )
     )
@@ -9641,7 +9645,7 @@
   (symbol (lib_id "Device:D") (at 708.66 96.52 90) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 6e4f5f0e-a009-4525-8fdd-80d7cb7988e8)
-    (property "Reference" "R_D24" (at 712.47 96.52 0)
+    (property "Reference" "R_D21" (at 712.47 96.52 0)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "D" (at 712.47 96.52 0)
@@ -9664,7 +9668,7 @@
     (instances
       (project "split_keyboard"
         (path "/48c5ed27-feda-4a94-9dac-8f2f8efef842"
-          (reference "R_D24") (unit 1)
+          (reference "R_D21") (unit 1)
         )
       )
     )
@@ -9926,7 +9930,7 @@
   (symbol (lib_id "Switch:SW_Push") (at 154.94 69.85 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 7d5b44b3-8d22-44e9-b2f3-fd6c769326ed)
-    (property "Reference" "L_SW14" (at 154.94 66.04 0)
+    (property "Reference" "L_SW17" (at 154.94 66.04 0)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "L_SW" (at 154.94 64.77 0)
@@ -9943,7 +9947,7 @@
     (instances
       (project "split_keyboard"
         (path "/48c5ed27-feda-4a94-9dac-8f2f8efef842"
-          (reference "L_SW14") (unit 1)
+          (reference "L_SW17") (unit 1)
         )
       )
     )
@@ -9952,7 +9956,7 @@
   (symbol (lib_id "Device:D") (at 190.5 74.93 270) (mirror x) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 82d4c9ca-3dcb-44ec-a858-c76fd3b6b7e3)
-    (property "Reference" "L_D16" (at 186.69 74.93 0)
+    (property "Reference" "L_D15" (at 186.69 74.93 0)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "D" (at 186.69 74.93 0)
@@ -9975,7 +9979,7 @@
     (instances
       (project "split_keyboard"
         (path "/48c5ed27-feda-4a94-9dac-8f2f8efef842"
-          (reference "L_D16") (unit 1)
+          (reference "L_D15") (unit 1)
         )
       )
     )
@@ -10010,7 +10014,7 @@
   (symbol (lib_id "Device:D") (at 160.02 74.93 270) (mirror x) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 83e7b2d5-f0bb-420b-a624-70a8b33ecdd5)
-    (property "Reference" "L_D14" (at 156.21 74.93 0)
+    (property "Reference" "L_D17" (at 156.21 74.93 0)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "D" (at 156.21 74.93 0)
@@ -10033,7 +10037,7 @@
     (instances
       (project "split_keyboard"
         (path "/48c5ed27-feda-4a94-9dac-8f2f8efef842"
-          (reference "L_D14") (unit 1)
+          (reference "L_D17") (unit 1)
         )
       )
     )
@@ -10117,7 +10121,7 @@
   (symbol (lib_id "Device:D") (at 160.02 44.45 270) (mirror x) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 883ddb7d-79e8-4efa-a635-4906c47431d3)
-    (property "Reference" "L_D2" (at 156.21 44.45 0)
+    (property "Reference" "L_D5" (at 156.21 44.45 0)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "D" (at 156.21 44.45 0)
@@ -10140,7 +10144,7 @@
     (instances
       (project "split_keyboard"
         (path "/48c5ed27-feda-4a94-9dac-8f2f8efef842"
-          (reference "L_D2") (unit 1)
+          (reference "L_D5") (unit 1)
         )
       )
     )
@@ -10149,7 +10153,7 @@
   (symbol (lib_id "Switch:SW_Push") (at 637.54 91.44 0) (mirror y) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 89737fff-95a9-4167-a428-178a8099fd69)
-    (property "Reference" "R_SW19" (at 637.54 87.63 0)
+    (property "Reference" "R_SW26" (at 637.54 87.63 0)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "L_SW" (at 637.54 86.36 0)
@@ -10166,7 +10170,7 @@
     (instances
       (project "split_keyboard"
         (path "/48c5ed27-feda-4a94-9dac-8f2f8efef842"
-          (reference "R_SW19") (unit 1)
+          (reference "R_SW26") (unit 1)
         )
       )
     )
@@ -10394,7 +10398,7 @@
   (symbol (lib_id "Switch:SW_Push") (at 215.9 69.85 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 8fc292af-a294-44b1-a26f-f58eb233d984)
-    (property "Reference" "L_SW18" (at 215.9 66.04 0)
+    (property "Reference" "L_SW13" (at 215.9 66.04 0)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "L_SW" (at 215.9 64.77 0)
@@ -10411,7 +10415,7 @@
     (instances
       (project "split_keyboard"
         (path "/48c5ed27-feda-4a94-9dac-8f2f8efef842"
-          (reference "L_SW18") (unit 1)
+          (reference "L_SW13") (unit 1)
         )
       )
     )
@@ -10602,7 +10606,7 @@
   (symbol (lib_id "Device:D") (at 144.78 44.45 270) (mirror x) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 94831433-096f-464a-9c45-823d40a68905)
-    (property "Reference" "L_D1" (at 140.97 44.45 0)
+    (property "Reference" "L_D6" (at 140.97 44.45 0)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "D" (at 140.97 44.45 0)
@@ -10625,7 +10629,7 @@
     (instances
       (project "split_keyboard"
         (path "/48c5ed27-feda-4a94-9dac-8f2f8efef842"
-          (reference "L_D1") (unit 1)
+          (reference "L_D6") (unit 1)
         )
       )
     )
@@ -10733,7 +10737,7 @@
   (symbol (lib_id "Switch:SW_Push") (at 683.26 91.44 0) (mirror y) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 95bfd0aa-6f78-4e54-bcc1-c4d3a510d208)
-    (property "Reference" "R_SW22" (at 683.26 87.63 0)
+    (property "Reference" "R_SW23" (at 683.26 87.63 0)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "L_SW" (at 683.26 86.36 0)
@@ -10750,7 +10754,7 @@
     (instances
       (project "split_keyboard"
         (path "/48c5ed27-feda-4a94-9dac-8f2f8efef842"
-          (reference "R_SW22") (unit 1)
+          (reference "R_SW23") (unit 1)
         )
       )
     )
@@ -10967,7 +10971,7 @@
   (symbol (lib_id "Switch:SW_Push") (at 713.74 60.96 0) (mirror y) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 9f619ce1-4a7d-4d19-91d3-1c91cedc3afd)
-    (property "Reference" "R_SW10" (at 713.74 57.15 0)
+    (property "Reference" "R_SW9" (at 713.74 57.15 0)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "L_SW" (at 713.74 55.88 0)
@@ -10984,7 +10988,7 @@
     (instances
       (project "split_keyboard"
         (path "/48c5ed27-feda-4a94-9dac-8f2f8efef842"
-          (reference "R_SW10") (unit 1)
+          (reference "R_SW9") (unit 1)
         )
       )
     )
@@ -11223,7 +11227,7 @@
   (symbol (lib_id "Device:D") (at 739.14 66.04 90) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid a87c0218-ba51-4b9e-b41a-193e1f0d51c1)
-    (property "Reference" "R_D12" (at 742.95 66.04 0)
+    (property "Reference" "R_D7" (at 742.95 66.04 0)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "D" (at 742.95 66.04 0)
@@ -11246,7 +11250,7 @@
     (instances
       (project "split_keyboard"
         (path "/48c5ed27-feda-4a94-9dac-8f2f8efef842"
-          (reference "R_D12") (unit 1)
+          (reference "R_D7") (unit 1)
         )
       )
     )
@@ -11551,7 +11555,7 @@
   (symbol (lib_id "Switch:SW_Push") (at 668.02 91.44 0) (mirror y) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid b278b059-654a-438d-995d-888f8dfa6e18)
-    (property "Reference" "R_SW21" (at 668.02 87.63 0)
+    (property "Reference" "R_SW24" (at 668.02 87.63 0)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "L_SW" (at 668.02 86.36 0)
@@ -11568,7 +11572,7 @@
     (instances
       (project "split_keyboard"
         (path "/48c5ed27-feda-4a94-9dac-8f2f8efef842"
-          (reference "R_SW21") (unit 1)
+          (reference "R_SW24") (unit 1)
         )
       )
     )
@@ -11577,7 +11581,7 @@
   (symbol (lib_id "Switch:SW_Push") (at 139.7 39.37 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid b2ebc4f7-f666-4615-a562-b605e4a24970)
-    (property "Reference" "L_SW1" (at 139.7 35.56 0)
+    (property "Reference" "L_SW6" (at 139.7 35.56 0)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "L_SW" (at 139.7 34.29 0)
@@ -11594,7 +11598,7 @@
     (instances
       (project "split_keyboard"
         (path "/48c5ed27-feda-4a94-9dac-8f2f8efef842"
-          (reference "L_SW1") (unit 1)
+          (reference "L_SW6") (unit 1)
         )
       )
     )
@@ -11629,7 +11633,7 @@
   (symbol (lib_id "Switch:SW_Push") (at 713.74 91.44 0) (mirror y) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid b58c584b-6342-48af-ba5c-9fd956e943b2)
-    (property "Reference" "R_SW24" (at 713.74 87.63 0)
+    (property "Reference" "R_SW21" (at 713.74 87.63 0)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "L_SW" (at 713.74 86.36 0)
@@ -11646,7 +11650,7 @@
     (instances
       (project "split_keyboard"
         (path "/48c5ed27-feda-4a94-9dac-8f2f8efef842"
-          (reference "R_SW24") (unit 1)
+          (reference "R_SW21") (unit 1)
         )
       )
     )
@@ -11655,7 +11659,7 @@
   (symbol (lib_id "Device:D") (at 647.7 96.52 90) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid b684bed1-6634-4975-9afa-72f5e8f6200e)
-    (property "Reference" "R_D20" (at 651.51 96.52 0)
+    (property "Reference" "R_D25" (at 651.51 96.52 0)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "D" (at 651.51 96.52 0)
@@ -11678,7 +11682,7 @@
     (instances
       (project "split_keyboard"
         (path "/48c5ed27-feda-4a94-9dac-8f2f8efef842"
-          (reference "R_D20") (unit 1)
+          (reference "R_D25") (unit 1)
         )
       )
     )
@@ -11687,7 +11691,7 @@
   (symbol (lib_id "Switch:SW_Push") (at 698.5 91.44 0) (mirror y) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid b6c16daa-ef6c-40fe-aac8-fa0f0bff3ff0)
-    (property "Reference" "R_SW23" (at 698.5 87.63 0)
+    (property "Reference" "R_SW22" (at 698.5 87.63 0)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "L_SW" (at 698.5 86.36 0)
@@ -11704,7 +11708,7 @@
     (instances
       (project "split_keyboard"
         (path "/48c5ed27-feda-4a94-9dac-8f2f8efef842"
-          (reference "R_SW23") (unit 1)
+          (reference "R_SW22") (unit 1)
         )
       )
     )
@@ -11713,7 +11717,7 @@
   (symbol (lib_id "Device:D") (at 632.46 96.52 90) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid b868f737-c723-4f0e-b33d-dc6bd7daf3b6)
-    (property "Reference" "R_D19" (at 636.27 96.52 0)
+    (property "Reference" "R_D26" (at 636.27 96.52 0)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "D" (at 636.27 96.52 0)
@@ -11736,7 +11740,7 @@
     (instances
       (project "split_keyboard"
         (path "/48c5ed27-feda-4a94-9dac-8f2f8efef842"
-          (reference "R_D19") (unit 1)
+          (reference "R_D26") (unit 1)
         )
       )
     )
@@ -11745,7 +11749,7 @@
   (symbol (lib_id "Device:D") (at 144.78 74.93 270) (mirror x) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid ba0ad9a4-111c-4664-b522-981d4baedf38)
-    (property "Reference" "L_D13" (at 140.97 74.93 0)
+    (property "Reference" "L_D18" (at 140.97 74.93 0)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "D" (at 140.97 74.93 0)
@@ -11768,7 +11772,7 @@
     (instances
       (project "split_keyboard"
         (path "/48c5ed27-feda-4a94-9dac-8f2f8efef842"
-          (reference "L_D13") (unit 1)
+          (reference "L_D18") (unit 1)
         )
       )
     )
@@ -11933,7 +11937,7 @@
   (symbol (lib_id "Device:D") (at 175.26 44.45 270) (mirror x) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid bf26f746-206f-4658-90b4-a53283eef1ef)
-    (property "Reference" "L_D3" (at 171.45 44.45 0)
+    (property "Reference" "L_D4" (at 171.45 44.45 0)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "D" (at 171.45 44.45 0)
@@ -11956,7 +11960,7 @@
     (instances
       (project "split_keyboard"
         (path "/48c5ed27-feda-4a94-9dac-8f2f8efef842"
-          (reference "L_D3") (unit 1)
+          (reference "L_D4") (unit 1)
         )
       )
     )
@@ -11991,7 +11995,7 @@
   (symbol (lib_id "Switch:SW_Push") (at 744.22 60.96 0) (mirror y) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid c0b6f698-0704-4a9c-b819-7028f3ca9fac)
-    (property "Reference" "R_SW12" (at 744.22 57.15 0)
+    (property "Reference" "R_SW7" (at 744.22 57.15 0)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "L_SW" (at 744.22 55.88 0)
@@ -12008,7 +12012,7 @@
     (instances
       (project "split_keyboard"
         (path "/48c5ed27-feda-4a94-9dac-8f2f8efef842"
-          (reference "R_SW12") (unit 1)
+          (reference "R_SW7") (unit 1)
         )
       )
     )
@@ -12017,7 +12021,7 @@
   (symbol (lib_id "Switch:SW_Push") (at 170.18 39.37 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid c23a9000-661e-46c6-9856-5b1b5bc306e5)
-    (property "Reference" "L_SW3" (at 170.18 35.56 0)
+    (property "Reference" "L_SW4" (at 170.18 35.56 0)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "L_SW" (at 170.18 34.29 0)
@@ -12034,7 +12038,7 @@
     (instances
       (project "split_keyboard"
         (path "/48c5ed27-feda-4a94-9dac-8f2f8efef842"
-          (reference "L_SW3") (unit 1)
+          (reference "L_SW4") (unit 1)
         )
       )
     )
@@ -12043,7 +12047,7 @@
   (symbol (lib_id "Switch:SW_Push") (at 170.18 69.85 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid c33683df-f0f9-4187-9338-085064ead096)
-    (property "Reference" "L_SW15" (at 170.18 66.04 0)
+    (property "Reference" "L_SW16" (at 170.18 66.04 0)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "L_SW" (at 170.18 64.77 0)
@@ -12060,7 +12064,7 @@
     (instances
       (project "split_keyboard"
         (path "/48c5ed27-feda-4a94-9dac-8f2f8efef842"
-          (reference "L_SW15") (unit 1)
+          (reference "L_SW16") (unit 1)
         )
       )
     )
@@ -12351,7 +12355,7 @@
   (symbol (lib_id "Device:D") (at 205.74 44.45 270) (mirror x) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid cccd23ff-25df-4838-bbda-6efbef23bd59)
-    (property "Reference" "L_D5" (at 201.93 44.45 0)
+    (property "Reference" "L_D2" (at 201.93 44.45 0)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "D" (at 201.93 44.45 0)
@@ -12374,7 +12378,7 @@
     (instances
       (project "split_keyboard"
         (path "/48c5ed27-feda-4a94-9dac-8f2f8efef842"
-          (reference "L_D5") (unit 1)
+          (reference "L_D2") (unit 1)
         )
       )
     )
@@ -12467,7 +12471,7 @@
   (symbol (lib_id "Device:D") (at 220.98 44.45 270) (mirror x) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid d418be48-bd78-441b-876a-b5dddfddde16)
-    (property "Reference" "L_D6" (at 217.17 44.45 0)
+    (property "Reference" "L_D1" (at 217.17 44.45 0)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "D" (at 217.17 44.45 0)
@@ -12490,7 +12494,7 @@
     (instances
       (project "split_keyboard"
         (path "/48c5ed27-feda-4a94-9dac-8f2f8efef842"
-          (reference "L_D6") (unit 1)
+          (reference "L_D1") (unit 1)
         )
       )
     )
@@ -13184,7 +13188,7 @@
   (symbol (lib_id "Device:D") (at 220.98 74.93 270) (mirror x) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid e9db7ad3-ec7d-4ac9-8488-e76c30d0090d)
-    (property "Reference" "L_D18" (at 217.17 74.93 0)
+    (property "Reference" "L_D13" (at 217.17 74.93 0)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "D" (at 217.17 74.93 0)
@@ -13207,7 +13211,7 @@
     (instances
       (project "split_keyboard"
         (path "/48c5ed27-feda-4a94-9dac-8f2f8efef842"
-          (reference "L_D18") (unit 1)
+          (reference "L_D13") (unit 1)
         )
       )
     )
@@ -13265,7 +13269,7 @@
   (symbol (lib_id "Switch:SW_Push") (at 200.66 69.85 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid ea7deb88-3cad-4351-af8b-d619124f67a8)
-    (property "Reference" "L_SW17" (at 200.66 66.04 0)
+    (property "Reference" "L_SW14" (at 200.66 66.04 0)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "L_SW" (at 200.66 64.77 0)
@@ -13282,7 +13286,7 @@
     (instances
       (project "split_keyboard"
         (path "/48c5ed27-feda-4a94-9dac-8f2f8efef842"
-          (reference "L_SW17") (unit 1)
+          (reference "L_SW14") (unit 1)
         )
       )
     )
@@ -13538,7 +13542,7 @@
   (symbol (lib_id "Switch:SW_Push") (at 744.22 91.44 0) (mirror y) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid f5710549-24e5-415a-a315-1cd5ae1a145b)
-    (property "Reference" "R_SW26" (at 744.22 87.63 0)
+    (property "Reference" "R_SW19" (at 744.22 87.63 0)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "L_SW" (at 744.22 86.36 0)
@@ -13555,7 +13559,7 @@
     (instances
       (project "split_keyboard"
         (path "/48c5ed27-feda-4a94-9dac-8f2f8efef842"
-          (reference "R_SW26") (unit 1)
+          (reference "R_SW19") (unit 1)
         )
       )
     )
@@ -13564,7 +13568,7 @@
   (symbol (lib_id "Switch:SW_Push") (at 728.98 91.44 0) (mirror y) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid f59046e4-6ecf-4642-9ff1-ebab5221a1c4)
-    (property "Reference" "R_SW25" (at 728.98 87.63 0)
+    (property "Reference" "R_SW20" (at 728.98 87.63 0)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "L_SW" (at 728.98 86.36 0)
@@ -13581,7 +13585,7 @@
     (instances
       (project "split_keyboard"
         (path "/48c5ed27-feda-4a94-9dac-8f2f8efef842"
-          (reference "R_SW25") (unit 1)
+          (reference "R_SW20") (unit 1)
         )
       )
     )
@@ -13615,7 +13619,7 @@
   (symbol (lib_id "Device:D") (at 723.9 96.52 90) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid f782765e-4960-423d-b978-b4cba87f878e)
-    (property "Reference" "R_D25" (at 727.71 96.52 0)
+    (property "Reference" "R_D20" (at 727.71 96.52 0)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "D" (at 727.71 96.52 0)
@@ -13638,7 +13642,7 @@
     (instances
       (project "split_keyboard"
         (path "/48c5ed27-feda-4a94-9dac-8f2f8efef842"
-          (reference "R_D25") (unit 1)
+          (reference "R_D20") (unit 1)
         )
       )
     )
@@ -13754,7 +13758,7 @@
   (symbol (lib_id "Switch:SW_Push") (at 683.26 60.96 0) (mirror y) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid fcc02c43-f8b4-4bba-ab87-8a21847dcf8f)
-    (property "Reference" "R_SW8" (at 683.26 57.15 0)
+    (property "Reference" "R_SW11" (at 683.26 57.15 0)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "L_SW" (at 683.26 55.88 0)
@@ -13771,7 +13775,7 @@
     (instances
       (project "split_keyboard"
         (path "/48c5ed27-feda-4a94-9dac-8f2f8efef842"
-          (reference "R_SW8") (unit 1)
+          (reference "R_SW11") (unit 1)
         )
       )
     )
@@ -13780,7 +13784,7 @@
   (symbol (lib_id "Device:D") (at 693.42 96.52 90) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid fd08dec5-1f26-4c3c-b2b1-0fedca352e82)
-    (property "Reference" "R_D23" (at 697.23 96.52 0)
+    (property "Reference" "R_D22" (at 697.23 96.52 0)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "D" (at 697.23 96.52 0)
@@ -13803,7 +13807,7 @@
     (instances
       (project "split_keyboard"
         (path "/48c5ed27-feda-4a94-9dac-8f2f8efef842"
-          (reference "R_D23") (unit 1)
+          (reference "R_D22") (unit 1)
         )
       )
     )
@@ -13838,7 +13842,7 @@
   (symbol (lib_id "Device:D") (at 678.18 66.04 90) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid fea06643-b622-4812-9cbf-568464ff6b2a)
-    (property "Reference" "R_D8" (at 681.99 66.04 0)
+    (property "Reference" "R_D11" (at 681.99 66.04 0)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "D" (at 681.99 66.04 0)
@@ -13861,7 +13865,7 @@
     (instances
       (project "split_keyboard"
         (path "/48c5ed27-feda-4a94-9dac-8f2f8efef842"
-          (reference "R_D8") (unit 1)
+          (reference "R_D11") (unit 1)
         )
       )
     )
