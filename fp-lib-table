@@ -8,4 +8,5 @@
   (lib (name "Slide Switch")(type "KiCad")(uri "${KIPRJMOD}/footprints/Slide Switch - PCM13SMTR")(options "")(descr ""))
   (lib (name "JST")(type "KiCad")(uri "${KIPRJMOD}/footprints/Connectors_JST.pretty-master")(options "")(descr ""))
   (lib (name "custom")(type "KiCad")(uri "${KIPRJMOD}/footprints/custom")(options "")(descr ""))
+  (lib (name "poka-yoke_txrx")(type "KiCad")(uri "C:/Users/oyarz/Documents/github/poka-yoke_txrx/poka-yoke_txrx.pretty")(options "")(descr ""))
 )
