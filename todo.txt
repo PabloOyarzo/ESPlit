@@ -5,11 +5,12 @@ REQUIRED:
 [X] Change TRRS for TH
 	> TRRS PJ-320A
 - Add Touch points for LEDs
-- Fix switch pinout
-- Add pullups to RESET, SDA, SCL according to datasheet
+[X] Fix switch pinout
+- Add pullups to RESET, INT, SDA, SCL according to datasheet
 - Add header and QWIIC to SDA & SCL
 - Fix plates, make them around the MCU
 
 BETTER TO HAVE:
 - Independent touchpoints for LEDs
 - Add header pins for batteries bellow MCU
+- Ferrite Bead on I2C lines?
