@@ -1,16 +1,15 @@
 REQUIRED:
-[X] Wrong footprint for Keys Holders
-[X] Wrong Spacing for Keycaps
+[x] Wrong footprint for Keys Holders
+[x] Wrong Spacing for Keycaps
 	> SW_Hotswap_Kailh_Choc_V1V2_Plated_1.00u
-[X] Change TRRS for TH
+[x] Change TRRS for TH
 	> TRRS PJ-320A
 - Add Touch points for LEDs
-[X] Fix switch pinout
-- Add pullups to RESET, INT, SDA, SCL according to datasheet
-- Add header and QWIIC to SDA & SCL
+[x] Fix switch pinout
+[x] Add pullups to RESET & INT according to datasheet
+[x] Add header and QWIIC to SDA & SCL
 - Fix plates, make them around the MCU
 
 BETTER TO HAVE:
 - Independent touchpoints for LEDs
 - Add header pins for batteries bellow MCU
-- Ferrite Bead on I2C lines?
