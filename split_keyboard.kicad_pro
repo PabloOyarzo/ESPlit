@@ -58,7 +58,12 @@
           "width": 0.0
         }
       ],
-      "drc_exclusions": [],
+      "drc_exclusions": [
+        "unconnected_items|151089529|33655000|53ae6f63-5f7a-40fa-97b8-dbfb8e283f3e|cb0fd99a-eb24-47a5-9bd2-b5d593b1040a",
+        "unconnected_items|178562000|47244000|43c94e77-06fe-4633-a16f-50310e63c798|03d5d303-2d67-402f-bec5-b0d50f4eee22",
+        "unconnected_items|200324915|75181116|b170a63a-25d6-4a95-bc9f-517f9c540527|8924c79a-2e91-4d36-8a26-0561302458a5",
+        "unconnected_items|249725119|18379491|1ffaaa0c-7485-4290-aaeb-5d8c283bad1e|ceb196f6-69c4-45c1-b71d-a5e9e17f7d7e"
+      ],
       "meta": {
         "version": 2
       },
