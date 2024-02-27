@@ -486,7 +486,11 @@
     "meta": {
       "version": 3
     },
-    "net_colors": null,
+    "net_colors": {
+      "L_+3.3V": "rgb(255, 14, 12)",
+      "L_GND": "rgb(0, 255, 0)",
+      "L_GND1": "rgb(0, 255, 0)"
+    },
     "netclass_assignments": null,
     "netclass_patterns": [
       {
@@ -504,7 +508,7 @@
       "pos_files": "",
       "specctra_dsn": "",
       "step": "",
-      "svg": "",
+      "svg": "./",
       "vrml": ""
     },
     "page_layout_descr_file": ""
