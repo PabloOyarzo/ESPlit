@@ -4,12 +4,12 @@ REQUIRED:
 	> SW_Hotswap_Kailh_Choc_V1V2_Plated_1.00u
 [x] Change TRRS for TH
 	> TRRS PJ-320A
-- Add Touch points for LEDs
+[x] Add Touch points for LEDs
 [x] Fix switch pinout
 [x] Add pullups to RESET & INT according to datasheet
 [x] Add header and QWIIC to SDA & SCL
 - Fix plates, make them around the MCU
 
 BETTER TO HAVE:
-- Independent touchpoints for LEDs
-- Add header pins for batteries bellow MCU
+[x] Independent touchpoints for LEDs
+[x] Add header pins for batteries bellow MCU

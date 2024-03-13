@@ -1,4 +1,4 @@
-25288876146833353
+25292296603811951
 Audio_Module
 Reverb_BTDR-1H
 Digital Reverberation Unit, http://www.belton.co.kr/inc/downfile.php?seq=17&file=pdf (footprint from http://www.uk-electronic.de/PDF/BTDR-1.pdf)
@@ -103636,6 +103636,20 @@ Kailh Choc Keyswitch Switch CPG1350 V1 CPG1353 V2 Hotswap Plated Cutout Keycap 1
 2
 custom
 TRRS-PJ-320A
+
+
+0
+4
+4
+poka-yoke_rxtx
+poka-yoke_rxtx
+
+
+0
+3
+3
+poka-yoke_txrx
+poka-yoke_rxtx
 
 
 0

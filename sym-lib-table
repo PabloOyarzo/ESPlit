@@ -5,5 +5,5 @@
   (lib (name "I2C Expander")(type "KiCad")(uri "${KIPRJMOD}/footprints/IO Expander - TCA8418RTWR/TCA8418RTWR.kicad_sym")(options "")(descr ""))
   (lib (name "Slide Switch")(type "KiCad")(uri "${KIPRJMOD}/footprints/Slide Switch - PCM13SMTR/PCM13SMTR.kicad_sym")(options "")(descr ""))
   (lib (name "LED")(type "KiCad")(uri "${KIPRJMOD}/footprints/SK6812MINI-E/SK6812MINI-E.kicad_sym")(options "")(descr ""))
-  (lib (name "poka-yoke_rxtx")(type "KiCad")(uri "C:/Users/oyarz/Documents/github/poka-yoke_rxtx/poka-yoke_rxtx.kicad_sym")(options "")(descr ""))
+  (lib (name "poka-yoke_rxtx")(type "KiCad")(uri "${KIPRJMOD}/footprints/poka-yoke_rxtx/poka-yoke_rxtx.kicad_sym")(options "")(descr ""))
 )
