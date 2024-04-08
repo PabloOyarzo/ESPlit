@@ -8,7 +8,6 @@
 *.bck
 *.kicad_pcb-bak
 *.kicad_sch-bak
-*split_keyboard-backups
 *.kicad_prl
 *.sch-bak
 *~
@@ -28,3 +27,7 @@ fp-info-cache
 # Exported BOM files
 *.xml
 *.csv
+
+#Extras
+ESPlit-backups/
+gerber_to_order/
