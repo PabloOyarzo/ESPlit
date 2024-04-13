@@ -1,15 +1,26 @@
+Improvements TODO from the prototype manufactured from v0.2-alpha.
+
 REQUIRED:
-[x] Wrong footprint for Keys Holders
-[x] Wrong Spacing for Keycaps
-	> SW_Hotswap_Kailh_Choc_V1V2_Plated_1.00u
-[x] Change TRRS for TH
-	> TRRS PJ-320A
-[x] Add Touch points for LEDs
-[x] Fix switch pinout
-[x] Add pullups to RESET & INT according to datasheet
-[x] Add header and QWIIC to SDA & SCL
-- Fix plates, make them around the MCU
+[x] 	Fix Footprint:custom/SW_Hotswap_Kailh_Choc_V1V2_Plated_1.00u.kicad_mod
+		> Add soldermask
+[]	Change Design Rules
+		> From PCBWay to => JLCPCB
+[]	Add mount hole 6 to base plate
+[]	Delete labels to mount holes
+[]	Add pin header battery for outer port
+[] 	Add +/- label to Battery ports (front and back)
+[]	Add label with each pin function for IO ports on top
+[]	Jumper Pin 43/44
+		> Add Labels
+		> Make footprint bigger	
+		> Further from pins 
+		> Clean cut path
+[]	Make hole for name on Top Plate
+[] 	Add Label on/off for switch
+[]	Bigger font label for LED TPs
+
 
 BETTER TO HAVE:
-[x] Independent touchpoints for LEDs
-[x] Add header pins for batteries bellow MCU
+[] 	Even rounder edge cuts
+[] 	Add PabloOyarzo/poka-yoke_rxtx
+[] 	Turn upside down pin labels for T-Display-S3
