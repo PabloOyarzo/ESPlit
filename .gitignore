@@ -30,9 +30,4 @@ fp-info-cache
 
 #Extras
 ESPlit-backups/
-#gerber_to_order/
-#top_plate/*-backups/
-#top_plate/gerber_to_order/*/
-#top
-#base_plate/*-backups/
-
+gerber_to_order/
