@@ -1,14 +1,14 @@
 Improvements TODO from the prototype manufactured from v0.2-alpha.
 
 REQUIRED:
-[x] 	Fix Footprint:custom/SW_Hotswap_Kailh_Choc_V1V2_Plated_1.00u.kicad_mod
+[x]	Fix Footprint:custom/SW_Hotswap_Kailh_Choc_V1V2_Plated_1.00u.kicad_mod
 		> Add soldermask
 []	Change Design Rules
 		> From PCBWay to => JLCPCB
 []	Add mount hole 6 to base plate
 []	Delete labels to mount holes
 []	Add pin header battery for outer port
-[] 	Add +/- label to Battery ports (front and back)
+[]	Add +/- label to Battery ports (front and back)
 []	Add label with each pin function for IO ports on top
 []	Jumper Pin 43/44
 		> Add Labels
@@ -16,11 +16,12 @@ REQUIRED:
 		> Further from pins 
 		> Clean cut path
 []	Make hole for name on Top Plate
-[] 	Add Label on/off for switch
+[]	Add Label on/off for switch
 []	Bigger font label for LED TPs
+[]	Add ESD Protection to I2Cs
 
 
 BETTER TO HAVE:
-[] 	Even rounder edge cuts
-[] 	Add PabloOyarzo/poka-yoke_rxtx
-[] 	Turn upside down pin labels for T-Display-S3
+[]	Even rounder edge cuts
+[]	Add PabloOyarzo/poka-yoke_rxtx
+[]	Turn upside down pin labels for T-Display-S3
